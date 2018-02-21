@@ -58,6 +58,12 @@ alias fdadmin='cd /Applications/XAMPP/htdocs/fd-admin/'
 alias fdadminangular2='cd ~/Documents/code/fd-admin-angular2'
 alias elvis='ssh richealp7@elvis.rowan.edu'
 
+alias ..='cd ../'
+alias ...='cd ../../'
+alias ....='cd ../../../'
+alias .....='cd ../../../../'
+alias ......='cd ../../../../../'
+
 # shell colors (goes to end of file)
 # base16-shell (https://github.com/chriskempson/base16-shell)
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)

@@ -1,4 +1,4 @@
-# .bashrc, config for bash shell 
+# .bash_profile, config for bash shell 
 # author: Patrick Richeal
 # last modified: 2/22/2018
 # source: https://github.com/pricheal/dotfiles

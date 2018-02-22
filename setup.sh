@@ -5,14 +5,14 @@
 # source: https://github.com/pricheal/dotfiles
 
 # ==================================================
-# .bashrc
+# .bash_profile
 # ==================================================
 
-# remove old .bashrc
-rm ~/.bashrc
+# remove old .bash_profile
+rm ~/.bash_profile
 
-# copy new .basrc
-mv .bashrc ~/.bashrc
+# copy new .bash_profile
+mv .bash_profile ~/.bash_profile
 
 # ==================================================
 # vim

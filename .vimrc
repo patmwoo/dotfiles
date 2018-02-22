@@ -1,4 +1,9 @@
-" enable syntax highlighting
+" .vimrc, configs vim 
+" author: Patrick Richeal
+" last modified: 2/22/2018
+" source: https://github.com/pricheal/dotfiles
+
+" enable line numbers
 set number
 
 " enable syntax highlighting

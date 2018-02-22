@@ -1,13 +1,29 @@
-# setup.sh, last modified 2/21/2018
-# symlinks a list of files, will remove any file that already exists
+# setup.sh, sets up my shell environment and then self destructs, should be
+#  ran inside the git repo
+# author: Patrick Richeal
+# last modified: 2/22/2018
+# source: https://github.com/pricheal/dotfiles
 
-# list of files
-files=".bash_profile .vimrc"
+# ==================================================
+# .bashrc
+# ==================================================
 
-for file in $files; do
-  rm ~/$file
-  echo "Creating symlink to $file in home directory"
-  ln -s $(pwd)/$file ~/$file
-done
+# remove old .bashrc
+rm ~/.bashrc
 
-echo "Setup complete"
+# copy new .basrc
+mv .bashrc ~/.bashrc
+
+# ==================================================
+# vim
+# ==================================================
+
+# remove old vim files
+rm ~/.vimrc
+rm -rf ~/.vim
+
+# copy new .vimrc
+mv .vimrc ~/.vimrc
+
+# install vim-airline
+git clone https://github.com/vim-airline/vim-airline ~/.vim/pack/dist/start/vim-airline

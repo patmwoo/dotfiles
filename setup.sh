@@ -27,3 +27,12 @@ mv .vimrc ~/.vimrc
 
 # install vim-airline
 git clone https://github.com/vim-airline/vim-airline ~/.vim/pack/dist/start/vim-airline
+
+# ==================================================
+# self destruct
+# ==================================================
+
+cd ..
+rm -rf dotfiles
+
+echo "Setup complete"

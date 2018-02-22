@@ -13,3 +13,6 @@ syntax on
 set expandtab
 set shiftwidth=2
 set softtabstop=2
+
+" set airline theme
+let g:airline_theme='base16_eighties'

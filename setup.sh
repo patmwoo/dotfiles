@@ -14,7 +14,7 @@ rm ~/.bash_profile
 # copy new .bash_profile
 mv .bash_profile ~/.bash_profile
 
-# download base16-shell
+# install base16-shell
 git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shell
 
 # ==================================================

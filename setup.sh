@@ -28,6 +28,10 @@ rm -rf ~/.vim
 # copy new .vimrc
 mv .vimrc ~/.vimrc
 
+# install base16-vim
+git clone https://github.com/chriskempson/base16-vim.git ~/.vim/colors/base16/
+cp ~/.vim/colors/base16/colors/*.vim ~/.vim/colors/
+
 # install vim-airline and themes
 git clone https://github.com/vim-airline/vim-airline ~/.vim/pack/dist/start/vim-airline
 git clone https://github.com/vim-airline/vim-airline-themes ~/.vim/pack/dist/start/vim-airline-themes

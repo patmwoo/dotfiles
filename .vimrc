@@ -14,5 +14,8 @@ set expandtab
 set shiftwidth=2
 set softtabstop=2
 
+" set base16 vim theme
+colorscheme base16-eighties
+
 " set airline theme
 let g:airline_theme='base16_eighties'

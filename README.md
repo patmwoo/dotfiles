@@ -1,4 +1,8 @@
 # dotfiles
+### macOS setup
 1. Clone this repo to any location
-2. Run the setup.sh script from within the directory to setup shell environment
-3. Setup script will automatically delete anything left behind
+2. Run macos_setup.sh
+
+### Bash setup
+1. Clone this repo to any location
+2. Run bash_setup.sh from root directory of dotfiles repo (script will remove local repo when complete)

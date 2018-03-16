@@ -1,7 +1,6 @@
-# setup.sh, sets up my shell environment and then self destructs, should be
-#  ran inside the git repo
+# bash_setup.sh, sets up my bash environment
 # author: Patrick Richeal
-# last modified: 2/22/2018
+# last modified: 3/16/2018
 # source: https://github.com/pricheal/dotfiles
 
 # ==================================================

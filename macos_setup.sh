@@ -54,3 +54,6 @@ defaults write -g com.apple.swipescrolldirection -bool false
 
 # make apps minimize into their icon on dock
 defaults write com.apple.dock minimize-to-application -bool true
+
+# auto show/hide the dock
+defaults write com.apple.dock autohide -bool true

@@ -48,3 +48,6 @@ mas upgrade
 currentUser=`ls -l /dev/console | cut -d " " -f4`
 sudo -u $currentUser defaults write com.apple.menuextra.battery ShowPercent YES
 sudo -u $currentUser killall SystemUIServer
+
+# disable natural trackpad scrolling (requires restart)
+defaults write -g com.apple.swipescrolldirection -bool false

@@ -39,3 +39,12 @@ mas install 497799835 # xcode 9.2
 
 # update installed macOS app store apps
 mas upgrade
+
+# ==================================================
+# system settings
+# ==================================================
+
+# enable battery percentage
+currentUser=`ls -l /dev/console | cut -d " " -f4`
+sudo -u $currentUser defaults write com.apple.menuextra.battery ShowPercent YES
+sudo -u $currentUser killall SystemUIServer

@@ -10,6 +10,9 @@
 # install homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+# install homebrew things
+brew install node
+
 # install homebrew cask
 brew tap caskroom/cask
 

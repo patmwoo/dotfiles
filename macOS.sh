@@ -16,6 +16,7 @@ brew install homebrew/php/composer
 
 # node installs
 npm install -g bower
+npm install gulp-cli -g
 
 # ==================================================
 # app installs

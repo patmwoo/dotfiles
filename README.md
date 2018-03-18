@@ -7,7 +7,7 @@
 5. Manually do the following (optional)
     * Set mouse/trackpad tracking speed
     * Put installed apps onto second page of Launchpad
-    * Removed unused apps from dock and add installed apps
+    * Removed unused apps from dock and add installed apps (order is Finder, Google Chrome, Messages, Dashlane, Spotify, Discord, iTerm, System Preferences)
     * Remove unnecessary items from Finder sidebar (in Preferences of Finder)
     * Install ClearPass OnGuard
 

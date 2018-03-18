@@ -1,10 +1,10 @@
 # macos_setup.sh, sets up my macOS environment
 # author: Patrick Richeal
-# last modified: 3/16/2018
+# last modified: 3/17/2018
 # source: https://github.com/pricheal/dotfiles
 
 # ==================================================
-# app installs
+# dev stuff installs
 # ==================================================
 
 # install homebrew
@@ -13,6 +13,13 @@
 # install homebrew things
 brew install node
 brew install homebrew/php/composer
+
+# node installs
+npm install -g bower
+
+# ==================================================
+# app installs
+# ==================================================
 
 # install homebrew cask
 brew tap caskroom/cask

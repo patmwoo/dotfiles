@@ -33,7 +33,6 @@ brew cask install dashlane
 brew cask install filezilla
 brew cask install postman
 brew cask install mysqlworkbench
-brew cask install slack
 brew cask install iterm2
 brew cask install google-backup-and-sync
 

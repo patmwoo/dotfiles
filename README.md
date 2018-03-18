@@ -2,7 +2,7 @@
 ## macOS setup
 1. Ensure macOS has all updates installed
 2. Clone this repo to any location
-3. Run macOS.sh
+3. Run mac.sh
 4. Restart computer
 5. Manually do the following (optional)
     * Set mouse/trackpad tracking speed

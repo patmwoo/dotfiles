@@ -13,6 +13,8 @@
 # install homebrew things
 brew install node
 brew install mysql
+brew install php
+brew install homebrew/php/composer
 
 # install homebrew cask
 brew tap caskroom/cask

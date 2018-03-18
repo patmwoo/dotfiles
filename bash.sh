@@ -1,6 +1,6 @@
-# bash_setup.sh, sets up my bash environment
+# bash.sh, sets up my bash environment
 # author: Patrick Richeal
-# last modified: 3/16/2018
+# last modified: 3/18/2018
 # source: https://github.com/pricheal/dotfiles
 
 # ==================================================

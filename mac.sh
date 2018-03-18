@@ -1,6 +1,6 @@
-# macos_setup.sh, sets up my macOS environment
+# mac.sh, sets up my macOS environment
 # author: Patrick Richeal
-# last modified: 3/17/2018
+# last modified: 3/18/2018
 # source: https://github.com/pricheal/dotfiles
 
 # ==================================================

@@ -12,6 +12,7 @@
 
 # install homebrew things
 brew install node
+brew install mysql
 
 # install homebrew cask
 brew tap caskroom/cask

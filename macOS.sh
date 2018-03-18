@@ -60,7 +60,7 @@ currentUser=`ls -l /dev/console | cut -d " " -f4`
 sudo -u $currentUser defaults write com.apple.menuextra.battery ShowPercent YES
 sudo -u $currentUser killall SystemUIServer
 
-# disable natural trackpad scrolling (requires restart)
+# disable natural trackpad scrolling
 defaults write -g com.apple.swipescrolldirection -bool false
 
 # make apps minimize into their icon on dock

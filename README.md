@@ -4,6 +4,8 @@
 2. Run macos_setup.sh
 3. Manually do the following (optional)
     * Set mouse/trackpad tracking speed
+    * Put installed apps onto second page of Launchpad
+    * Removed unused apps from dock and add installed apps
     * Remove unnecessary items from Finder sidebar
     * Install ClearPass OnGuard
 

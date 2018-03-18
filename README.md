@@ -53,13 +53,3 @@ The default host is `localhost`, user is `root`, password is nothing, and port i
 default_time_zone='+00:00'
 ```
 3. Run `mysql.server start` to start MySQL server
-
-## fitDegree dev environment setup
-#### fd-api
-1. Clone fd-api repo into Apache document root
-2. Run `composer install` inside fd-api root directory
-
-#### fd-admin
-1. Clone fd-admin repo into Apache document root
-2. Run `npm install` inside fd-admin root directory
-3. Run `bower install` inside fd-admin root directory

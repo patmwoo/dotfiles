@@ -1,7 +1,7 @@
 # dotfiles
 ### macOS setup
 1. Clone this repo to any location
-2. Run macos_setup.sh
+2. Run macOS.sh
 3. Manually do the following (optional)
     * Set mouse/trackpad tracking speed
     * Put installed apps onto second page of Launchpad
@@ -11,4 +11,4 @@
 
 ### Bash setup
 1. Clone this repo to any location
-2. Run bash_setup.sh from root directory of dotfiles repo (script will remove local repo when complete)
+2. Run bash.sh from root directory of dotfiles repo (script will remove local repo when complete)

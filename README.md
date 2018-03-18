@@ -58,4 +58,8 @@ default_time_zone='+00:00'
 #### fd-api
 1. Clone fd-api repo into Apache document root
 2. Run `composer install` inside fd-api root directory
-3. Ensure fd_config.ini is set to development mode and that development database is set correctly
+
+#### fd-admin
+1. Clone fd-admin repo into Apache document root
+2. Run `npm install` inside fd-admin root directory
+3. Run `bower install` inside fd-admin root directory

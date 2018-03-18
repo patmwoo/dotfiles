@@ -19,7 +19,10 @@ Note, most of the necessary information on what needs to be done can be found fr
 #### Apache
 Document root is at `/usr/local/var/www`. Apache configuration file httpd.conf is located at `/usr/local/etc/httpd/httpd.conf`.
 1. Install Apache with `brew install apache2`
-2. Set the default port to 80 in httpd.conf (this will make it so starting Apache requires sudo but that is okay)
+2. Set the default port (Listen) to 80 in httpd.conf like the following (this will make it so starting Apache requires sudo but that is okay)
+````
+Listen 80
+````
 3. Run `sudo apachectl start` to start Apache
 
 #### PHP

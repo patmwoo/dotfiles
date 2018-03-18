@@ -35,3 +35,7 @@ LoadModule php7_module /usr/local/opt/php/lib/httpd/modules/libphp7.so
 DirectoryIndex index.php index.html
 ```
 4. Run `php-fpm` to start PHP
+
+### MySQL
+1. Install MySQL with `brew install mysql`
+2. Run `mysql.server start` to start MySQL server

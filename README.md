@@ -2,7 +2,8 @@
 ## macOS setup
 1. Clone this repo to any location
 2. Run macOS.sh
-3. Manually do the following (optional)
+3. Restart computer
+4. Manually do the following (optional)
     * Set mouse/trackpad tracking speed
     * Put installed apps onto second page of Launchpad
     * Removed unused apps from dock and add installed apps

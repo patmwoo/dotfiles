@@ -1,6 +1,6 @@
 # .bash_profile, config for bash shell 
 # author: Patrick Richeal
-# last modified: 2/22/2018
+# last modified: 3/18/2018
 # source: https://github.com/pricheal/dotfiles
 
 # ==================================================
@@ -11,18 +11,11 @@
 alias ls='ls -GF'
 
 # quick nav aliases
+alias docroot='cd /usr/local/var/www'
 alias fdapp='cd ~/Documents/code/fd-app'
-alias fdapi='cd /Applications/XAMPP/htdocs/fd-api/'
-alias fdadmin='cd /Applications/XAMPP/htdocs/fd-admin/'
-alias fdadminangular2='cd ~/Documents/code/fd-admin-angular2'
-alias elvis='ssh richealp7@elvis.rowan.edu'
-
-# quick back aliases
-alias ..='cd ../'
-alias ...='cd ../../'
-alias ....='cd ../../../'
-alias .....='cd ../../../../'
-alias ......='cd ../../../../../'
+alias fdapi='cd /usr/local/var/www/fd-api/'
+alias fdadmin='cd /usr/local/var/www/fd-admin/'
+alias fdadmin2='cd ~/Documents/code/fd-admin-angular2'
 
 # ==================================================
 # prompt and functions for prompt

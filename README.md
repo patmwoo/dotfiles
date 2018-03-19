@@ -45,7 +45,6 @@ LoadModule php7_module /usr/local/opt/php/lib/httpd/modules/libphp7.so
 ```
 DirectoryIndex index.php index.html
 ```
-4. Run `php-fpm` to start PHP
 
 ### MySQL
 The default host is `localhost`, user is `root`, password is nothing, and port is 3306. MySQL configuration file (my.cnf) is located at `/usr/local/etc/my.cnf`. Run `mysql.server` to see usage of mysql server command. Run `sudo mysql` to run MySQL statements.

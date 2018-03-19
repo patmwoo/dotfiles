@@ -53,10 +53,16 @@ mas upgrade
 # change computer name
 sudo scutil --set HostName pats-macbook
 
-# enable battery percentage
+# get account name
 currentUser=`ls -l /dev/console | cut -d " " -f4`
+
+# enable battery percentage
 sudo -u $currentUser defaults write com.apple.menuextra.battery ShowPercent YES
 sudo -u $currentUser killall SystemUIServer
+
+# set default directory for new finder window to home directory
+defaults write com.apple.finder NewWindowTarget -string "PfLo"
+defaults write com.apple.finder NewWindowTargetPath -string "file://${HOME}/$currentUser/"
 
 # disable natural trackpad scrolling
 defaults write -g com.apple.swipescrolldirection -bool false

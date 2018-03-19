@@ -30,7 +30,7 @@ Listen 80
 #### PHP
 PHP configuration file (php.ini) is located at `/usr/local/etc/php/7.2/php.ini`.
 1. Install PHP with `brew install php`
-2. Set the date.timezone under the [Date] tag to "UTC" like the following to set PHP's timezone to UTC
+2. Set the date.timezone under the [Date] tag to "UTC" in php.ini like the following to set PHP's timezone to UTC
 ```
 date.timezone = "UTC"
 ```

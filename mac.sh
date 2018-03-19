@@ -73,5 +73,18 @@ defaults write com.apple.dock minimize-to-application -bool true
 # auto show/hide the dock
 defaults write com.apple.dock autohide -bool true
 
+
+# ==================================================
+# git stuff
+# ==================================================
+
+# set global identity info
+git config --global user.email "patrickricheal@gmail.com"
+git config --global user.name "Patrick Richeal"
+
+# ==================================================
+# bash
+# ==================================================
+
 # run bash setup script
 ./bash.sh

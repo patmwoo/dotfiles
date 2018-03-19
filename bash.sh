@@ -36,6 +36,9 @@ rm -rf ~/.vim/colors/base16/
 git clone https://github.com/vim-airline/vim-airline ~/.vim/pack/dist/start/vim-airline
 git clone https://github.com/vim-airline/vim-airline-themes ~/.vim/pack/dist/start/vim-airline-themes
 
+# install nerdtree
+git clone https://github.com/scrooloose/nerdtree.git ~/.vim/pack/dist/start/nerdtree
+
 # install vim-fugitive
 git clone https://github.com/tpope/vim-fugitive.git ~/.vim/pack/dist/start/vim-fugitive
 

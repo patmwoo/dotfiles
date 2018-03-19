@@ -25,7 +25,7 @@ Document root is at `/usr/local/var/www`. Apache configuration file httpd.conf i
 ````
 Listen 80
 ````
-3. Run `sudo apachectl start` to start Apache
+3. Run `sudo apachectl start` to start Apache server
 
 #### PHP
 PHP configuration file (php.ini) is located at `/usr/local/etc/php/7.2/php.ini`.

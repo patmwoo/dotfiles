@@ -22,13 +22,22 @@ Note, most of the necessary information on what needs to be done can be found fr
 #### Apache
 Document root is at `/usr/local/var/www`. Apache configuration file httpd.conf is located at `/usr/local/etc/httpd/httpd.conf`. Run `apachectl help` to see usage of apache server command.
 1. Install Apache with `brew install apache2`
-2. Set the default port (Listen) to 80 in httpd.conf like the following (this will make it so starting Apache requires sudo but that is okay)
+2. Set the `Listen` to 80 in httpd.conf like the following (this will make it so starting Apache requires sudo but that is okay)
 ````
 Listen 80
 ````
-3. Set the server name (ServerName) to localhost:80 in httpd.conf like the following
+3. Set the `ServerName` to localhost:80 in httpd.conf like the following (gets rid of a warning message)
 ```
 ServerName localhost:80
+```
+4. Enable the rewrite_module by uncommenting it in the httpd.conf (necessary for fd-api .htaccess file)
+5. Set the `AllowOverride` inside the `<Directory>` section of the document root to to `All` in httpd.conf like the following (necessary for fd-api .htaccess file)
+```
+AllowOverride All
+```
+6. Set the `Require` inside the `<Directory>` section of the document root to `all granted` in httpd.conf like the following (necessary for fd-api .htaccess file)
+```
+Require all granted
 ```
 4. Run `sudo apachectl start` to start Apache server
 

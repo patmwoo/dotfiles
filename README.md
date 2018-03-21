@@ -68,3 +68,12 @@ The default host is `localhost`, user is `root`, password is nothing, and port i
 default_time_zone='+00:00'
 ```
 3. Run `mysql.server start` to start MySQL server
+
+### phpMyAdmin
+1. Git clone the phpMyAdmin repo to the Apache document root with `git clone https://github.com/phpmyadmin/phpmyadmin.git`
+2. Run `composer install` inside the root of the repo to install dependencies
+3. Rename config.sample.inc.php to config.inc.php
+4. Inside config.inc.php, set the `AllowNoPassword` option to true like the following
+```
+$cfg['Servers'][$i]['AllowNoPassword'] = true;
+```

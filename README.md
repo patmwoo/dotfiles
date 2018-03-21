@@ -17,7 +17,7 @@
 2. Run bash.sh from root directory of dotfiles repo (script will remove local repo when complete)
 
 ## Web dev environment setup
-Note, most of the necessary information on what needs to be done can be found from the end of the output of the brew install command for each of the following.
+Note, most of the necessary information on the basics of what needs to be done can be found from the end of the output of the brew install command for each of the following.
 
 #### Apache
 Document root is at `/usr/local/var/www`. Apache configuration file httpd.conf is located at `/usr/local/etc/httpd/httpd.conf`. Run `apachectl help` to see usage of apache server command.

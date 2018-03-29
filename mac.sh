@@ -52,7 +52,7 @@ mas upgrade
 # ==================================================
 
 # change computer name
-sudo scutil --set HostName pats-macbook
+sudo scutil --set ComputerName pats-macbook
 
 # get account name
 currentUser=`ls -l /dev/console | cut -d " " -f4`

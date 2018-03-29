@@ -1,6 +1,6 @@
 # .bash_profile, config for bash shell 
 # author: Patrick Richeal
-# last modified: 3/18/2018
+# last modified: 3/28/2018
 # source: https://github.com/pricheal/dotfiles
 
 # ==================================================
@@ -69,12 +69,3 @@ function parse_git_dirty {
 }
 
 export PS1="\[\e[0;33m\]\w \[\e[0;37m\]\`parse_git_branch\`$ \[\e[0m\]"
-
-# ==================================================
-# shell colors
-# ==================================================
-
-BASE16_SHELL=$HOME/.config/base16-shell/
-[ -n "$PS1" ] && [ -s $BASE16_SHELL/profile_helper.sh ] && eval "$($BASE16_SHELL/profile_helper.sh)"
-
-base16_eighties

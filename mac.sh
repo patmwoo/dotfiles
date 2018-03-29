@@ -74,7 +74,6 @@ defaults write com.apple.dock minimize-to-application -bool true
 # auto show/hide the dock
 defaults write com.apple.dock autohide -bool true
 
-
 # ==================================================
 # git stuff
 # ==================================================

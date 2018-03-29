@@ -1,6 +1,6 @@
 " .vimrc, configs vim
 " author: Patrick Richeal
-" last modified: 2/22/2018
+" last modified: 3/28/2018
 " source: https://github.com/pricheal/dotfiles
 
 " enable line numbers
@@ -13,12 +13,3 @@ syntax on
 set expandtab
 set shiftwidth=2
 set softtabstop=2
-
-" necessary for colorscheme below to access the 256 space
-let base16colorspace=256
-
-" set base16 vim theme
-colorscheme base16-eighties
-
-" set airline theme
-let g:airline_theme='base16_eighties'

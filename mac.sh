@@ -1,6 +1,6 @@
 # mac.sh, sets up my macOS environment
 # author: Patrick Richeal
-# last modified: 3/18/2018
+# last modified: 3/28/2018
 # source: https://github.com/pricheal/dotfiles
 
 # ==================================================
@@ -34,6 +34,7 @@ brew cask install filezilla
 brew cask install postman
 brew cask install mysqlworkbench
 brew cask install iterm2
+brew cask install visual-studio-code
 brew cask install google-backup-and-sync
 
 # install homebrew mas

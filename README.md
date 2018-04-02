@@ -61,7 +61,7 @@ LoadModule php7_module /usr/local/opt/php/lib/httpd/modules/libphp7.so
 DirectoryIndex index.php index.html
 ```
 
-### MySQL
+#### MySQL
 The default host is `localhost`, user is `root`, password is nothing, and port is 3306. MySQL configuration file (my.cnf) is located at `/usr/local/etc/my.cnf`. Run `mysql.server` to see usage of mysql server command. Run `sudo mysql` to run MySQL statements.
 1. Install MySQL with `brew install mysql`
 2. Add the following line to my.cnf to set MySQL's timezone to UTC

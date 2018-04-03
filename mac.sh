@@ -50,9 +50,6 @@ mas upgrade
 # atom stuff
 # ==================================================
 
-# rename current atom folder if one exists
-mv ~/.atom ~/.atom.old
-
 # move atom config file to .atom
 mv .atom/config.cson ~/.atom/config.cson
  

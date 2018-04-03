@@ -4,25 +4,23 @@
 # source: https://github.com/pricheal/dotfiles
 
 # ==================================================
-# dev stuff installs
+# initial packages
 # ==================================================
 
 # install homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-# install homebrew things
+# install package managers
 brew install node
 brew install homebrew/php/composer
-
-# node installs
 npm install -g bower
-
-# ==================================================
-# app installs
-# ==================================================
 
 # install homebrew cask
 brew tap caskroom/cask
+
+# ==================================================
+# normal app installs
+# ==================================================
 
 # install macOS apps
 brew cask install google-chrome
@@ -33,7 +31,6 @@ brew cask install filezilla
 brew cask install postman
 brew cask install mysqlworkbench
 brew cask install iterm2
-brew cask install atom
 brew cask install google-backup-and-sync
 
 # install homebrew mas
@@ -47,8 +44,11 @@ mas install 497799835 # xcode 9.2
 mas upgrade
 
 # ==================================================
-# atom stuff
+# atom
 # ==================================================
+
+# install atom from cask
+brew cask install atom
 
 # make .atom directory incase it doesn't already exist
 mkdir ~/.atom
@@ -61,6 +61,14 @@ apm install atom-ide-ui
 
 # install typescript package
 apm install atom-typescript
+
+# ==================================================
+# git
+# ==================================================
+
+# set global identity info
+git config --global user.email "patrickricheal@gmail.com"
+git config --global user.name "Patrick Richeal"
 
 # ==================================================
 # system settings
@@ -85,14 +93,6 @@ defaults write com.apple.dock minimize-to-application -bool true
 
 # auto show/hide the dock
 defaults write com.apple.dock autohide -bool true
-
-# ==================================================
-# git stuff
-# ==================================================
-
-# set global identity info
-git config --global user.email "patrickricheal@gmail.com"
-git config --global user.name "Patrick Richeal"
 
 # ==================================================
 # bash

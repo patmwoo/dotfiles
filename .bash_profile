@@ -18,6 +18,13 @@ alias fdadmin='cd /usr/local/var/www/fd-admin/'
 alias fdadmin2='cd ~/Documents/code/fd-admin-angular2'
 
 # ==================================================
+# colors
+# ==================================================
+
+export CLICOLOR=1
+export LSCOLORS=ExFxBxDxCxegedabagacad
+
+# ==================================================
 # prompt and functions for prompt
 # ==================================================
 

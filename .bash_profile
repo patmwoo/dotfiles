@@ -1,6 +1,6 @@
 # .bash_profile, config for bash shell 
 # author: Patrick Richeal
-# last modified: 3/28/2018
+# last modified: 4/2/2018
 # source: https://github.com/pricheal/dotfiles
 
 # ==================================================

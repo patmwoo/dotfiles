@@ -2,3 +2,5 @@
   core:
     telemetryConsent: "no"
     titleBar: "custom-inset"
+  welcome:
+    showOnStartup: false

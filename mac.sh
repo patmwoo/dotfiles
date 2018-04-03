@@ -27,7 +27,6 @@ brew tap caskroom/cask
 # install macOS apps
 brew cask install google-chrome
 brew cask install musescore
-brew cask install spotify
 brew cask install discord
 brew cask install dashlane
 brew cask install filezilla

@@ -1,6 +1,6 @@
 # mac.sh, sets up my macOS environment
 # author: Patrick Richeal
-# last modified: 3/28/2018
+# last modified: 4/2/2018
 # source: https://github.com/pricheal/dotfiles
 
 # ==================================================
@@ -34,7 +34,7 @@ brew cask install filezilla
 brew cask install postman
 brew cask install mysqlworkbench
 brew cask install iterm2
-brew cask install visual-studio-code
+brew cask install atom
 brew cask install google-backup-and-sync
 
 # install homebrew mas
@@ -64,9 +64,6 @@ sudo -u $currentUser killall SystemUIServer
 # set default directory for new finder window to home directory
 defaults write com.apple.finder NewWindowTarget -string "PfLo"
 defaults write com.apple.finder NewWindowTargetPath -string "file://${HOME}/$currentUser/"
-
-# disable natural trackpad scrolling
-defaults write -g com.apple.swipescrolldirection -bool false
 
 # make apps minimize into their icon on dock
 defaults write com.apple.dock minimize-to-application -bool true

@@ -47,6 +47,22 @@ mas install 497799835 # xcode 9.2
 mas upgrade
 
 # ==================================================
+# atom stuff
+# ==================================================
+
+# rename current atom folder if one exists
+mv ~/.atom ~/.atom.old
+
+# move atom config file to .atom
+mv .atom/config.cson ~/.atom/config.cson
+ 
+# install dependency of typescript package installed next
+apm install atom-ide-ui
+
+# install typescript package
+apm install atom-typescript
+
+# ==================================================
 # system settings
 # ==================================================
 

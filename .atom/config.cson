@@ -1,0 +1,4 @@
+"*":
+  core:
+    telemetryConsent: "no"
+    titleBar: "custom-inset"

@@ -50,6 +50,9 @@ mas upgrade
 # atom stuff
 # ==================================================
 
+# make .atom directory incase it doesn't already exist
+mkdir ~/.atom
+
 # move atom config file to .atom
 mv .atom/config.cson ~/.atom/config.cson
  

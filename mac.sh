@@ -61,6 +61,9 @@ apm install atom-ide-ui
 # install typescript package
 apm install atom-typescript
 
+# install autocomplete path package
+apm install autocomplete-paths
+
 # ==================================================
 # git
 # ==================================================

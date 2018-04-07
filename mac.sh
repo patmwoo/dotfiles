@@ -1,6 +1,6 @@
 # mac.sh, sets up my macOS environment
 # author: Patrick Richeal
-# last modified: 4/5/2018
+# last modified: 4/7/2018
 # source: https://github.com/pricheal/dotfiles
 
 # ==================================================
@@ -55,14 +55,11 @@ mkdir ~/.atom
 # move atom config file to .atom
 mv .atom/config.cson ~/.atom/config.cson
  
-# install dependency of typescript package installed next
+# atom packages
 apm install atom-ide-ui
-
-# install typescript package
 apm install atom-typescript
-
-# install autocomplete path package
 apm install autocomplete-paths
+apm install react
 
 # ==================================================
 # git

@@ -73,7 +73,7 @@ touch ~/Library/'Application Support'/'Sublime Text 3'/Packages/User/'Package Co
 curl -o '~/Library/Application Support/Sublime Text 3/Installed Packages/Package Control.sublime-package' https://packagecontrol.io/Package%20Control.sublime-package
 
 # move list of installed sublime packages to correct place
-cp 'Package Control.sublime-settings' '~/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings'
+cp 'Package Control.sublime-settings' ~/Library/'Application Support'/'Sublime Text 3'/Packages/User/'Package Control.sublime-settings'
 
 # ==================================================
 # git

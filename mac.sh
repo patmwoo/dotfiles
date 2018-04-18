@@ -1,6 +1,6 @@
 # mac.sh, sets up my macOS environment
 # author: Patrick Richeal
-# last modified: 4/17/2018
+# last modified: 4/18/2018
 # source: https://github.com/pricheal/dotfiles
 #
 # Step 1, ensure macOS has all updates installed
@@ -32,7 +32,7 @@ npm install -g bower
 brew tap caskroom/cask
 
 # ==================================================
-# normal app installs
+# app installs
 # ==================================================
 
 # install macOS apps

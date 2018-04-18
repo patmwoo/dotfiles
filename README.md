@@ -1,21 +1,4 @@
 # dotfiles
-## macOS setup
-1. Ensure macOS has all updates installed
-2. Clone this repo to any location
-3. Run mac.sh
-4. Restart computer
-5. Manually do the following (optional)
-    * Set mouse/trackpad tracking speed
-    * Put installed apps onto second page of Launchpad
-    * Removed unused apps from dock and add installed apps (order is Finder, Google Chrome, Messages, Dashlane, Sublime Text, iTerm, System Preferences)
-    * Remove unnecessary items from Finder sidebar (in Preferences of Finder)
-    * Add Google account under internet accounts
-    * Install Microsoft Office from Microsoft account
-    * Install ClearPass OnGuard
-
-## Bash setup
-1. Clone this repo to any location
-2. Run bash.sh from root directory of dotfiles repo (script will remove local repo when complete)
 
 ## Web dev environment setup
 Note, most of the necessary information on the basics of what needs to be done can be found from the end of the output of the brew install command for each of the following.

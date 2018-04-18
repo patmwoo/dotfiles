@@ -18,7 +18,7 @@
 #     - Install ClearPass OnGuard
 
 # ==================================================
-# initial packages
+# homebrew, package managers
 # ==================================================
 
 # install homebrew
@@ -33,7 +33,7 @@ npm install -g bower
 brew tap caskroom/cask
 
 # ==================================================
-# app installs
+# apps
 # ==================================================
 
 # install macOS apps
@@ -46,7 +46,7 @@ brew cask install mysqlworkbench
 brew cask install iterm2
 brew cask install google-backup-and-sync
 
-# install homebrew mas
+# install homebrew mas (mac app store)
 brew install mas
 
 # install macOS app store apps
@@ -55,6 +55,12 @@ mas install 497799835 # xcode 9.2
 
 # update installed macOS app store apps
 mas upgrade
+
+# =================================================
+# fonts
+# =================================================
+
+brew cask install font-source-code-pro
 
 # =================================================
 # sublime text

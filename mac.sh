@@ -4,10 +4,10 @@
 # source: https://github.com/pricheal/dotfiles
 #
 # Step 1, ensure macOS has all updates installed
-# Step 2, Clone the dotfiles repo to any location
-# Step 3, Run this script
-# Step 4, Restart computer
-# Step 5, Manually do the following if applicable
+# Step 2, clone the dotfiles repo to any location
+# Step 3, run this script
+# Step 4, restart computer
+# Step 5, manually do the following if applicable
 #     - Set mouse/trackpad tracking speed
 #     - Put installed apps onto second page of Launchpad
 #     - Remove unused apps from dock and add installed apps (order is Finder, Google Chrome, Messages, Dashlane, Sublime Text, iTerm, System Preferences)

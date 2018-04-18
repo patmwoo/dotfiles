@@ -2,6 +2,19 @@
 # author: Patrick Richeal
 # last modified: 4/17/2018
 # source: https://github.com/pricheal/dotfiles
+#
+# Step 1, ensure macOS has all updates installed
+# Step 2, Clone the dotfiles repo to any location
+# Step 3, Run this script
+# Step 4, Restart computer
+# Step 5, Manually do the following if applicable
+#     - Set mouse/trackpad tracking speed
+#     - Put installed apps onto second page of Launchpad
+#     - Remove unused apps from dock and add installed apps (order is Finder, Google Chrome, Messages, Dashlane, Sublime Text, iTerm, System Preferences)
+#     - Remove unnecessary items from Finder sidebar (in Preferences of Finder)
+#     - Add Google account under internet accounts
+#     - Install Microsoft Office from Microsoft account
+#     - Install ClearPass OnGuard
 
 # ==================================================
 # initial packages

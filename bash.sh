@@ -1,6 +1,6 @@
 # bash.sh, sets up my bash environment
 # author: Patrick Richeal
-# last modified: 3/28/2018
+# last modified: 4/18/2018
 # source: https://github.com/pricheal/dotfiles
 #
 # Step 1, Clone the dotfiles repo to any location

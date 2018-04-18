@@ -73,6 +73,9 @@ curl -o ~/Library/'Application Support'/'Sublime Text 3'/'Installed Packages'/'P
 # move list of installed sublime packages to correct place
 cp 'Package Control.sublime-settings' ~/Library/'Application Support'/'Sublime Text 3'/Packages/User/'Package Control.sublime-settings'
 
+# move sublime settings file to correct place
+cp Preferences.sublime-settings ~/Library/'Application Support'/'Sublime Text 3'/Packages/User/Preferences.sublime-settings
+
 # ==================================================
 # git
 # ==================================================

@@ -30,6 +30,7 @@ brew cask install filezilla
 brew cask install postman
 brew cask install mysqlworkbench
 brew cask install iterm2
+brew cask install sublime-text
 brew cask install google-backup-and-sync
 
 # install homebrew mas
@@ -41,13 +42,6 @@ mas install 497799835 # xcode 9.2
 
 # update installed macOS app store apps
 mas upgrade
-
-# ==================================================
-# sublime text
-# ==================================================
-
-# install atom from cask
-brew cask install sublime-text
 
 # ==================================================
 # git

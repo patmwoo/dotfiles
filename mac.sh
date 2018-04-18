@@ -67,7 +67,6 @@ brew cask install sublime-text
 mkdir -p ~/Library/'Application Support'/'Sublime Text 3'/'Installed Packages'
 touch ~/Library/'Application Support'/'Sublime Text 3'/'Installed Packages'/'Package Control.sublime-package'
 mkdir -p ~/Library/'Application Support'/'Sublime Text 3'/Packages/User
-touch ~/Library/'Application Support'/'Sublime Text 3'/Packages/User/'Package Control.sublime-settings'
 
 # install package control
 curl -o '~/Library/Application Support/Sublime Text 3/Installed Packages/Package Control.sublime-package' https://packagecontrol.io/Package%20Control.sublime-package

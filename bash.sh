@@ -2,6 +2,9 @@
 # author: Patrick Richeal
 # last modified: 3/28/2018
 # source: https://github.com/pricheal/dotfiles
+#
+# Step 1, Clone the dotfiles repo to any location
+# Step 2, Run this script from the root of the dotfiles repo (script will remove local repo when complete)
 
 # ==================================================
 # shell

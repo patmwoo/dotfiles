@@ -63,6 +63,10 @@ mas upgrade
 # install from brew cask
 brew cask install sublime-text
 
+# create directory for sublime files incase they don't already exist
+mkdir -p ~/Library/'Application Support'/'Sublime Text 3'/'Installed Packages'
+mkdir -p ~/Library/'Application Support'/'Sublime Text 3'/Packages/User
+
 # install package control
 curl -o '~/Library/Application Support/Sublime Text 3/Installed Packages/Package Control.sublime-package' https://packagecontrol.io/Package%20Control.sublime-package
 

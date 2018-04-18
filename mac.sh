@@ -5,7 +5,7 @@
 #
 # Step 1, ensure macOS has all updates installed
 # Step 2, clone the dotfiles repo to any location
-# Step 3, run this script
+# Step 3, run this script from the root of the dotfiles repo
 # Step 4, restart computer
 # Step 5, manually do the following if applicable
 #     - Set mouse/trackpad tracking speed

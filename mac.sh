@@ -9,6 +9,7 @@
 # Step 4, restart computer
 # Step 5, manually do the following if applicable
 #     - Set mouse/trackpad tracking speed
+#     - Enable dark mode (System preferences, general)
 #     - Put installed apps onto second page of Launchpad
 #     - Remove unused apps from dock and add installed apps (order is Finder, Google Chrome, Messages, Dashlane, Sublime Text, iTerm, System Preferences)
 #     - Remove unnecessary items from Finder sidebar (in Preferences of Finder)

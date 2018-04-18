@@ -1,6 +1,6 @@
 # mac.sh, sets up my macOS environment
 # author: Patrick Richeal
-# last modified: 4/7/2018
+# last modified: 4/17/2018
 # source: https://github.com/pricheal/dotfiles
 
 # ==================================================
@@ -43,23 +43,11 @@ mas install 497799835 # xcode 9.2
 mas upgrade
 
 # ==================================================
-# atom
+# sublime text
 # ==================================================
 
 # install atom from cask
-brew cask install atom
-
-# make .atom directory incase it doesn't already exist
-mkdir ~/.atom
-
-# move atom config file to .atom
-mv .atom/config.cson ~/.atom/config.cson
- 
-# atom packages
-apm install atom-ide-ui
-apm install atom-typescript
-apm install autocomplete-paths
-apm install react
+brew cask install sublime-text
 
 # ==================================================
 # git

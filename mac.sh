@@ -69,7 +69,7 @@ touch ~/Library/'Application Support'/'Sublime Text 3'/'Installed Packages'/'Pac
 mkdir -p ~/Library/'Application Support'/'Sublime Text 3'/Packages/User
 
 # install package control
-curl -o '~/Library/Application Support/Sublime Text 3/Installed Packages/Package Control.sublime-package' https://packagecontrol.io/Package%20Control.sublime-package
+curl -o ~/Library/'Application Support'/'Sublime Text 3'/'Installed Packages'/'Package Control.sublime-package' https://packagecontrol.io/Package%20Control.sublime-package
 
 # move list of installed sublime packages to correct place
 cp 'Package Control.sublime-settings' ~/Library/'Application Support'/'Sublime Text 3'/Packages/User/'Package Control.sublime-settings'

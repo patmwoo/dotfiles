@@ -66,6 +66,7 @@ brew cask install sublime-text
 # create directory for sublime files incase they don't already exist
 mkdir -p ~/Library/'Application Support'/'Sublime Text 3'/'Installed Packages'
 mkdir -p ~/Library/'Application Support'/'Sublime Text 3'/Packages/User
+mkdir -p ~/Library/'Application Support'/'Sublime Text 3'/Packages/Themes
 
 # install package control
 curl -o ~/Library/'Application Support'/'Sublime Text 3'/'Installed Packages'/'Package Control.sublime-package' https://packagecontrol.io/Package%20Control.sublime-package
@@ -75,6 +76,9 @@ cp 'Package Control.sublime-settings' ~/Library/'Application Support'/'Sublime T
 
 # move sublime settings file to correct place
 cp Preferences.sublime-settings ~/Library/'Application Support'/'Sublime Text 3'/Packages/User/Preferences.sublime-settings
+
+# move sublime theme file to correct place
+cp base16_eighties_italics.tmTheme ~/Library/'Application Support'/'Sublime Text 3'/Packages/Themes/base16_eighties_italics.tmTheme
 
 # ==================================================
 # git

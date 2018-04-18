@@ -1,8 +1,8 @@
 {
-    "installed_packages": [
-        "Oceanic Next Color Scheme",
-        "Package Control",
-        "Sass",
-        "TypeScript"
-    ]
+  "installed_packages": [
+    "Oceanic Next Color Scheme",
+    "Package Control",
+    "Sass",
+    "TypeScript"
+  ]
 }

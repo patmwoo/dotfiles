@@ -44,7 +44,6 @@ brew cask install filezilla
 brew cask install postman
 brew cask install mysqlworkbench
 brew cask install iterm2
-brew cask install sublime-text
 brew cask install google-backup-and-sync
 
 # install homebrew mas
@@ -56,6 +55,16 @@ mas install 497799835 # xcode 9.2
 
 # update installed macOS app store apps
 mas upgrade
+
+# =================================================
+# sublime text
+# =================================================
+
+# install from brew cask
+brew cask install sublime-text
+
+# install package control
+curl -o '~/Library/Application Support/Sublime Text 3/Installed Packages/Package Control.sublime-package' https://packagecontrol.io/Package%20Control.sublime-package
 
 # ==================================================
 # git

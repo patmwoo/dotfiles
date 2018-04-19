@@ -3,5 +3,6 @@
   "font_face": "Source Code Pro",
   "font_size": 14,
   "line_padding_bottom": 1,
-  "line_padding_top": 1
+  "line_padding_top": 1,
+  "bold_folder_labels":true
 }

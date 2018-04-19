@@ -1,10 +1,13 @@
 " .vimrc, configs vim
 " author: Patrick Richeal
-" last modified: 3/28/2018
+" last modified: 4/19/2018
 " source: https://github.com/pricheal/dotfiles
 
 " enable line numbers
 set number
+
+" enable ruler
+set ruler
 
 " enable syntax highlighting
 syntax on

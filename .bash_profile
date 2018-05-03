@@ -11,6 +11,7 @@
 alias ls='ls -GF'
 
 # quick nav aliases
+alias code='cd ~/Documents/code/'
 alias docroot='cd /usr/local/var/www'
 alias fdapp='cd ~/Documents/code/fd-app'
 alias fdapi='cd /usr/local/var/www/fd-api/'

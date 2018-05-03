@@ -2,6 +2,7 @@
   "installed_packages": [
     "Package Control",
     "Sass",
-    "TypeScript"
+    "TypeScript",
+    "INI"
   ]
 }

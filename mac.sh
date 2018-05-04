@@ -45,6 +45,7 @@ brew cask install postman
 brew cask install mysqlworkbench
 brew cask install iterm2
 brew cask install google-backup-and-sync
+brew cask install caskroom/drivers/logitech-options
 
 # install homebrew mas (mac app store)
 brew install mas

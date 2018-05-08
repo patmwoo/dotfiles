@@ -1,6 +1,6 @@
 # mac.sh, sets up my macOS environment
 # author: Patrick Richeal
-# last modified: 5/4/2018
+# last modified: 5/8/2018
 # source: https://github.com/pricheal/dotfiles
 #
 # Step 1, ensure macOS has all updates installed
@@ -40,6 +40,7 @@ brew tap caskroom/cask
 brew cask install google-chrome
 brew cask install discord
 brew cask install dashlane
+brew cask install spotify
 brew cask install filezilla
 brew cask install postman
 brew cask install mysqlworkbench

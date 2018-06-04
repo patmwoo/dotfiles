@@ -119,6 +119,9 @@ defaults write com.apple.dock minimize-to-application -bool true
 # auto show/hide the dock
 defaults write com.apple.dock autohide -bool true
 
+# disable google chrome horizontal scroll back and forward
+defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool FALSE
+
 # ==================================================
 # bash
 # ==================================================

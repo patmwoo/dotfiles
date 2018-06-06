@@ -49,4 +49,8 @@ The default host is `localhost`, user is `root`, password is nothing, and port i
 ```
 default_time_zone='+00:00'
 ```
-3. Run `mysql.server start` to start MySQL server
+3. Add the following line to my.cnf to remove all default SQL modes (default modes have certain restrictions)
+```
+sql_mode=
+```
+4. Run `mysql.server start` to start MySQL server

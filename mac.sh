@@ -93,7 +93,7 @@ cp base16_eighties_italics.tmTheme ~/Library/'Application Support'/'Sublime Text
 
 # set global identity info
 git config --global user.email "patrickricheal@gmail.com"
-git config --global user.name "Patrick Richeal"
+git config --global user.name "pricheal"
 
 # ==================================================
 # system settings

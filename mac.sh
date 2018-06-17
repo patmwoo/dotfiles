@@ -29,6 +29,9 @@ brew install node
 brew install homebrew/php/composer
 npm install -g bower
 
+# install tools
+brew install fzf
+
 # install homebrew cask
 brew tap caskroom/cask
 

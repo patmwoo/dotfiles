@@ -32,6 +32,7 @@ npm install -g bower
 # install tools
 brew install fzf
 brew install the_silver_searcher
+brew install figlet
 
 # install homebrew cask
 brew tap caskroom/cask

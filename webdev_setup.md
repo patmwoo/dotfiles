@@ -54,3 +54,7 @@ default_time_zone='+00:00'
 sql_mode=
 ```
 4. Run `mysql.server start` to start MySQL server
+5. With MySQL server running, run the following command and restart to load the timezone table (more info [here](https://gist.github.com/brianburridge/11298396))
+```
+mysql_tzinfo_to_sql /usr/share/zoneinfo | mysql -u root mysql
+```

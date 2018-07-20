@@ -20,6 +20,9 @@ set hidden
 " make vim use system clipboard
 set clipboard=unnamed
 
+" make backspace work like most other programs
+set backspace=2
+
 " Plugins will be downloaded under the specified directory.
 call plug#begin('~/.vim/plugged')
 

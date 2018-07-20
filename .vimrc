@@ -1,6 +1,6 @@
 " .vimrc, configs vim
 " author: Patrick Richeal
-" last modified: 7/19/2018
+" last modified: 7/20/2018
 " source: https://github.com/pricheal/dotfiles
 
 " enable line numbers

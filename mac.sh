@@ -1,6 +1,6 @@
 # mac.sh, sets up my macOS environment
 # author: Patrick Richeal
-# last modified: 6/17/2018
+# last modified: 7/19/2018
 # source: https://github.com/pricheal/dotfiles
 #
 # Step 1, ensure macOS has all updates installed
@@ -33,8 +33,6 @@ npm install -g bower
 brew install vim
 brew install fzf
 brew install the_silver_searcher
-brew install figlet
-brew install lolcat
 
 # install homebrew cask
 brew tap caskroom/cask
@@ -48,12 +46,11 @@ brew cask install google-chrome
 brew cask install discord
 brew cask install dashlane
 brew cask install filezilla
-brew cask install postman
 brew cask install mysqlworkbench
 brew cask install iterm2
 brew cask install google-backup-and-sync
 brew cask install caskroom/drivers/logitech-options
-brew cask install slack
+brew cash install insomnia
 
 # install homebrew mas (mac app store)
 brew install mas
@@ -64,36 +61,6 @@ mas install 497799835 # xcode 9.2
 
 # update installed macOS app store apps
 mas upgrade
-
-# =================================================
-# fonts
-# =================================================
-
-brew cask install font-source-code-pro
-
-# =================================================
-# sublime text
-# =================================================
-
-# install from brew cask
-brew cask install sublime-text
-
-# create directory for sublime files incase they don't already exist
-mkdir -p ~/Library/'Application Support'/'Sublime Text 3'/'Installed Packages'
-mkdir -p ~/Library/'Application Support'/'Sublime Text 3'/Packages/User
-mkdir -p ~/Library/'Application Support'/'Sublime Text 3'/Packages/Themes
-
-# install package control
-curl -o ~/Library/'Application Support'/'Sublime Text 3'/'Installed Packages'/'Package Control.sublime-package' https://packagecontrol.io/Package%20Control.sublime-package
-
-# move list of installed sublime packages to correct place
-cp 'Package Control.sublime-settings' ~/Library/'Application Support'/'Sublime Text 3'/Packages/User/'Package Control.sublime-settings'
-
-# move sublime settings file to correct place
-cp Preferences.sublime-settings ~/Library/'Application Support'/'Sublime Text 3'/Packages/User/Preferences.sublime-settings
-
-# move sublime theme file to correct place
-cp base16_eighties_italics.tmTheme ~/Library/'Application Support'/'Sublime Text 3'/Packages/Themes/base16_eighties_italics.tmTheme
 
 # ==================================================
 # git

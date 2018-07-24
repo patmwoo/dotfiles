@@ -1,6 +1,6 @@
 " .vimrc, configs vim
 " author: Patrick Richeal
-" last modified: 7/20/2018
+" last modified: 7/24/2018
 " source: https://github.com/pricheal/dotfiles
 
 " enable line numbers
@@ -22,6 +22,13 @@ set clipboard=unnamed
 
 " make backspace work like most other programs
 set backspace=2
+
+" install vim-plug if not installed
+if empty(glob('~/.vim/autoload/plug.vim'))
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
 
 " Plugins will be downloaded under the specified directory.
 call plug#begin('~/.vim/plugged')

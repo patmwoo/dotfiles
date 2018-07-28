@@ -1,6 +1,6 @@
 " .vimrc, configs vim
 " author: Patrick Richeal
-" last modified: 7/24/2018
+" last modified: 7/28/2018
 " source: https://github.com/pricheal/dotfiles
 
 " enable line numbers
@@ -23,6 +23,10 @@ set clipboard=unnamed
 " make backspace work like most other programs
 set backspace=2
 
+" necessary for lightline
+set laststatus=2
+set noshowmode
+
 " install vim-plug if not installed
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
@@ -37,9 +41,18 @@ call plug#begin('~/.vim/plugged')
 Plug 'sheerun/vim-polyglot'
 Plug '/usr/local/opt/fzf'
 Plug 'junegunn/fzf.vim'
+Plug 'itchyny/lightline.vim'
+Plug 'nanotech/jellybeans.vim'
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
 
 " set fzf to utilize .gitignore
 let $FZF_DEFAULT_COMMAND = 'ag -g ""'
+
+" lightline theme
+let g:lightline = { 'colorscheme': 'jellybeans' }
+
+" colorscheme
+syntax on
+colorscheme jellybeans

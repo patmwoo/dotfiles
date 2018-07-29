@@ -83,7 +83,6 @@ set laststatus=2
 " hide mode in status bar
 set noshowmode
 
-
 " lightline theme
 let g:lightline = { 'colorscheme': 'jellybeans' }
 

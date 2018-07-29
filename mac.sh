@@ -76,6 +76,14 @@ cp fonts/native-bold.ttf /Library/Fonts/native-bold.ttf
 cp fonts/native-bold-italic.ttf /Library/Fonts/native-bold-italic.ttf
 
 # ==================================================
+# git
+# ==================================================
+
+# set global identity info
+git config --global user.email "patrickricheal@gmail.com"
+git config --global user.name "pricheal"
+
+# ==================================================
 # bash
 # ==================================================
 
@@ -89,9 +97,12 @@ mv .bash_profile ~/.bash_profile
 git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shell
 
 # ==================================================
-# git
+# vim
 # ==================================================
 
-# set global identity info
-git config --global user.email "patrickricheal@gmail.com"
-git config --global user.name "pricheal"
+# remove old vim files
+rm ~/.vimrc
+rm -rf ~/.vim
+
+# copy new .vimrc
+mv .vimrc ~/.vimrc

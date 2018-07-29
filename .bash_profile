@@ -1,6 +1,6 @@
 # .bash_profile, config for bash shell 
 # author: Patrick Richeal
-# last modified: 4/2/2018
+# last modified: 7/29/2018
 # source: https://github.com/pricheal/dotfiles
 
 # ==================================================
@@ -22,8 +22,11 @@ alias fdadmin2='cd ~/Documents/code/fd-admin-angular2'
 # colors
 # ==================================================
 
-export CLICOLOR=1
-export LSCOLORS=ExFxBxDxCxegedabagacad
+# Base16 Shell
+BASE16_SHELL="$HOME/.config/base16-shell/"
+[ -n "$PS1" ] && \
+    [ -s "$BASE16_SHELL/profile_helper.sh" ] && \
+        eval "$("$BASE16_SHELL/profile_helper.sh")"
 
 # ==================================================
 # prompt and functions for prompt

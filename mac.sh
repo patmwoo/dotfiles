@@ -67,6 +67,15 @@ mas install 497799835 # xcode 9.2
 mas upgrade
 
 # ==================================================
+# fonts
+# ==================================================
+
+cp fonts/native-regular.ttf /Library/Fonts/native-regular.ttf
+cp fonts/native-regular-italic.ttf /Library/Fonts/native-regular-italic.ttf
+cp fonts/native-bold.ttf /Library/Fonts/native-bold.ttf
+cp fonts/native-bold-italic.ttf /Library/Fonts/native-bold-italic.ttf
+
+# ==================================================
 # bash
 # ==================================================
 

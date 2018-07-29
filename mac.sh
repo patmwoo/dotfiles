@@ -79,6 +79,12 @@ cp fonts/native-bold-italic.ttf /Library/Fonts/native-bold-italic.ttf
 # bash
 # ==================================================
 
+# remove any existing .bash_profile
+rm ~/.bash_profile
+
+# copy new .bash_profile
+mv .bash_profile ~/.bash_profile
+
 # install base16 shell themes
 git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shell
 

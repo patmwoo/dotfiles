@@ -3,6 +3,10 @@
 " last modified: 7/29/2018
 " source: https://github.com/pricheal/dotfiles
 
+" ==============================
+" general
+" ==============================
+
 " enable line numbers
 set number
 
@@ -23,9 +27,9 @@ set clipboard=unnamed
 " make backspace work like most other programs
 set backspace=2
 
-" necessary for lightline
-set laststatus=2
-set noshowmode
+" ==============================
+" vim-plug and plugins
+" ==============================
 
 " install vim-plug if not installed
 if empty(glob('~/.vim/autoload/plug.vim'))
@@ -34,20 +38,23 @@ if empty(glob('~/.vim/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
-" Plugins will be downloaded under the specified directory.
 call plug#begin('~/.vim/plugged')
 
-" Declare the list of plugins.
+" list of plugins
 Plug 'sheerun/vim-polyglot'
 Plug '/usr/local/opt/fzf'
 Plug 'junegunn/fzf.vim'
 Plug 'itchyny/lightline.vim'
-Plug 'nanotech/jellybeans.vim'
+Plug 'chriskempson/base16-vim'
 
-" List ends here. Plugins become visible to Vim after this call.
 call plug#end()
 
-" set fzf to utilize .gitignore
+" ==============================
+" fzf
+" ==============================
+
+" set fzf default command to use silver searcher with utilize
+" .gitignore flag
 let $FZF_DEFAULT_COMMAND = 'ag -g ""'
 
 " make fzf use vim theme colors
@@ -66,8 +73,30 @@ let g:fzf_colors =
   \ 'spinner': ['fg', 'Label'],
   \ 'header':  ['fg', 'Comment'] }
 
+" ==============================
+" lightline
+" ==============================
+
+" set statusbar to always show
+set laststatus=2
+
+" hide mode in status bar
+set noshowmode
+
+
 " lightline theme
 let g:lightline = { 'colorscheme': 'jellybeans' }
 
-" colorscheme
-colorscheme jellybeans
+" ==============================
+" base16-vim
+" ==============================
+
+" set 256 color mode
+let base16colorspace=256
+
+" source the .vimrc_background file if it exists, so vim colorscheme
+" matches the shell colorscheme
+if filereadable(expand("~/.vimrc_background"))
+  let base16colorspace=256
+  source ~/.vimrc_background
+endif

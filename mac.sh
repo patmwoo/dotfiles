@@ -100,5 +100,8 @@ defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool FALSE
 # bash
 # ==================================================
 
+# install base16 shell themes
+git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shell
+
 # run bash setup script
 ./bash.sh

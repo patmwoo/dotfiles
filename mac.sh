@@ -1,20 +1,25 @@
 # mac.sh, sets up my macOS environment
 # author: Patrick Richeal
-# last modified: 7/19/2018
+# last modified: 7/29/2018
 # source: https://github.com/pricheal/dotfiles
 #
-# Step 1, ensure macOS has all updates installed
-# Step 2, clone the dotfiles repo to any location
-# Step 3, run this script from the root of the dotfiles repo
-# Step 4, restart computer
-# Step 5, manually do the following if applicable
-#     - Set mouse/trackpad tracking speed
-#     - Enable dark mode (System preferences, general)
-#     - Put installed apps onto second page of Launchpad
-#     - Remove unused apps from dock and add installed apps (order is Finder, Calendar, Notes, Reminders, Photos, Messages, Dashlane, Google Chrome, iTerm, System Preferences)
-#     - Remove unnecessary items from Finder sidebar (in Preferences of Finder)
-#     - Install Microsoft Office from Microsoft account
-#     - Install ClearPass OnGuard
+# Make sure macOS is up to date before running this script. Below is a list of
+# things to do manually if applicable.
+#
+#  * Change computer name to pats-macbook
+#  * Enable battery percentage
+#  * Set default directory for new Finder window to home directory
+#  * Set dock to auto show/hide
+#  * Set trackpad tracking speed (3rd to last tick)
+#  * Make apps minimize into their icon on dock
+#  * Enable dark mode
+#  * Remove unused items from Finder sidebar
+#  * Put installed apps onto secone page of Launchpad
+#  * Remove unused apps from dock and add installed apps (order is Finder, Calendar,
+#    Notes, Reminders, Photos, Messages, Dashlane, Google Chrome, iTerm, System Preferences)
+#  * Disable 'add period with double space'
+#  * Install Microsoft Office from Microsoft account
+#  * Install ClearPass OnGuard
 
 # ==================================================
 # homebrew, package managers
@@ -62,43 +67,16 @@ mas install 497799835 # xcode 9.2
 mas upgrade
 
 # ==================================================
+# bash
+# ==================================================
+
+# install base16 shell themes
+git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shell
+
+# ==================================================
 # git
 # ==================================================
 
 # set global identity info
 git config --global user.email "patrickricheal@gmail.com"
 git config --global user.name "pricheal"
-
-# ==================================================
-# system settings
-# ==================================================
-
-# change computer name
-sudo scutil --set ComputerName pats-macbook
-
-# get account name
-currentUser=`ls -l /dev/console | cut -d " " -f4`
-
-# enable battery percentage
-sudo -u $currentUser defaults write com.apple.menuextra.battery ShowPercent YES
-sudo -u $currentUser killall SystemUIServer
-
-# set default directory for new finder window to home directory
-defaults write com.apple.finder NewWindowTarget -string "PfLo"
-defaults write com.apple.finder NewWindowTargetPath -string "file://${HOME}/$currentUser/"
-
-# make apps minimize into their icon on dock
-defaults write com.apple.dock minimize-to-application -bool true
-
-# auto show/hide the dock
-defaults write com.apple.dock autohide -bool true
-
-# disable google chrome horizontal scroll back and forward
-defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool FALSE
-
-# ==================================================
-# bash
-# ==================================================
-
-# install base16 shell themes
-git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shell

@@ -19,7 +19,7 @@ alias fdadmin='cd /usr/local/var/www/fd-admin/'
 alias fdadmin2='cd ~/Documents/code/fd-admin-angular2'
 
 # ==================================================
-# colors
+# base16-shell command
 # ==================================================
 
 # Base16 Shell

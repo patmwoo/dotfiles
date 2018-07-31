@@ -1,6 +1,6 @@
 # .bash_profile, config for bash shell 
 # author: Patrick Richeal
-# last modified: 7/29/2018
+# last modified: 7/32/2018
 # source: https://github.com/pricheal/dotfiles
 
 # ==================================================
@@ -15,8 +15,7 @@ alias code='cd ~/Documents/code/'
 alias docroot='cd /usr/local/var/www'
 alias fdapp='cd ~/Documents/code/fd-app'
 alias fdapi='cd /usr/local/var/www/fd-api/'
-alias fdadmin='cd /usr/local/var/www/fd-admin/'
-alias fdadmin2='cd ~/Documents/code/fd-admin-angular2'
+alias fdadmin='cd ~/Documents/code/fd-admin-angular2'
 
 # ==================================================
 # base16-shell command

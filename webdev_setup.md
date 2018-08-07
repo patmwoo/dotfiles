@@ -13,11 +13,11 @@ Listen 80
 ServerName localhost:80
 ```
 4. Enable the rewrite_module by uncommenting it in the httpd.conf (necessary for fd-api .htaccess file)
-5. Set the `AllowOverride` inside the `<Directory>` section of the document root to to `All` in httpd.conf like the following (necessary for fd-api .htaccess file)
+5. Set the `AllowOverride` inside the `<Directory>` section **of the document root** to to `All` in httpd.conf like the following (necessary for fd-api .htaccess file)
 ```
 AllowOverride All
 ```
-6. Set the `Require` inside the `<Directory>` section of the document root to `all granted` in httpd.conf like the following (necessary for fd-api .htaccess file)
+6. Set the `Require` inside the `<Directory>` section **of the document root** to `all granted` in httpd.conf like the following (necessary for fd-api .htaccess file)
 ```
 Require all granted
 ```

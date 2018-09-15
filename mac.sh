@@ -13,6 +13,7 @@
 #  * Set trackpad tracking speed (3rd to last tick)
 #  * Make apps minimize into their icon on dock
 #  * Enable dark mode
+#  * Set terminal theme to terminal-theme.terminal
 #  * Remove unused items from Finder sidebar
 #  * Put installed apps onto secone page of Launchpad
 #  * Remove unused apps from dock and add installed apps (order is Finder, Calendar,

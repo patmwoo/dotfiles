@@ -1,6 +1,6 @@
 # .bash_profile, config for bash shell 
 # author: Patrick Richeal
-# last modified: 7/32/2018
+# last modified: 9/15/2018
 # source: https://github.com/pricheal/dotfiles
 
 # ==================================================
@@ -11,7 +11,6 @@
 alias ls='ls -GF'
 
 # quick nav aliases
-alias code='cd ~/Documents/code/'
 alias docroot='cd /usr/local/var/www'
 alias fdapp='cd ~/Documents/code/fd-app'
 alias fdapi='cd /usr/local/var/www/fd-api/'

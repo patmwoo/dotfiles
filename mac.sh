@@ -53,6 +53,7 @@ brew cask install mysqlworkbench
 brew cask install google-backup-and-sync
 brew cask install caskroom/drivers/logitech-options
 brew cash install insomnia
+brew cask install slack
 
 # install homebrew mas (mac app store)
 brew install mas

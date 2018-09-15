@@ -16,7 +16,7 @@
 #  * Remove unused items from Finder sidebar
 #  * Put installed apps onto secone page of Launchpad
 #  * Remove unused apps from dock and add installed apps (order is Finder, Calendar,
-#    Notes, Reminders, Photos, Messages, Dashlane, Google Chrome, iTerm, System Preferences)
+#    Notes, Reminders, Photos, Messages, Dashlane, Google Chrome, Visual Studio Code, Terminal, System Preferences)
 #  * Disable 'add period with double space'
 #  * Install Microsoft Office from Microsoft account
 #  * Install ClearPass OnGuard
@@ -35,8 +35,6 @@ npm install -g bower
 
 # install tools
 brew install vim
-brew install fzf
-brew install the_silver_searcher
 brew install wget --with-libressl
 
 # install homebrew cask
@@ -48,11 +46,9 @@ brew tap caskroom/cask
 
 # install macOS apps
 brew cask install google-chrome
-brew cask install discord
 brew cask install dashlane
 brew cask install filezilla
 brew cask install mysqlworkbench
-brew cask install iterm2
 brew cask install google-backup-and-sync
 brew cask install caskroom/drivers/logitech-options
 brew cash install insomnia
@@ -66,15 +62,6 @@ mas install 497799835 # xcode 9.2
 
 # update installed macOS app store apps
 mas upgrade
-
-# ==================================================
-# fonts
-# ==================================================
-
-cp fonts/native-regular.ttf ~/Library/Fonts/native-regular.ttf
-cp fonts/native-regular-italic.ttf ~/Library/Fonts/native-regular-italic.ttf
-cp fonts/native-bold.ttf ~/Library/Fonts/native-bold.ttf
-cp fonts/native-bold-italic.ttf ~/Library/Fonts/native-bold-italic.ttf
 
 # ==================================================
 # git
@@ -99,9 +86,6 @@ rm ~/.bash_profile
 
 # copy new .bash_profile
 mv .bash_profile ~/.bash_profile
-
-# install base16 shell themes
-git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shell
 
 # ==================================================
 # vim

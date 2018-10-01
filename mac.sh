@@ -37,6 +37,7 @@ npm install -g bower
 # install tools
 brew install vim
 brew install wget --with-libressl
+brew install python
 
 # install homebrew cask
 brew tap caskroom/cask

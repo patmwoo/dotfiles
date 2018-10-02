@@ -50,6 +50,7 @@ brew tap caskroom/cask
 brew cask install google-chrome
 brew cask install dashlane
 brew cask install filezilla
+brew cask install sublime-text
 brew cask install mysqlworkbench
 brew cask install google-backup-and-sync
 brew cask install caskroom/drivers/logitech-options

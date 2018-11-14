@@ -17,7 +17,7 @@
 #  * Remove unused items from Finder sidebar
 #  * Put installed apps onto secone page of Launchpad
 #  * Remove unused apps from dock and add installed apps (order is Finder, Calendar,
-#    Notes, Reminders, Photos, Messages, Dashlane, Google Chrome, Visual Studio Code, Terminal, System Preferences)
+#    Notes, Reminders, Photos, Messages, Dashlane, Google Chrome, Visual Studio Code, iTerm, System Preferences)
 #  * Disable 'add period with double space'
 #  * Install Microsoft Office from Microsoft account
 #  * Install ClearPass OnGuard
@@ -50,7 +50,8 @@ brew tap caskroom/cask
 brew cask install google-chrome
 brew cask install dashlane
 brew cask install filezilla
-brew cask install sublime-text
+brew cask install visual-studio-code
+brew cask install iterm2
 brew cask install mysqlworkbench
 brew cask install google-backup-and-sync
 brew cask install caskroom/drivers/logitech-options

@@ -1,6 +1,5 @@
 # mac.sh, sets up my macOS environment
 # author: Patrick Richeal
-# last modified: 9/15/2018
 # source: https://github.com/pricheal/dotfiles
 #
 # Make sure macOS is up to date before running this script. Below is a list of

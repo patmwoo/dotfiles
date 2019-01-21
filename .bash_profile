@@ -15,6 +15,9 @@ alias docroot='cd /usr/local/var/www'
 alias fdapp='cd ~/Documents/code/fd-app'
 alias fdapi='cd /usr/local/var/www/fd-api/'
 alias fdadmin='cd ~/Documents/code/fd-admin-angular2'
+alias fdwidget='cd ~/Documents/code/fd-widget'
+alias fdadminapp='cd ~/Documents/code/business_app'
+alias fitdegree='cd ~/Documents/code/fitdegree'
 
 # ==================================================
 # base16-shell command

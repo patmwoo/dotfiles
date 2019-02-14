@@ -18,6 +18,7 @@ alias fdadmin='cd ~/Documents/code/fd-admin-angular2'
 alias fdwidget='cd ~/Documents/code/fd-widget'
 alias fdadminapp='cd ~/Documents/code/business_app'
 alias fitdegree='cd ~/Documents/code/fitdegree'
+alias fdkiosk='cd ~/Documents/code/kiosk'
 
 # ==================================================
 # base16-shell command

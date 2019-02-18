@@ -47,7 +47,7 @@ brew tap caskroom/cask
 
 # install macOS apps
 brew cask install google-chrome
-brew cask install dashlane
+brew cask install 1password
 brew cask install filezilla
 brew cask install visual-studio-code
 brew cask install iterm2

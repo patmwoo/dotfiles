@@ -1,6 +1,5 @@
 # .bash_profile, config for bash shell 
 # author: Patrick Richeal
-# last modified: 9/15/2018
 # source: https://github.com/pricheal/dotfiles
 
 # ==================================================
@@ -19,16 +18,6 @@ alias fdwidget='cd ~/Documents/code/fd-widget'
 alias fdadminapp='cd ~/Documents/code/business_app'
 alias fitdegree='cd ~/Documents/code/fitdegree'
 alias fdkiosk='cd ~/Documents/code/kiosk'
-
-# ==================================================
-# base16-shell command
-# ==================================================
-
-# Base16 Shell
-BASE16_SHELL="$HOME/.config/base16-shell/"
-[ -n "$PS1" ] && \
-    [ -s "$BASE16_SHELL/profile_helper.sh" ] && \
-        eval "$("$BASE16_SHELL/profile_helper.sh")"
 
 # ==================================================
 # prompt and functions for prompt

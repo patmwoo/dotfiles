@@ -13,8 +13,9 @@
 #  * Make apps minimize into their icon on dock
 #  * Remove unused items from Finder sidebar
 #  * Put installed apps onto secone page of Launchpad
+#  * Apple tomorrow-night.terminal theme to Terminal
 #  * Remove unused apps from dock and add installed apps (order is Finder, Calendar,
-#    Notes, Reminders, Photos, Messages, 1Password, Google Chrome, Visual Studio Code, iTerm, System Preferences)
+#    Notes, Reminders, Photos, Messages, 1Password, Google Chrome, Visual Studio Code, Terminal, System Preferences)
 #  * Disable 'add period with double space'
 #  * Install Microsoft Office from Microsoft account
 #  * Install ClearPass OnGuard

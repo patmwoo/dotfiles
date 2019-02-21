@@ -9,15 +9,15 @@
 # general aliases
 alias ls='ls -GF'
 
-# quick nav aliases
-alias docroot='cd /usr/local/var/www'
-alias fdapp='cd ~/Documents/code/fd-app'
-alias fdapi='cd /usr/local/var/www/fd-api/'
-alias fdadmin='cd ~/Documents/code/fd-admin-angular2'
-alias fdwidget='cd ~/Documents/code/fd-widget'
-alias fdadminapp='cd ~/Documents/code/business_app'
-alias fitdegree='cd ~/Documents/code/fitdegree'
-alias fdkiosk='cd ~/Documents/code/kiosk'
+ # quick nav aliases
+ alias docroot='cd /usr/local/var/www'
+ alias fdapp='cd ~/Documents/fitdegree/fd-app'
+ alias fdapi='cd /usr/local/var/www/fd-api/'
+ alias fdadmin='cd ~/Documents/fitdegree/fd-admin-angular2'
+ alias fdwidget='cd ~/Documents/fitdegree/fd-widget'
+ alias fdadminapp='cd ~/Documents/fitdegree/business_app'
+ alias fitdegree='cd ~/Documents/fitdegree/fitdegree'
+ alias fdkiosk='cd ~/Documents/fitdegree/kiosk'
 
 # ==================================================
 # prompt and functions for prompt

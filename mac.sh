@@ -49,7 +49,6 @@ brew cask install google-chrome
 brew cask install 1password
 brew cask install filezilla
 brew cask install visual-studio-code
-brew cask install iterm2
 brew cask install mysqlworkbench
 brew cask install google-backup-and-sync
 brew cask install caskroom/drivers/logitech-options

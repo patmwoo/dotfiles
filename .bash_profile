@@ -13,11 +13,11 @@ alias ls='ls -GF'
  alias docroot='cd /usr/local/var/www'
  alias fdapp='cd ~/Documents/fitdegree/fd-app'
  alias fdapi='cd /usr/local/var/www/fd-api/'
- alias fdadmin='cd ~/Documents/fitdegree/fd-admin-angular2'
+ alias fdadmin='cd ~/Documents/fitdegree/fd-admin'
  alias fdwidget='cd ~/Documents/fitdegree/fd-widget'
- alias fdadminapp='cd ~/Documents/fitdegree/business_app'
- alias fitdegree='cd ~/Documents/fitdegree/fitdegree'
- alias fdkiosk='cd ~/Documents/fitdegree/kiosk'
+ alias fdotg='cd ~/Documents/fitdegree/fd-onthego'
+ alias fdnpm='cd ~/Documents/fitdegree/fd-npm'
+ alias fdkiosk='cd ~/Documents/fitdegree/fd-kiosk'
 
 # ==================================================
 # prompt and functions for prompt

@@ -11,6 +11,7 @@
 #  * Set dock to auto show/hide
 #  * Set trackpad tracking speed (3rd to last tick)
 #  * Make apps minimize into their icon on dock
+#  * Disable automatic rearrange of spaces in Mission Control settings
 #  * Remove unused items from Finder sidebar
 #  * Put installed apps onto secone page of Launchpad
 #  * Apple tomorrow-night.terminal theme to Terminal

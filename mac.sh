@@ -20,6 +20,7 @@
 #  * Disable 'add period with double space'
 #  * Install Microsoft Office from Microsoft account
 #  * Install ClearPass OnGuard
+#  * Install Logic Pro
 
 # ==================================================
 # homebrew, package managers
@@ -34,6 +35,7 @@ brew install homebrew/php/composer
 npm install -g bower
 
 # install tools
+brew install git
 brew install vim
 brew install wget --with-libressl
 brew install python
@@ -52,19 +54,8 @@ brew cask install filezilla
 brew cask install visual-studio-code
 brew cask install mysqlworkbench
 brew cask install google-backup-and-sync
-brew cask install caskroom/drivers/logitech-options
 brew cash install insomnia
 brew cask install slack
-
-# install homebrew mas (mac app store)
-brew install mas
-
-# install macOS app store apps
-mas install 634148309 # logic pro 10.4.1
-mas install 497799835 # xcode 9.2
-
-# update installed macOS app store apps
-mas upgrade
 
 # ==================================================
 # git

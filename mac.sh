@@ -14,7 +14,7 @@
 #  * Disable automatic rearrange of spaces in Mission Control settings
 #  * Remove unused items from Finder sidebar
 #  * Put installed apps onto secone page of Launchpad
-#  * Apple tomorrow-night.terminal theme to Terminal
+#  * Add tomorrow-night.terminal theme to Terminal
 #  * Remove unused apps from dock and add installed apps (order is Finder, Calendar,
 #    Notes, Reminders, Photos, Messages, 1Password, Google Chrome, Visual Studio Code, Terminal, System Preferences)
 #  * Disable 'add period with double space'

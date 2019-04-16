@@ -20,18 +20,7 @@ alias ls='ls -GF'
  alias fdkiosk='cd ~/Documents/fitdegree/fd-kiosk'
 
 # ==================================================
-# prompt and functions for prompt
+# prompt
 # ==================================================
 
-# get current branch in git repo
-function parse_git_branch() {
-  BRANCH=`git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/'`
-  if [ ! "${BRANCH}" == "" ]
-  then
-    echo "[${BRANCH}] "
-  else
-    echo ""
-  fi
-}
-
-export PS1="\n\[\e[0;33m\]\w \[\e[0;37m\]\`parse_git_branch\`\n$ \[\e[0m\]"
+export PS1="\n\[\e[0;33m\]\w \[\e[0;37m\]\n$ \[\e[0m\]"

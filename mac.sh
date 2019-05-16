@@ -11,12 +11,13 @@
 #  * Set dock to auto show/hide
 #  * Set trackpad tracking speed (3rd to last tick)
 #  * Make apps minimize into their icon on dock
+#  * Rebind caps lock to escape
 #  * Disable automatic rearrange of spaces in Mission Control settings
 #  * Remove unused items from Finder sidebar
-#  * Put installed apps onto secone page of Launchpad
+#  * Put installed apps onto second page of Launchpad
 #  * Add tomorrow-night.terminal theme to Terminal
 #  * Remove unused apps from dock and add installed apps (order is Finder, Calendar,
-#    Notes, Reminders, Photos, Messages, 1Password, Google Chrome, Visual Studio Code, Terminal, System Preferences)
+#    Notes, Reminders, Photos, Messages, Google Chrome, Visual Studio Code, Terminal, System Preferences)
 #  * Disable 'add period with double space'
 #  * Install Microsoft Office from Microsoft account
 #  * Install ClearPass OnGuard
@@ -32,12 +33,10 @@
 # install package managers
 brew install node
 brew install homebrew/php/composer
-npm install -g bower
 
 # install tools
 brew install git
 brew install vim
-brew install wget --with-libressl
 brew install python
 
 # install homebrew cask
@@ -49,13 +48,11 @@ brew tap caskroom/cask
 
 # install macOS apps
 brew cask install google-chrome
-brew cask install 1password
 brew cask install filezilla
 brew cask install visual-studio-code
 brew cask install mysqlworkbench
 brew cask install google-backup-and-sync
 brew cash install insomnia
-brew cask install slack
 
 # ==================================================
 # git

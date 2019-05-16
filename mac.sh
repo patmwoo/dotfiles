@@ -19,6 +19,7 @@
 #  * Remove unused apps from dock and add installed apps (order is Finder, Calendar,
 #    Notes, Reminders, Photos, Messages, Google Chrome, Visual Studio Code, Terminal, System Preferences)
 #  * Disable 'add period with double space'
+#  * Install 1Password X extension for Chrome
 #  * Install Microsoft Office from Microsoft account
 #  * Install ClearPass OnGuard
 #  * Install Logic Pro

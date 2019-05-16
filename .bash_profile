@@ -15,7 +15,7 @@ alias ls='ls -GF'
  alias fdapi='cd /usr/local/var/www/fd-api/'
  alias fdadmin='cd ~/Documents/fitdegree/fd-admin'
  alias fdwidget='cd ~/Documents/fitdegree/fd-widget'
- alias fdotg='cd ~/Documents/fitdegree/fd-onthego'
+ alias fdotg='cd ~/Documents/fitdegree/fd-onthego-i4'
  alias fdnpm='cd ~/Documents/fitdegree/fd-npm'
  alias fdkiosk='cd ~/Documents/fitdegree/fd-kiosk'
 

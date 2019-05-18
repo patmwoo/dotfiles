@@ -32,15 +32,12 @@
 
 # install package managers
 brew install node
-brew install homebrew/php/composer
+brew install composer
 
 # install tools
 brew install git
 brew install vim
 brew install python
-
-# install homebrew cask
-brew tap caskroom/cask
 
 # ==================================================
 # apps

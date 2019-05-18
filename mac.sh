@@ -49,7 +49,7 @@ brew cask install google-chrome
 brew cask install visual-studio-code
 brew cash install insomnia
 brew cask install mysqlworkbench
-brew cask install filezilla
+brew cask install cyberduck
 brew cask install google-backup-and-sync
 
 # manual installs: 1password x for chrome, logic pro, microsoft office (from microsoft account)

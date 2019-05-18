@@ -42,7 +42,7 @@ brew install composer
 # install tools
 brew install git
 brew install vim
-brew install python
+brew install python # python3
 
 # install gui apps
 brew cask install google-chrome

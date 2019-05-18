@@ -1,30 +1,35 @@
-# mac.sh, sets up my macOS environment
-# author: Patrick Richeal
+# mac.sh, sets up my macos environment
 # source: https://github.com/pricheal/dotfiles
-#
-# Make sure macOS is up to date before running this script. Below is a list of
-# things to do manually if applicable.
-#
-#  * Enable battery percentage
-#  * Set default directory for new Finder window to home directory
-#  * Set dock to auto show/hide
-#  * Set trackpad tracking speed (3rd to last tick)
-#  * Make apps minimize into their icon on dock
-#  * Rebind caps lock to escape
-#  * Disable automatic rearrange of spaces in Mission Control settings
-#  * Remove unused items from Finder sidebar
-#  * Put installed apps onto second page of Launchpad
-#  * Add tomorrow-night.terminal theme to Terminal
-#  * Remove unused apps from dock and add installed apps (order is Finder, Calendar,
-#    Notes, Reminders, Photos, Messages, Google Chrome, Visual Studio Code, Terminal, System Preferences)
-#  * Disable 'add period with double space'
-#  * Install 1Password X extension for Chrome
-#  * Install Microsoft Office from Microsoft account
-#  * Install ClearPass OnGuard
-#  * Install Logic Pro
 
 # ==================================================
-# homebrew, package managers
+# os config
+# ==================================================
+
+# make sure macos is up to date
+
+# finder preferences
+#   - set default directory to home
+#   - remove unused items from finder sidebar
+
+# dock preferences
+#   - enable auto hide/show dock
+#   - enable minimize windows into app icon
+#   - disable show recent applications
+
+# trackpad preferences
+#   - set tracking speed to third to last tick
+
+# keybord preferences
+#   - rebind caps lock to escape in modifier keys
+#   - disable add period with double space
+
+# mission control preferences
+#   - disable auto rearrange of spaces
+
+# enable battery percentage from battery icon on menu bar
+
+# ==================================================
+# homebrew, dev tools, apps
 # ==================================================
 
 # install homebrew
@@ -39,11 +44,7 @@ brew install git
 brew install vim
 brew install python
 
-# ==================================================
-# apps
-# ==================================================
-
-# install macOS apps
+# install gui apps
 brew cask install google-chrome
 brew cask install filezilla
 brew cask install visual-studio-code
@@ -51,31 +52,22 @@ brew cask install mysqlworkbench
 brew cask install google-backup-and-sync
 brew cash install insomnia
 
+# manual installs: 1password x for chrome, microsoft office (from microsoft account),
+# logic pro, clearpass onguard
+
+# put installed apps on second page of launch pad
+
+# set dock apps to finder, calendar, notes, reminders, photos, messages, chrome, vs code,
+# terminal, system preferences
+
 # ==================================================
-# git
+# config stuff
 # ==================================================
 
-# set global identity info
+# put .bash_profile and .vimrc in home directory
+
+# git, set global identity info
 git config --global user.email "patrickricheal@gmail.com"
 git config --global user.name "pricheal"
 
-# ==================================================
-# bash
-# ==================================================
-
-# remove any existing .bash_profile
-rm ~/.bash_profile
-
-# copy new .bash_profile
-mv .bash_profile ~/.bash_profile
-
-# ==================================================
-# vim
-# ==================================================
-
-# remove old vim files
-rm ~/.vimrc
-rm -rf ~/.vim
-
-# copy new .vimrc
-mv .vimrc ~/.vimrc
+# set terminal theme to tomorrow-night.terminal

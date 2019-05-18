@@ -46,14 +46,13 @@ brew install python # python3
 
 # install gui apps
 brew cask install google-chrome
-brew cask install filezilla
 brew cask install visual-studio-code
-brew cask install mysqlworkbench
-brew cask install google-backup-and-sync
 brew cash install insomnia
+brew cask install mysqlworkbench
+brew cask install filezilla
+brew cask install google-backup-and-sync
 
-# manual installs: 1password x for chrome, microsoft office (from microsoft account),
-# logic pro, clearpass onguard
+# manual installs: 1password x for chrome, logic pro, microsoft office (from microsoft account)
 
 # put installed apps on second page of launch pad
 

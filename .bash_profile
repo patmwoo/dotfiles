@@ -1,5 +1,4 @@
 # .bash_profile, config for bash shell 
-# author: Patrick Richeal
 # source: https://github.com/pricheal/dotfiles
 
 # ==================================================
@@ -9,15 +8,15 @@
 # general aliases
 alias ls='ls -GF'
 
- # quick nav aliases
- alias docroot='cd /usr/local/var/www'
- alias fdapp='cd ~/Documents/fitdegree/fd-app'
- alias fdapi='cd /usr/local/var/www/fd-api/'
- alias fdadmin='cd ~/Documents/fitdegree/fd-admin'
- alias fdwidget='cd ~/Documents/fitdegree/fd-widget'
- alias fdotg='cd ~/Documents/fitdegree/fd-onthego-i4'
- alias fdnpm='cd ~/Documents/fitdegree/fd-npm'
- alias fdkiosk='cd ~/Documents/fitdegree/fd-kiosk'
+# quick nav aliases
+alias docroot='cd /usr/local/var/www'
+alias fdapp='cd ~/Documents/fitdegree/fd-app-i4'
+alias fdapi='cd /usr/local/var/www/fd-api/'
+alias fdadmin='cd ~/Documents/fitdegree/fd-admin'
+alias fdwidget='cd ~/Documents/fitdegree/fd-widget'
+alias fdotg='cd ~/Documents/fitdegree/fd-onthego-i4'
+alias fdnpm='cd ~/Documents/fitdegree/fd-npm'
+alias fdkiosk='cd ~/Documents/fitdegree/fd-kiosk'
 
 # ==================================================
 # prompt

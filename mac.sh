@@ -5,7 +5,6 @@
 # Make sure macOS is up to date before running this script. Below is a list of
 # things to do manually if applicable.
 #
-#  * Change computer name to pats-macbook
 #  * Enable battery percentage
 #  * Set default directory for new Finder window to home directory
 #  * Set dock to auto show/hide

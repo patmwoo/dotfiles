@@ -70,3 +70,5 @@ git config --global user.email "patrickricheal@gmail.com"
 git config --global user.name "pricheal"
 
 # set terminal theme to tomorrow-night.terminal
+
+# web dev environment setup

@@ -56,8 +56,8 @@ brew cask install google-backup-and-sync
 
 # put installed apps on second page of launch pad
 
-# set dock apps to finder, calendar, notes, reminders, photos, messages, chrome, vs code,
-# terminal, system preferences
+# set dock apps to finder, calendar, notes, reminders, photos, messages, itunes, chrome,
+# vs code, terminal, system preferences
 
 # ==================================================
 # config stuff

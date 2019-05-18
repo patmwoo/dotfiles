@@ -52,7 +52,8 @@ brew cask install mysqlworkbench
 brew cask install cyberduck
 brew cask install google-backup-and-sync
 
-# manual installs: 1password x for chrome, logic pro, microsoft office (from microsoft account)
+# manual installs: 1password x for chrome, logic pro, microsoft office (from microsoft account,
+# need to manually uninstall onenote and onedrive afterwards)
 
 # put installed apps on second page of launch pad
 

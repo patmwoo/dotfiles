@@ -28,6 +28,8 @@
 
 # enable battery percentage from battery icon on menu bar
 
+# manually remove downloads from dock
+
 # ==================================================
 # homebrew, dev tools, apps
 # ==================================================

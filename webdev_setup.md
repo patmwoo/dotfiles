@@ -21,7 +21,7 @@ AllowOverride All
 ```
 Require all granted
 ```
-4. Run `sudo apachectl start` to start Apache server
+4. Run `sudo apachectl start` to start Apache server or `brew services start httpd` to start at login
 
 ## PHP
 PHP configuration file (php.ini) is located at `/usr/local/etc/php/7.2/php.ini`.

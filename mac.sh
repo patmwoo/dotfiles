@@ -38,7 +38,7 @@
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # install package managers
-brew install node@8
+brew install node
 brew install composer
 
 # install tools

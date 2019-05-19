@@ -74,4 +74,6 @@ git config --global user.name "pricheal"
 
 # set terminal theme to tomorrow-night.terminal
 
+# mysql workbench sql editor preferences, disable safe updates
+
 # web dev environment setup

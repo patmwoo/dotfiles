@@ -45,16 +45,17 @@ DirectoryIndex index.php index.html
 ## MySQL
 The default host is `localhost`, user is `root`, password is nothing, and port is 3306. MySQL configuration file (my.cnf) is located at `/usr/local/etc/my.cnf`. Run `mysql.server` to see usage of mysql server command. Run `sudo mysql` to run MySQL statements.
 1. Install MySQL with `brew install mysql`
-2. Add the following line to my.cnf to set MySQL's timezone to UTC
+2. Run `brew services start mysql` to start and restart at login
+3. Add the following line to my.cnf to set MySQL's timezone to UTC
 ```
 default_time_zone='+00:00'
 ```
-3. Add the following line to my.cnf to remove all default SQL modes (default modes have certain restrictions)
+4. Add the following line to my.cnf to remove all default SQL modes (default modes have certain restrictions)
 ```
 sql_mode=
 ```
-4. Run `mysql.server start` to start MySQL server
-5. With MySQL server running, run the following command and restart to load the timezone table (more info [here](https://gist.github.com/brianburridge/11298396))
+5. Run `mysql.server start` to start MySQL server
+6. With MySQL server running, run the following command and restart to load the timezone table (more info [here](https://gist.github.com/brianburridge/11298396))
 ```
 mysql_tzinfo_to_sql /usr/share/zoneinfo | mysql -u root mysql
 ```

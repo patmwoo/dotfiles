@@ -38,7 +38,7 @@
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # install package managers
-brew install node
+brew install node@10 # v10 is latest for angular7
 brew install composer
 
 # install tools

@@ -38,7 +38,7 @@
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # install package managers
-brew install node@10 # v10 is latest for angular7
+brew install node@10
 brew install composer
 
 # install tools
@@ -75,7 +75,5 @@ git config --global user.name "pricheal"
 # set terminal theme to tomorrow-night.terminal
 
 # mysql workbench sql editor preferences, disable safe updates
-
-# npm, add user as described in fd-npm repo
 
 # web dev environment setup

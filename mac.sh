@@ -63,7 +63,7 @@ brew cask install google-backup-and-sync
 # vs code, terminal, system preferences
 
 # ==================================================
-# config stuff
+# config, misc
 # ==================================================
 
 # put .bash_profile and .vimrc in home directory
@@ -75,5 +75,7 @@ git config --global user.name "pricheal"
 # set terminal theme to tomorrow-night.terminal
 
 # mysql workbench sql editor preferences, disable safe updates
+
+# npm, add user as described in fd-npm repo
 
 # web dev environment setup

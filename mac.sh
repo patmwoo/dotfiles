@@ -73,7 +73,7 @@ git config --global user.email "patrickricheal@gmail.com"
 git config --global user.name "pricheal"
 
 # vs code plugins
-code --install-extension esbenp.prettier-vscode # prettier
+code --install-extension michelemelluso.code-beautifier # scss formatter
 
 # set terminal theme to tomorrow-night.terminal
 

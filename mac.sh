@@ -72,6 +72,9 @@ brew cask install google-backup-and-sync
 git config --global user.email "patrickricheal@gmail.com"
 git config --global user.name "pricheal"
 
+# vs code plugins
+code --install-extension esbenp.prettier-vscode # prettier
+
 # set terminal theme to tomorrow-night.terminal
 
 # mysql workbench sql editor preferences, disable safe updates

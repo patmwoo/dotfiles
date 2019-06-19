@@ -20,6 +20,7 @@
 #   - set tracking speed to third to last tick
 
 # keybord preferences
+#   - set both key repeat and delay until repeat to second to last tick
 #   - rebind caps lock to escape in modifier keys
 #   - disable add period with double space
 

@@ -19,7 +19,13 @@ alias fdnpm='cd ~/Documents/fitdegree/fd-npm'
 alias fdkiosk='cd ~/Documents/fitdegree/fd-kiosk'
 
 # ==================================================
-# prompt
+# misc
 # ==================================================
 
+# prompt
 export PS1="\n\[\e[0;33m\]\w \[\e[0;37m\]\n$ \[\e[0m\]"
+
+# git completion script
+if [ -f ~/.git-completion.bash ]; then
+  . ~/.git-completion.bash
+fi

@@ -73,8 +73,8 @@ brew cask install google-backup-and-sync
 git config --global user.email "patrickricheal@gmail.com"
 git config --global user.name "pricheal"
 
-# vs code plugins
-code --install-extension michelemelluso.code-beautifier # scss formatter
+# download git completion bash script
+curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
 
 # set terminal theme to tomorrow-night.terminal
 

@@ -80,7 +80,7 @@ curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-com
 # install vs code plugins
 code --install-extension ms-vscode.theme-tomorrowkit
 
-# set terminal theme to tomorrow-night.terminal
+# set iterm2 theme to tomorrow_night_80s.itermcolors
 
 # mysql workbench sql editor preferences, disable safe updates
 

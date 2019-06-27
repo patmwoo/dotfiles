@@ -77,6 +77,9 @@ git config --global user.name "pricheal"
 # download git completion bash script
 curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
 
+# install vs code plugins
+code --install-extension ms-vscode.theme-tomorrowkit
+
 # set terminal theme to tomorrow-night.terminal
 
 # mysql workbench sql editor preferences, disable safe updates

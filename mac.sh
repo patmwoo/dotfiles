@@ -50,6 +50,7 @@ brew install python # python3
 # install gui apps
 brew cask install google-chrome
 brew cask install visual-studio-code
+brew cask install iterm2
 brew cash install insomnia
 brew cask install mysqlworkbench
 brew cask install cyberduck
@@ -61,7 +62,7 @@ brew cask install google-backup-and-sync
 # put installed apps on second page of launch pad
 
 # set dock apps to finder, calendar, notes, reminders, photos, messages, itunes, chrome,
-# vs code, terminal, system preferences
+# vs code, iterm, system preferences
 
 # ==================================================
 # config, misc

@@ -79,6 +79,7 @@ curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-com
 
 # install vs code plugins
 code --install-extension bmewburn.vscode-intelephense-client
+code --install-extension felixfbecker.php-debug # follow instructions on extension page to install xdebug
 
 # set iterm2 theme to tomorrow_night_80s.itermcolors
 

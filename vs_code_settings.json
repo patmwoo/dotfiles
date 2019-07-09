@@ -1,6 +1,4 @@
 {
-    "editor.tabSize": 2,
-    "editor.renderIndentGuides": false,
-    "workbench.colorTheme": "Tomorrow Night Eighties",
+    "workbench.tree.renderIndentGuides": "none",
     "breadcrumbs.enabled": false
 }

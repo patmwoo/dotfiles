@@ -78,7 +78,7 @@ git config --global user.name "pricheal"
 curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
 
 # install vs code plugins
-code --install-extension ms-vscode.theme-tomorrowkit
+code --install-extension bmewburn.vscode-intelephense-client
 
 # set iterm2 theme to tomorrow_night_80s.itermcolors
 

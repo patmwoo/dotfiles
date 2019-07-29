@@ -57,6 +57,7 @@ brew cash install insomnia
 brew cask install mysqlworkbench
 brew cask install cyberduck
 brew cask install google-backup-and-sync
+brew cask install discord
 
 # manual installs: 1password x for chrome, logic pro, microsoft office (from microsoft account,
 # need to manually uninstall onenote and onedrive afterwards)

@@ -27,6 +27,9 @@
 # mission control preferences
 #   - disable auto rearrange of spaces
 
+# notification settings
+#   - turn on do not disturb from 9am to 6pm
+
 # enable battery percentage from battery icon on menu bar
 
 # manually remove downloads from dock

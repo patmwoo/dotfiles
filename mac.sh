@@ -28,7 +28,7 @@
 #   - disable auto rearrange of spaces
 
 # notification settings
-#   - turn on do not disturb from 9am to 6pm
+#   - turn off show notification preview for messages
 
 # enable battery percentage from battery icon on menu bar
 
@@ -68,7 +68,7 @@ brew cask install discord
 # put installed apps on second page of launch pad
 
 # set dock apps to finder, calendar, notes, reminders, photos, messages, spotify, chrome,
-# vs code, iterm, system preferences
+# slack, vs code, iterm, system preferences
 
 # ==================================================
 # config, misc

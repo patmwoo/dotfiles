@@ -29,6 +29,7 @@
 
 # notification settings
 #   - turn off show notification preview for messages
+#   - turn off all notification settings for cyberduck
 
 # enable battery percentage from battery icon on menu bar
 

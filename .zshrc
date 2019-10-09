@@ -1,4 +1,4 @@
-# .bash_profile, config for bash shell 
+# .zshrc, config for zsh
 # source: https://github.com/pricheal/dotfiles
 
 # general aliases
@@ -13,15 +13,3 @@ alias fdwidgets='cd ~/Documents/fitdegree/fd-widgets'
 alias fdotg='cd ~/Documents/fitdegree/fd-onthego'
 alias fdnpm='cd ~/Documents/fitdegree/fd-npm'
 alias fdkiosk='cd ~/Documents/fitdegree/fd-kiosk'
-
-# prompt
-export PS1="\n$ "
-
-# git completion
-if [ -f ~/.git-completion.bash ]; then
-  . ~/.git-completion.bash
-fi
-
-# add brew alternate formulas to path
-export PATH="/usr/local/opt/node@8/bin:$PATH"
-export PATH="/usr/local/opt/mysql@5.6/bin:$PATH"

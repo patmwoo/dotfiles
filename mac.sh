@@ -90,4 +90,6 @@ code --install-extension felixfbecker.php-debug # follow instructions on extensi
 
 # mysql workbench sql editor preferences, disable safe updates
 
+# copy vs_code_settings.json to vs code settings file
+
 # web dev environment setup

@@ -76,14 +76,11 @@ brew cask install discord
 # config, misc
 # ==================================================
 
-# put .bash_profile and .vimrc in home directory
+# put .zshrc and .vimrc in home directory
 
 # git, set global identity info
 git config --global user.email "patrickricheal@gmail.com"
 git config --global user.name "pricheal"
-
-# download git completion bash script
-curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
 
 # install vs code plugins
 code --install-extension bmewburn.vscode-intelephense-client

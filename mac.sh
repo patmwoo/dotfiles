@@ -95,4 +95,4 @@ code --install-extension felixfbecker.php-debug # follow instructions on extensi
 
 # copy vs_code_settings.json to vs code settings file
 
-# web dev environment setup
+# follow web dev environment setup in https://gist.github.com/pricheal/ee9ad55da3c3ae1e92970fbd2cd96f63

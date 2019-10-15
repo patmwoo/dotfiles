@@ -11,6 +11,9 @@
 #   - set default directory to home
 #   - remove unused items from finder sidebar
 
+# general preferences
+#   - set appearance to auto
+
 # dock preferences
 #   - enable auto hide/show dock
 #   - enable minimize windows into app icon

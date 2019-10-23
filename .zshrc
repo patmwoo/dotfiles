@@ -12,3 +12,8 @@ alias fdadmin='cd ~/Documents/fitdegree/fitdegree/clients/apps/admin'
 alias fdwidgets='cd ~/Documents/fitdegree/fitdegree/clients/apps/widgets'
 alias fdotg='cd ~/Documents/fitdegree/fitdegree/clients/apps/onthego'
 alias fdkiosk='cd ~/Documents/fitdegree/fitdegree/clients/apps/kiosk'
+
+# prompt
+PROMPT="
+%n@%m %~
+%# "

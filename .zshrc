@@ -1,4 +1,4 @@
-# .zshrc, config for zsh 
+# .zshrc, config for zsh
 # source: https://github.com/pricheal/dotfiles
 
 # general aliases
@@ -6,14 +6,14 @@ alias ls='ls -GF'
 
 # quick nav aliases
 alias docroot='cd /usr/local/var/www'
-alias fdapp='cd ~/Documents/fitdegree/fitdegree/clients/apps/app'
-alias fdapi='cd ~/Documents/fitdegree/fitdegree/api'
-alias fdadmin='cd ~/Documents/fitdegree/fitdegree/clients/apps/admin'
-alias fdwidgets='cd ~/Documents/fitdegree/fitdegree/clients/apps/widgets'
-alias fdotg='cd ~/Documents/fitdegree/fitdegree/clients/apps/onthego'
-alias fdkiosk='cd ~/Documents/fitdegree/fitdegree/clients/apps/kiosk'
+alias fd='cd ~/dev/fitdegree'
+alias fdapp='cd ~/dev/fitdegree/clients/apps/app'
+alias fdapi='cd ~/dev/fitdegree/api'
+alias fdadmin='cd ~/dev/fitdegree/clients/apps/admin'
+alias fdwidgets='cd ~/dev/fitdegree/clients/apps/widgets'
+alias fdotg='cd ~/dev/fitdegree/clients/apps/onthego'
+alias fdkiosk='cd ~/dev/fitdegree/clients/apps/kiosk'
 
-# prompt
 PROMPT="
 %n@%m %~
-%# "
+%# " 

@@ -52,6 +52,9 @@ brew install composer
 # install tools
 brew install git
 brew install vim
+brew install fzf
+
+# install languages
 brew install python # python3
 brew install python@2
 

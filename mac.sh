@@ -65,7 +65,7 @@ brew cask install slack
 brew cask install visual-studio-code
 brew cask install iterm2
 brew cash install insomnia
-brew cask install mysqlworkbench
+brew cask install datagrip
 brew cask install cyberduck
 brew cask install google-backup-and-sync
 brew cask install discord

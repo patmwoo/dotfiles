@@ -82,7 +82,12 @@ brew cask install discord
 # config, misc
 # ==================================================
 
-# put .zshrc and .vimrc in home directory
+# download .zshrc and .vimrc
+curl -o ~/.zshrc https://raw.githubusercontent.com/pricheal/dotfiles/master/.zshrc && source ~/.zshrc
+curl -o ~/.vimrc https://raw.githubusercontent.com/pricheal/dotfiles/master/.vimrc
+
+# set shell theme
+base16_eighties
 
 # git, set global identity info
 git config --global user.email "patrickricheal@gmail.com"
@@ -91,7 +96,5 @@ git config --global user.name "pricheal"
 # install vs code plugins
 code --install-extension bmewburn.vscode-intelephense-client
 code --install-extension felixfbecker.php-debug # follow instructions on extension page to install xdebug
-
-# set zsh theme with ./base16_shell_eighties, for instance
 
 # follow web dev environment setup in https://gist.github.com/pricheal/ee9ad55da3c3ae1e92970fbd2cd96f63

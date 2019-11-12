@@ -92,10 +92,6 @@ git config --global user.name "pricheal"
 code --install-extension bmewburn.vscode-intelephense-client
 code --install-extension felixfbecker.php-debug # follow instructions on extension page to install xdebug
 
-# set iterm2 theme to tomorrow_night_80s.itermcolors
-
-# mysql workbench sql editor preferences, disable safe updates
-
-# copy vs_code_settings.json to vs code settings file
+# set zsh theme with ./base16_shell_eighties, for instance
 
 # follow web dev environment setup in https://gist.github.com/pricheal/ee9ad55da3c3ae1e92970fbd2cd96f63

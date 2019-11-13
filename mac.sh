@@ -49,7 +49,7 @@
 brew install node
 brew install composer
 
-# install tools
+# install dev tools
 brew install git
 brew install vim
 brew install fzf
@@ -59,10 +59,11 @@ brew install jq
 brew install python # python3
 brew install python@2
 
-# install gui apps
+# install casks
 brew cask install google-chrome
 brew cask install spotify
 brew cask install slack
+brew cask install karabiner-elements
 brew cask install visual-studio-code
 brew cask install iterm2
 brew cash install insomnia

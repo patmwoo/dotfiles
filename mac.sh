@@ -95,6 +95,9 @@ base16_eighties
 git config --global user.email "patrickricheal@gmail.com"
 git config --global user.name "pricheal"
 
+# add rule to karabiner-elements to map caps lock to escape/control
+jq ".profiles[0].complex_modifications.rules += [$(curl https://gist.githubusercontent.com/pricheal/74ea4ba9a97751a0a7468a96dadd762a/raw/7e603b215c59cb06e1d242a12bbce8130b843d58/karabiner_elements_caps_lock_rule.json)]" ~/.config/karabiner/karabiner.json > ~/.config/karabiner/karabiner.json.tmp && mv ~/.config/karabiner/karabiner.json.tmp ~/.config/karabiner/karabiner.json
+
 # install vs code plugins
 code --install-extension bmewburn.vscode-intelephense-client
 code --install-extension felixfbecker.php-debug # follow instructions on extension page to install xdebug

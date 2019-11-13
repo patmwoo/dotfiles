@@ -53,6 +53,7 @@ brew install composer
 brew install git
 brew install vim
 brew install fzf
+brew install jq
 
 # install languages
 brew install python # python3

@@ -1,4 +1,4 @@
-# mac.sh, sets up my macos environment
+# mac.sh, sets up my ideal macos environment
 # source: https://github.com/pricheal/dotfiles
 
 # ==================================================
@@ -26,6 +26,7 @@
 #   - set both key repeat and delay until repeat to second to last tick
 #   - rebind caps lock to escape in modifier keys
 #   - disable add period with double space
+#   - modifier keys, remap caps lock to ctrl
 
 # mission control preferences
 #   - disable auto rearrange of spaces
@@ -34,9 +35,9 @@
 #   - turn off show notification preview for messages
 #   - turn off all notification settings for cyberduck
 
-# enable battery percentage from battery icon on menu bar
-
-# manually remove downloads from dock
+# misc
+#   - enable battery percentage from battery icon on menu bar
+#   - manually remove downloads from dock
 
 # ==================================================
 # homebrew, dev tools, apps

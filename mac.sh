@@ -83,9 +83,10 @@ brew cask install discord
 # config, misc
 # ==================================================
 
-# download .zshrc and .vimrc
+# download .zshrc, .vimrc, and .tmux.conf
 curl -o ~/.zshrc https://raw.githubusercontent.com/pricheal/dotfiles/master/.zshrc && source ~/.zshrc
 curl -o ~/.vimrc https://raw.githubusercontent.com/pricheal/dotfiles/master/.vimrc
+curl -o ~/.tmux.conf https://raw.githubusercontent.com/pricheal/dotfiles/master/.tmux.conf
 
 # set shell theme
 base16_eighties

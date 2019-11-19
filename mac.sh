@@ -24,9 +24,8 @@
 
 # keybord preferences
 #   - set both key repeat and delay until repeat to second to last tick
-#   - rebind caps lock to escape in modifier keys
+#   - rebind caps lock to ctrl in modifier keys
 #   - disable add period with double space
-#   - modifier keys, remap caps lock to escape
 
 # mission control preferences
 #   - disable auto rearrange of spaces

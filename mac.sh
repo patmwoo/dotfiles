@@ -21,6 +21,7 @@
 
 # trackpad preferences
 #   - set tracking speed to third to last tick
+#   - disable force click and haptic feedback
 
 # keybord preferences
 #   - set both key repeat and delay until repeat to second to last tick

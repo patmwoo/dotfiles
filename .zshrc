@@ -1,6 +1,10 @@
 # .zshrc, config for zsh
 # source: https://github.com/pricheal/dotfiles
 
+# ==============
+# aliases
+# ==============
+
 # general aliases
 alias ls='ls -GF'
 
@@ -8,6 +12,10 @@ alias ls='ls -GF'
 alias dev='cd ~/dev/'
 alias docroot='cd /usr/local/var/www'
 alias fd='cd ~/dev/fitdegree'
+
+# ==============
+# misc
+# ==============
 
 # prompt
 PROMPT="
@@ -20,6 +28,21 @@ BASE16_SHELL="$HOME/.config/base16-shell/"
     [ -s "$BASE16_SHELL/profile_helper.sh" ] && \
         eval "$("$BASE16_SHELL/profile_helper.sh")"
 
-# enable vi mode, fix esc delay
+# ==============
+# vim mode stuff
+# ==============
+
+# enable vim mode
 bindkey -v
+
+# fix esc delay
 export KEYTIMEOUT=1
+
+# add vim-like incremental search bindings
+bindkey -M vicmd '?' history-incremental-search-backward
+bindkey -M vicmd '/' history-incremental-search-forward
+
+# add ability to open current command in vim
+autoload edit-command-line
+zle -N edit-command-line
+bindkey -M vicmd "^V" edit-command-line

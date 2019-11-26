@@ -64,7 +64,6 @@ brew cask install google-chrome
 brew cask install spotify
 brew cask install slack
 brew cask install visual-studio-code
-brew cask install iterm2
 brew cash install insomnia
 brew cask install datagrip
 brew cask install cyberduck

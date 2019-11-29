@@ -18,9 +18,7 @@ alias fd='cd ~/dev/fitdegree'
 # ==============
 
 # prompt
-PROMPT="
-%n@%m %~
-%# "
+PROMPT="%~ %# "
 
 # base16 shell
 BASE16_SHELL="$HOME/.config/base16-shell/"
@@ -46,3 +44,13 @@ bindkey -M vicmd '/' history-incremental-search-forward
 autoload edit-command-line
 zle -N edit-command-line
 bindkey -M vicmd "^V" edit-command-line
+
+# add mode indicator
+function zle-line-init zle-keymap-select {
+  zle reset-prompt
+  zle -R
+}
+zle -N zle-line-init
+zle -N zle-keymap-select zle-line-init
+setopt PROMPT_SUBST
+RPS1='${${KEYMAP/vicmd/[% NORMAL]%}/(main|viins)/[% INSERT]%}'

@@ -18,7 +18,7 @@ alias fd='cd ~/dev/fitdegree'
 # ==============
 
 # prompt
-PROMPT="%~ %# "
+PROMPT='%~ %# '
 
 # base16 shell
 BASE16_SHELL="$HOME/.config/base16-shell/"

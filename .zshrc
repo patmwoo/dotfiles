@@ -18,7 +18,7 @@ alias fd='cd ~/dev/fitdegree'
 # ==============
 
 # prompt
-PROMPT='%~ %# '
+PROMPT='%~ %#  '
 
 # base16 shell
 BASE16_SHELL="$HOME/.config/base16-shell/"
@@ -52,5 +52,6 @@ function zle-line-init zle-keymap-select {
 }
 zle -N zle-line-init
 zle -N zle-keymap-select zle-line-init
+ZLE_RPROMPT_INDENT=0
 setopt PROMPT_SUBST
 RPS1='${${KEYMAP/vicmd/[% NORMAL]%}/(main|viins)/[% INSERT]%}'

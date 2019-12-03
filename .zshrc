@@ -18,7 +18,7 @@ alias fd='cd ~/dev/fitdegree'
 # ==============
 
 # prompt
-PROMPT='%~ %#  '
+PROMPT='%~ %# '
 
 # base16 shell
 BASE16_SHELL="$HOME/.config/base16-shell/"
@@ -47,11 +47,11 @@ bindkey -M vicmd "^V" edit-command-line
 
 # add mode indicator
 function zle-line-init zle-keymap-select {
-  zle reset-prompt
-  zle -R
+    zle reset-prompt
 }
 zle -N zle-line-init
 zle -N zle-keymap-select
-ZLE_RPROMPT_INDENT=-1 # must be -1 instead of 0 otherwise the cursor will be offset as well
+ZLE_RPROMPT_INDENT=-1 # must be -1 instead of 0 otherwise the cursor will be offset
 setopt PROMPT_SUBST
-RPS1='${${KEYMAP/vicmd/[% NORMAL]%}/(main|viins)/[% INSERT]%}'
+RPS1='${${KEYMAP/vicmd/[NORMAL]}/(main|viins)/}'
+

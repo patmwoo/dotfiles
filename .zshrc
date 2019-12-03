@@ -51,7 +51,9 @@ function zle-line-init zle-keymap-select {
 }
 zle -N zle-line-init
 zle -N zle-keymap-select
-ZLE_RPROMPT_INDENT=-1 # must be -1 instead of 0 otherwise the cursor will be offset
+# must be -1 instead of 0 otherwise the cursor will be offset, -1 makes
+# it so last line of terminal is unusable when right side prompt is
+# being displayed (on macos atleast)
+ZLE_RPROMPT_INDENT=-1
 setopt PROMPT_SUBST
 RPS1='${${KEYMAP/vicmd/[NORMAL]}/(main|viins)/}'
-

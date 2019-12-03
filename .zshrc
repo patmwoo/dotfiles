@@ -51,7 +51,7 @@ function zle-line-init zle-keymap-select {
   zle -R
 }
 zle -N zle-line-init
-zle -N zle-keymap-select zle-line-init
+zle -N zle-keymap-select
 ZLE_RPROMPT_INDENT=-1 # must be -1 instead of 0 otherwise the cursor will be offset as well
 setopt PROMPT_SUBST
 RPS1='${${KEYMAP/vicmd/[% NORMAL]%}/(main|viins)/[% INSERT]%}'

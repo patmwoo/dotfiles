@@ -94,8 +94,4 @@ base16_eighties
 git config --global user.email "patrickricheal@gmail.com"
 git config --global user.name "pricheal"
 
-# install vs code plugins
-code --install-extension bmewburn.vscode-intelephense-client
-code --install-extension felixfbecker.php-debug # follow instructions on extension page to install xdebug
-
 # follow web dev environment setup in https://gist.github.com/pricheal/ee9ad55da3c3ae1e92970fbd2cd96f63

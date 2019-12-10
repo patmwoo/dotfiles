@@ -61,7 +61,7 @@ brew install python # python3
 brew install python@2
 
 # install casks
-brew cask install firefox
+brew cask install google-chrome
 brew cask install spotify
 brew cask install slack
 brew cask install visual-studio-code
@@ -71,12 +71,12 @@ brew cask install cyberduck
 brew cask install google-backup-and-sync
 brew cask install discord
 
-# manual installs: 1password x for firefox, logic pro, microsoft office (from microsoft account,
+# manual installs: 1password x for chrome, logic pro, microsoft office (from microsoft account,
 # need to manually uninstall onenote and onedrive afterwards)
 
 # put installed apps on second page of launch pad
 
-# set dock apps to finder, calendar, notes, reminders, photos, messages, spotify, firefox,
+# set dock apps to finder, calendar, notes, reminders, photos, messages, spotify, chrome,
 # slack, vs code, terminal, system preferences
 
 # ==================================================

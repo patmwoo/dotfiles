@@ -58,6 +58,7 @@ brew install fzf
 
 # install cli stuff
 brew install rigellute/tap/spotify-tui
+brew install neofetch
 
 # install languages
 brew install python # python3

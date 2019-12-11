@@ -56,6 +56,9 @@ brew install git
 brew install vim
 brew install fzf
 
+# install cli stuff
+brew install rigellute/tap/spotify-tui
+
 # install languages
 brew install python # python3
 brew install python@2

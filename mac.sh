@@ -52,6 +52,7 @@ brew install node
 brew install composer
 
 # install dev tools
+brew install tmux
 brew install git
 brew install vim
 brew install fzf

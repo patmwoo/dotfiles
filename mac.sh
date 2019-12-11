@@ -68,6 +68,7 @@ brew install python@2
 # install casks
 brew cask install google-chrome
 brew cask install spotify
+brew cask install iterm2
 brew cask install slack
 brew cask install visual-studio-code
 brew cash install insomnia
@@ -82,7 +83,7 @@ brew cask install discord
 # put installed apps on second page of launch pad
 
 # set dock apps to finder, calendar, notes, reminders, photos, messages, spotify, chrome,
-# slack, vs code, terminal, system preferences
+# slack, vs code, iterm, system preferences
 
 # ==================================================
 # config, misc

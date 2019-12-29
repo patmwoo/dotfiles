@@ -76,7 +76,7 @@ brew cask install datagrip
 brew cask install cyberduck
 brew cask install discord
 
-# manual installs: 1password x for chrome, logic pro
+# manual installs: 1password x for chrome, logic pro, pages, numbers, keynote
 
 # put installed apps on second page of launch pad
 

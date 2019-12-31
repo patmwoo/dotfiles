@@ -80,7 +80,7 @@ brew cask install discord
 
 # put installed apps on second page of launch pad
 
-# set dock apps to finder, calendar, notes, reminders, photos, messages, spotify, chrome,
+# set dock apps to finder, mail, calendar, notes, reminders, photos, messages, spotify, chrome,
 # slack, vs code, iterm, system preferences
 
 # ==================================================

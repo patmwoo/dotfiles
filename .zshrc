@@ -36,14 +36,20 @@ bindkey -v
 # fix esc delay
 export KEYTIMEOUT=1
 
+# history up and down
+bindkey '^p' up-history
+bindkey '^n' down-history
+
+# make backspace work after returning from normal mode
+bindkey '^?' backward-delete-char
+
 # add vim-like incremental search bindings
-bindkey -M vicmd '?' history-incremental-search-backward
-bindkey -M vicmd '/' history-incremental-search-forward
+bindkey '^r' history-incremental-search-backward
 
 # add ability to open current command in vim
 autoload edit-command-line
 zle -N edit-command-line
-bindkey -M vicmd "^V" edit-command-line
+bindkey '^v' edit-command-line
 
 # add mode indicator
 function zle-line-init zle-keymap-select {

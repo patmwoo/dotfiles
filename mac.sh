@@ -56,6 +56,7 @@ brew install tmux
 brew install git
 brew install vim
 brew install fzf
+brew install less
 
 # install cli stuff
 brew install rigellute/tap/spotify-tui
@@ -91,6 +92,10 @@ brew cask install discord
 curl -o ~/.zshrc https://raw.githubusercontent.com/pricheal/dotfiles/master/.zshrc && source ~/.zshrc
 curl -o ~/.vimrc https://raw.githubusercontent.com/pricheal/dotfiles/master/.vimrc
 curl -o ~/.tmux.conf https://raw.githubusercontent.com/pricheal/dotfiles/master/.tmux.conf
+curl -o ~/.lesskey https://raw.githubusercontent.com/pricheal/dotfiles/master/.lesskey
+
+# run lesskey to setup less key binds
+lesskey
 
 # set shell theme
 base16_eighties

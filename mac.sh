@@ -3,6 +3,11 @@
 # mac.sh, sets up my ideal macos environment
 # source: https://github.com/pricheal/dotfiles
 
+# zsh shebang needed because the source ~/.zshrc command will use the
+# same shell that is interpreting this script, and .zshrc needs to be
+# interpreted by zsh. Default macos sh script execution (./mac.sh) is
+# setup to use bash (https://scriptingosx.com/2019/06/moving-to-zsh/)
+
 # ==================================================
 # os config
 # ==================================================

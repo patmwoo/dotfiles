@@ -41,15 +41,11 @@
 #   - manually remove downloads from dock
 
 # ==================================================
-# homebrew, dev tools, apps
+# installs
 # ==================================================
 
 # install homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-
-# install package managers
-brew install node
-brew install composer
 
 # install dev tools
 brew install tmux
@@ -59,14 +55,18 @@ brew install fzf
 brew install less
 brew tap xo/xo && brew install usql
 
+# install languages
+brew install python
+
+# install package managers
+brew install node
+brew install composer
+
 # install cli stuff
 brew install rigellute/tap/spotify-tui
 brew install neofetch
 
-# install languages
-brew install python # python3
-
-# install casks
+# install gui apps
 brew cask install google-chrome
 brew cask install spotify
 brew cask install iterm2
@@ -85,17 +85,16 @@ brew cask install discord
 # slack, vs code, iterm, system preferences
 
 # ==================================================
-# config, misc
+# config
 # ==================================================
 
-# download .zshrc, .vimrc, and .tmux.conf
-curl -o ~/.zshrc https://raw.githubusercontent.com/pricheal/dotfiles/master/.zshrc && source ~/.zshrc
-curl -o ~/.vimrc https://raw.githubusercontent.com/pricheal/dotfiles/master/.vimrc
-curl -o ~/.tmux.conf https://raw.githubusercontent.com/pricheal/dotfiles/master/.tmux.conf
-curl -o ~/.lesskey https://raw.githubusercontent.com/pricheal/dotfiles/master/.lesskey
+# symlink files to home folder
+ln -s ~/dotfiles/.zshrc ~/.zshrc && source ~/.zshrc
+ln -s ~/dotfiles/.vimrc ~/.vimrc
+ln -s ~/dotfiles/.tmux.conf .tmux.conf
 
-# run lesskey to setup less key binds
-lesskey
+# generate key bindings for less
+lesskey ~/dotfiles/.lesskey
 
 # set shell theme
 base16_eighties

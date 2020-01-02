@@ -39,6 +39,11 @@
 # misc
 #   - enable battery percentage from battery icon on menu bar
 #   - manually remove downloads from dock
+#   - manual app installs: 1password x for chrome, logic pro, pages,
+#     numbers, keynote
+#   - put installed apps on second page of launch pad
+#   - dock app order: finder, mail, calendar, notes, reminders, photos,
+#     messages, spotify, chrome, slack, vs code, iterm, system preferences
 
 # ==================================================
 # installs
@@ -77,13 +82,6 @@ brew cask install datagrip
 brew cask install cyberduck
 brew cask install discord
 
-# manual installs: 1password x for chrome, logic pro, pages, numbers, keynote
-
-# put installed apps on second page of launch pad
-
-# set dock apps to finder, mail, calendar, notes, reminders, photos, messages, spotify, chrome,
-# slack, vs code, iterm, system preferences
-
 # ==================================================
 # config
 # ==================================================
@@ -92,15 +90,10 @@ brew cask install discord
 ln -s ~/dotfiles/.zshrc ~/.zshrc && source ~/.zshrc
 ln -s ~/dotfiles/.vimrc ~/.vimrc
 ln -s ~/dotfiles/.tmux.conf .tmux.conf
+ln -s ~/dotfiles/.gitconfig .gitconfig
 
 # generate key bindings for less
 lesskey ~/dotfiles/.lesskey
 
 # set shell theme
 base16_eighties
-
-# git, set global identity info
-git config --global user.email "patrickricheal@gmail.com"
-git config --global user.name "pricheal"
-
-# follow web dev environment setup in https://gist.github.com/pricheal/ee9ad55da3c3ae1e92970fbd2cd96f63

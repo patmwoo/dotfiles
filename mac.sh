@@ -65,7 +65,6 @@ brew install neofetch
 
 # install languages
 brew install python # python3
-brew install python@2
 
 # install casks
 brew cask install google-chrome

@@ -57,6 +57,7 @@ brew install git
 brew install vim
 brew install fzf
 brew install less
+brew tap xo/xo && brew install usql
 
 # install cli stuff
 brew install rigellute/tap/spotify-tui

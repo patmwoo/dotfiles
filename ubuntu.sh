@@ -3,8 +3,8 @@
 # ubuntu.sh, sets up my ubuntu environment
 # source: https://github.com/pricheal/dotfiles
 
-# add pat user w/ following commands, clone dotfiles repo to
-# /home/pat/dotfiles, then run ubuntu.sh
+# add pat user with below commands using root user, clone dotfiles repo
+# to /home/pat/dotfiles, then run this file
 
 # adduser pat
 # usermod -aG sudo pat

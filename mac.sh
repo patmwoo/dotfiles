@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-# mac.sh, sets up my ideal macos environment
+# mac.sh, sets up my macos environment
 # source: https://github.com/pricheal/dotfiles
 
 # zsh shebang needed because the source ~/.zshrc command will use the
@@ -11,8 +11,6 @@
 # ==================================================
 # os config
 # ==================================================
-
-# make sure macos is up to date
 
 # finder preferences
 #   - set default directory to home
@@ -63,7 +61,6 @@
 brew install tmux
 brew install git
 brew install vim
-brew install fzf
 brew install less
 brew tap xo/xo && brew install usql
 

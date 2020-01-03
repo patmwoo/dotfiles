@@ -7,6 +7,7 @@
 # /home/pat/dotfiles, then run ubuntu.sh
 
 # adduser pat
+# usermod -aG sudo pat
 # mkdir /home/pat/.ssh
 # cp /root/.ssh/authorized_keys /home/pat/.ssh/authorized_keys
 # chown -R pat:pat /home/pat/.ssh

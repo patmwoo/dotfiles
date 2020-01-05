@@ -16,7 +16,7 @@
 # installs
 # ==================================================
 
-# install homebrew
+# setup homebrew
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
 sudo apt-get update
 sudo apt-get install build-essential
@@ -24,8 +24,9 @@ echo 'eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)' >> ~/.profile
 source ~/.profile
 
 # setup zsh
-apt install zsh
-chsh -s /usr/bin/zsh
+brew install zsh
+which zsh | sudo tee -a /etc/shells
+chsh -s $(which zsh)
 
 # install dev tools
 apt install tmux

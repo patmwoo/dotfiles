@@ -37,21 +37,20 @@ brew install less
 brew tap xo/xo && brew install usql
 
 # install cli stuff
-#brew install rigellute/tap/spotify-tui
-#brew install neofetch
+brew install neofetch
 
 # ==================================================
 # config
 # ==================================================
 
 # symlink files to home folder
-#ln -sf ~/dotfiles/.zshrc ~/.zshrc && source ~/.zshrc
-#ln -sf ~/dotfiles/.vimrc ~/.vimrc
-#ln -sf ~/dotfiles/.tmux.conf ~/.tmux.conf
-#ln -sf ~/dotfiles/.gitconfig ~/.gitconfig
+ln -sf ~/dotfiles/.zshrc ~/.zshrc && source ~/.zshrc
+ln -sf ~/dotfiles/.vimrc ~/.vimrc
+ln -sf ~/dotfiles/.tmux.conf ~/.tmux.conf
+ln -sf ~/dotfiles/.gitconfig ~/.gitconfig
 
 # generate key bindings for less
-#lesskey ~/dotfiles/.lesskey
+lesskey ~/dotfiles/.lesskey
 
 # set shell theme
-#base16_eighties
+base16_eighties

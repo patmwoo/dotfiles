@@ -20,7 +20,12 @@ alias fd='cd ~/dev/fitdegree'
 # prompt
 PROMPT='%~ %# '
 
-# base16 shell
+# command history
+HISTFILE=~/.histfile
+HISTSIZE=1000
+SAVEHIST=1000
+
+# base16 shell themes
 BASE16_SHELL="$HOME/.config/base16-shell/"
 [ -n "$PS1" ] && \
     [ -s "$BASE16_SHELL/profile_helper.sh" ] && \

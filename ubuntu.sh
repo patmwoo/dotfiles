@@ -21,6 +21,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/i
 sudo apt-get update
 sudo apt-get install build-essential
 echo 'eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)' >> ~/.profile
+source ~/.profile
 
 # setup zsh
 apt install zsh

@@ -40,8 +40,11 @@ brew tap xo/xo && brew install usql
 brew install neofetch
 
 # ==================================================
-# config
+# misc
 # ==================================================
+
+# download base16
+git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shell
 
 # symlink files to home folder
 ln -sf ~/dotfiles/.zshrc ~/.zshrc && source ~/.zshrc

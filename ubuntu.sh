@@ -30,33 +30,15 @@ which zsh | sudo tee -a /etc/shells
 chsh -s $(which zsh)
 
 # install dev tools
-apt install tmux
-apt install git
-apt install vim
-apt install less
-#brew tap xo/xo && brew install usql
-
-# install languages
-#brew install python
-
-# install package managers
-#brew install node
-#brew install composer
+brew install tmux
+brew install git
+brew install vim
+brew install less
+brew tap xo/xo && brew install usql
 
 # install cli stuff
 #brew install rigellute/tap/spotify-tui
 #brew install neofetch
-
-# install gui apps
-#brew cask install google-chrome
-#brew cask install spotify
-#brew cask install iterm2
-#brew cask install slack
-#brew cask install visual-studio-code
-#brew cash install insomnia
-#brew cask install datagrip
-#brew cask install cyberduck
-#brew cask install discord
 
 # ==================================================
 # config

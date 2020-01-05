@@ -25,6 +25,7 @@ source ~/.profile
 
 # setup zsh
 brew install zsh
+echo "emulate sh -c 'source ~/.profile'" >> ~/.zprofile # make zsh run ~/.profile
 which zsh | sudo tee -a /etc/shells
 chsh -s $(which zsh)
 

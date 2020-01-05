@@ -18,6 +18,8 @@
 
 # install homebrew
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
+sudo apt-get install build-essential
+echo 'eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)' >> ~/.profile
 
 # setup zsh
 apt install zsh

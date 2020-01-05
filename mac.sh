@@ -87,8 +87,11 @@ brew cask install cyberduck
 brew cask install discord
 
 # ==================================================
-# config
+# misc
 # ==================================================
+
+# download base16
+git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shell
 
 # symlink files to home folder
 ln -sf ~/dotfiles/.zshrc ~/.zshrc && source ~/.zshrc

@@ -7,6 +7,7 @@
 
 # general aliases
 alias ls='ls -GF'
+alias less='less -S'
 
 # quick nav aliases
 alias dev='cd ~/dev/'

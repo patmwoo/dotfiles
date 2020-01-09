@@ -47,8 +47,8 @@
 #   - manual app installs: 1password x for chrome, logic pro, pages,
 #     numbers, keynote
 #   - put installed apps on second page of launch pad
-#   - dock app order: finder, mail, calendar, notes, reminders, photos,
-#     messages, spotify, chrome, slack, vs code, iterm, system preferences
+#   - dock app order: finder, calendar, notes, reminders, photos, messages,
+#     spotify, chrome, slack, vs code, iterm, system preferences
 #   - iterm2: set font to roboto mono
 
 # ==================================================

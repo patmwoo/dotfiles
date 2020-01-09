@@ -18,10 +18,10 @@ zsh ~/dotfiles/mac.sh
 * Finder preferences, set default directory to home, remove unused items from sidebar
 * General preferences, set appearance (light/dark) to auto
 * Dock preferences, enable auto hide/show, enable minimize window into app icon, disable show recent applications
-* Trackpad preferences, set tracking speed to third to last tick, disable *force click and haptic feedback*, disable swipe between pages (under gestures)
-* Keyboard preferences, set both *key repeat* and *delay until repeat* to second to last tick, rebind caps lock to ctrl in modifier keys, disable add period with double space
 * Mission control preferences, disable auto rearrange of spaces
 * Notification settings, disable *show notification preview* for messages
+* Keyboard preferences, set both *key repeat* and *delay until repeat* to second to last tick, rebind caps lock to ctrl in modifier keys, disable add period with double space
+* Trackpad preferences, set tracking speed to third to last tick, disable *force click and haptic feedback*, disable swipe between pages (under gestures)
 * Enable battery percentage from battery icon on menu bar
 * Manually remove downloads folder from dock
 * Install 1password x for chrome, logic pro, pages, numbers, and keynote

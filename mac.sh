@@ -49,6 +49,7 @@
 #   - put installed apps on second page of launch pad
 #   - dock app order: finder, mail, calendar, notes, reminders, photos,
 #     messages, spotify, chrome, slack, vs code, iterm, system preferences
+#   - iterm2: set font to roboto mono
 
 # ==================================================
 # installs

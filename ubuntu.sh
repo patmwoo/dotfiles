@@ -3,15 +3,6 @@
 # ubuntu.sh, sets up my ubuntu environment
 # source: https://github.com/pricheal/dotfiles
 
-# add pat user with below commands using root user, clone dotfiles repo
-# to /home/pat/dotfiles, then run this file
-
-# adduser pat
-# usermod -aG sudo pat
-# mkdir /home/pat/.ssh
-# cp /root/.ssh/authorized_keys /home/pat/.ssh/authorized_keys
-# chown -R pat:pat /home/pat/.ssh
-
 # ==================================================
 # installs
 # ==================================================

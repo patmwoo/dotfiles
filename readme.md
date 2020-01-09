@@ -29,7 +29,7 @@ zsh ~/dotfiles/mac.sh
 * Set dock apps to finder, calendar, notes, reminders, photos, messages, spotify, chrome, slack, vs code, iterm, system preferences
 * Set font in iterm to roboto mono
 
-## ubuntu (server)
+## ubuntu server
 
 Add user, clone repository to home directory, run ubuntu.sh bootstrap script
 

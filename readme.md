@@ -27,7 +27,7 @@ zsh ~/dotfiles/mac.sh
 * Install 1password x for chrome, logic pro, pages, numbers, and keynote
 * Put *installed* apps on second page of launch pad
 * Set dock apps to finder, calendar, notes, reminders, photos, messages, spotify, chrome, slack, vs code, iterm, system preferences
-* Set font in iterm to roboto mono
+* iTerm, set font to roboto mono under preferences -> profiles -> text, enable *applications in terminal may access clipboard* under preferences -> general -> selection
 
 ## ubuntu (server)
 

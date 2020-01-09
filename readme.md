@@ -1,6 +1,6 @@
 # dotfiles
 
-dotfiles and scripts for setting up macos and ubuntu development environments
+dotfiles and scripts for setting up development environments
 
 ## macos
 

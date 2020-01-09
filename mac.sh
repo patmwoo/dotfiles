@@ -16,6 +16,7 @@ brew install git
 brew install vim
 brew install less
 brew tap xo/xo && brew install usql
+brew install httpie
 
 # install docker stuff
 brew cask install docker

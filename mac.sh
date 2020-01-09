@@ -66,7 +66,7 @@ brew install less
 brew tap xo/xo && brew install usql
 
 # install docker stuff
-# todo: add docker install
+brew cask install docker
 sudo gem install docker-sync
 
 # install languages

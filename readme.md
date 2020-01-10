@@ -1,6 +1,6 @@
 # dotfiles
 
-dotfiles and scripts for setting up macos and ubuntu development environments
+dotfiles and scripts for setting up development environments
 
 ## macos
 
@@ -29,7 +29,7 @@ zsh ~/dotfiles/mac.sh
 * Set dock apps to finder, calendar, notes, reminders, photos, messages, spotify, chrome, slack, vs code, iterm, system preferences
 * iTerm, set font to roboto mono under preferences -> profiles -> text, enable *applications in terminal may access clipboard* under preferences -> general -> selection
 
-## ubuntu (server)
+## ubuntu server
 
 Add user, clone repository to home directory, run ubuntu.sh bootstrap script
 

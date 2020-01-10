@@ -41,7 +41,7 @@ usermod -aG sudo pat
 
 # for digital ocean, copy authorized_keys from root user so pat can login
 mkdir /home/pat/.ssh
-cp /root/.ssh/authorized_keys /home/pat/.ssh/authorized_keys # todo: specific for digital ocean, make generic system for managing ssh keys
+cp /root/.ssh/authorized_keys /home/pat/.ssh/authorized_keys
 chown -R pat:pat /home/pat/.ssh
 
 # -> login as pat

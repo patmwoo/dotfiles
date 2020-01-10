@@ -7,14 +7,14 @@
 # installs
 # ==================================================
 
-# setup homebrew
+# install homebrew
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
 sudo apt-get update
 sudo apt-get install build-essential
 echo 'eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)' >> ~/.profile
 source ~/.profile
 
-# setup zsh
+# install zsh
 brew install zsh
 echo "emulate sh -c 'source ~/.profile'" >> ~/.zprofile # make zsh run ~/.profile
 which zsh | sudo tee -a /etc/shells

@@ -9,6 +9,7 @@ dotfiles and scripts for setting up development environments
 Clone repository to home directory, run mac.sh bootstrap script
 
 ```sh
+# clone dotfiles and run bootstrap script
 git clone https://github.com/pricheal/dotfiles.git ~/dotfiles
 zsh ~/dotfiles/mac.sh
 ```
@@ -34,11 +35,18 @@ zsh ~/dotfiles/mac.sh
 Add user, clone repository to home directory, run ubuntu.sh bootstrap script
 
 ```sh
+# make pat user
 adduser pat
 usermod -aG sudo pat
+
+# for digital ocean, copy authorized_keys from root user so pat can login
 mkdir /home/pat/.ssh
 cp /root/.ssh/authorized_keys /home/pat/.ssh/authorized_keys # todo: specific for digital ocean, make generic system for managing ssh keys
 chown -R pat:pat /home/pat/.ssh
+
+# -> login as pat
+
+# clone dotfiles and run bootstrap script
 git clone https://github.com/pricheal/dotfiles.git ~/dotfiles
 bash ~/dotfiles/ubuntu.sh
 ```
@@ -47,7 +55,6 @@ bash ~/dotfiles/ubuntu.sh
 
 In the pursuit of command line only development
 
-* figure out ssh keys for github, remove personal access tokens (from 1password too)
 * create system to pull ssh keys from 1password into new environments (remove todo from readme file)
 * add roboto mono font install to mac.sh script
 * look into zsh parameter auto complete (and for git / docker)
@@ -61,4 +68,4 @@ In the pursuit of command line only development
 * figure out a vim file manager
 * fzf
 * usql
-* httpie, jq
+* httpie, http-prompt, jq

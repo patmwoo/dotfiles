@@ -42,3 +42,25 @@ chown -R pat:pat /home/pat/.ssh
 git clone https://github.com/pricheal/dotfiles.git ~/dotfiles
 bash ~/dotfiles/ubuntu.sh
 ```
+
+## dev to do list
+
+In the pursuit of command line only development
+
+* move this list to dotfiles readme file
+* push dotfiles
+* figure out ssh keys for github, remove personal access tokens (from 1password too)
+* create system to pull ssh keys from 1password into new environments (remove todo from readme file)
+* add roboto mono font install to mac.sh script
+* look into zsh parameter auto complete (and for git / docker)
+* figure out esc remap for macos
+* get git status in left prompt (put the vi mode in there too)
+* figure out gpg keys for git
+* vim plugin manager
+* vim base 16
+* vim fugitive
+* understand everything about vim sensible
+* figure out a vim file manager
+* fzf
+* usql
+* httpie, jq

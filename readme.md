@@ -47,8 +47,6 @@ bash ~/dotfiles/ubuntu.sh
 
 In the pursuit of command line only development
 
-* move this list to dotfiles readme file
-* push dotfiles
 * figure out ssh keys for github, remove personal access tokens (from 1password too)
 * create system to pull ssh keys from 1password into new environments (remove todo from readme file)
 * add roboto mono font install to mac.sh script

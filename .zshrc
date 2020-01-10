@@ -21,6 +21,9 @@ alias fd='cd ~/dev/fitdegree'
 # prompt
 PROMPT='%~ %# '
 
+# enable extended globbing
+setopt extendedglob
+
 # command history
 HISTFILE=~/.histfile
 HISTSIZE=1000

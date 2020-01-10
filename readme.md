@@ -43,7 +43,7 @@ git clone https://github.com/pricheal/dotfiles.git ~/dotfiles
 bash ~/dotfiles/ubuntu.sh
 ```
 
-## dev to do list
+## dev to do
 
 In the pursuit of command line only development
 

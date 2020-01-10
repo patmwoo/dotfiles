@@ -55,7 +55,8 @@ bash ~/dotfiles/ubuntu.sh
 
 In the pursuit of command line only development
 
-* create system to pull ssh keys from 1password into new environments
+* automate setup of authorized keys based on public ssh key
+* create system to pull private ssh key from 1password into new environments
 * add roboto mono font install to mac.sh script
 * look into zsh parameter auto complete (and for git / docker)
 * figure out esc remap for macos

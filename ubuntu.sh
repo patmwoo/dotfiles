@@ -36,7 +36,7 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.25.0/docker-
 sudo chmod +x /usr/local/bin/docker-compose
 
 # install docker sync
-gem install docker-sync
+gem install docker-sync # to do: need to install gem?
 
 # install dev tools
 brew install tmux

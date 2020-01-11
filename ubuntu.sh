@@ -8,7 +8,7 @@
 # ==================================================
 
 # install homebrew
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)" # todo: try with sudo
 sudo apt-get update
 sudo apt-get -y install build-essential
 echo 'eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)' >> ~/.profile
@@ -18,7 +18,7 @@ source ~/.profile
 brew install zsh
 echo "emulate sh -c 'source ~/.profile'" >> ~/.zprofile # make zsh run ~/.profile
 which zsh | sudo tee -a /etc/shells
-chsh -s $(which zsh)
+chsh -s $(which zsh) # todo: try with sudo
 
 # install docker (from https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 sudo apt-get update

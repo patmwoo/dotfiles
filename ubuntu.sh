@@ -53,6 +53,8 @@ brew install neofetch
 # misc
 # ==================================================
 
+touch ~/installs_finished
+
 # download base16
 git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shell
 
@@ -68,3 +70,5 @@ lesskey ~/dotfiles/.lesskey
 # set shell theme
 source ~/dotfiles/shell/base16.sh
 base16_eighties
+
+touch ~/bootstrap_finished

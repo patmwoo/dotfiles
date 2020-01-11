@@ -61,6 +61,7 @@ In the pursuit of command line only development
 * look into zsh parameter auto complete (and for git / docker)
 * figure out esc remap for macos
 * get git status in left prompt (put the vi mode in there too)
+* put user and host in prompt
 * figure out gpg keys for git
 * vim plugin manager
 * vim base 16

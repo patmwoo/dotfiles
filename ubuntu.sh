@@ -8,7 +8,7 @@
 # ==================================================
 
 # install homebrew
-sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)" # todo: try with sudo
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)" # todo: try with sudo
 sudo apt-get update
 sudo apt-get -y install build-essential
 echo 'eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)' >> ~/.profile

@@ -28,7 +28,7 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io
 sudo groupadd docker # todo: remove if not needed
-sudo usermod -aG docker pat
+sudo usermod -aG docker $USER
 newgrp docker
 
 # install docker compose (from https://docs.docker.com/compose/install/)

@@ -70,5 +70,3 @@ lesskey ~/dotfiles/.lesskey
 # set shell theme
 source ~/dotfiles/shell/base16.sh
 base16_eighties
-
-touch ~/bootstrap_finished

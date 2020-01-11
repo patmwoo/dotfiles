@@ -18,7 +18,7 @@ source ~/.profile
 brew install zsh
 echo "emulate sh -c 'source ~/.profile'" >> ~/.zprofile # make zsh run ~/.profile
 which zsh | sudo tee -a /etc/shells
-sudo chsh -s $(which zsh)
+sudo chsh -s $(which zsh) $USER
 
 # install docker (from https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 sudo apt-get update

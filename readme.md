@@ -48,7 +48,7 @@ chown -R pat:pat /home/pat/.ssh
 
 # clone dotfiles and run bootstrap script
 git clone https://github.com/pricheal/dotfiles.git ~/dotfiles
-nohup ~/dotfiles/ubuntu.sh > ~/bootstrap.out
+tmux new -s bootstrap ~/dotfiles/ubuntu.sh
 ```
 
 ## dev to do

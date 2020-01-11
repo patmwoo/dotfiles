@@ -67,5 +67,5 @@ ln -sf ~/dotfiles/.gitconfig ~/.gitconfig
 lesskey ~/dotfiles/.lesskey
 
 # set shell theme
-~/dotfiles/shell/base16.sh
+source ~/dotfiles/shell/base16.sh
 base16_eighties

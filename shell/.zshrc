@@ -1,22 +1,16 @@
 # .zshrc, config for zsh
 # source: https://github.com/pricheal/dotfiles
 
-# ==============
-# aliases
-# ==============
+# ==============================
+# generic shell stuff
+# ==============================
 
-# general aliases
-alias ls='ls -GF'
-alias less='less -S'
+~/dotfiles/shell/aliases.sh
+~/dotfiles/shell/base16.sh
 
-# quick nav aliases
-alias dev='cd ~/dev/'
-alias docroot='cd /usr/local/var/www'
-alias fd='cd ~/dev/fitdegree'
-
-# ==============
-# misc
-# ==============
+# ==============================
+# zsh specific stuff
+# ==============================
 
 # prompt
 PROMPT='%~ %# '
@@ -28,12 +22,6 @@ setopt extendedglob
 HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
-
-# base16 shell themes
-BASE16_SHELL="$HOME/.config/base16-shell/"
-[ -n "$PS1" ] && \
-    [ -s "$BASE16_SHELL/profile_helper.sh" ] && \
-        eval "$("$BASE16_SHELL/profile_helper.sh")"
 
 # ==============
 # vim mode stuff

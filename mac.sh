@@ -53,7 +53,7 @@ brew cask install discord
 git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shell
 
 # symlink files to home folder
-ln -sf ~/dotfiles/.zshrc ~/.zshrc && source ~/.zshrc
+ln -sf ~/dotfiles/shell/.zshrc ~/.zshrc && source ~/.zshrc
 ln -sf ~/dotfiles/.vimrc ~/.vimrc
 ln -sf ~/dotfiles/.tmux.conf ~/.tmux.conf
 ln -sf ~/dotfiles/.gitconfig ~/.gitconfig

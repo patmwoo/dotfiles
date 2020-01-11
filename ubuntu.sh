@@ -58,7 +58,7 @@ brew install neofetch
 git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shell
 
 # symlink files to home folder
-ln -sf ~/dotfiles/.zshrc ~/.zshrc
+ln -sf ~/dotfiles/shell/.zshrc ~/.zshrc
 ln -sf ~/dotfiles/.vimrc ~/.vimrc
 ln -sf ~/dotfiles/.tmux.conf ~/.tmux.conf
 ln -sf ~/dotfiles/.gitconfig ~/.gitconfig
@@ -67,4 +67,5 @@ ln -sf ~/dotfiles/.gitconfig ~/.gitconfig
 lesskey ~/dotfiles/.lesskey
 
 # set shell theme
+~/dotfiles/shell/base16.sh
 base16_eighties

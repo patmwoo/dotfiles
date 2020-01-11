@@ -8,7 +8,7 @@
 # ==================================================
 
 # install homebrew
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)" # todo: try with sudo
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
 sudo apt-get update
 sudo apt-get -y install build-essential
 echo 'eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)' >> ~/.profile
@@ -18,7 +18,7 @@ source ~/.profile
 brew install zsh
 echo "emulate sh -c 'source ~/.profile'" >> ~/.zprofile # make zsh run ~/.profile
 which zsh | sudo tee -a /etc/shells
-chsh -s $(which zsh) # todo: try with sudo
+sudo chsh -s $(which zsh)
 
 # install docker (from https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 sudo apt-get update
@@ -27,7 +27,6 @@ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
 sudo apt-get update
 sudo apt-get -y install docker-ce docker-ce-cli containerd.io
-#sudo groupadd docker # todo: ensure not needed
 sudo usermod -aG docker $USER
 newgrp docker
 
@@ -35,8 +34,8 @@ newgrp docker
 sudo curl -L "https://github.com/docker/compose/releases/download/1.25.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 
-# install docker sync (gem installed from git)
-gem install docker-sync # to do: need to install gem?
+# install docker sync
+gem install docker-sync
 
 # install dev tools
 brew install tmux

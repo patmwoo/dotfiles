@@ -10,6 +10,12 @@
 # install homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+# install docker
+brew cask install docker
+
+# install docker sync
+sudo gem install docker-sync
+
 # install dev tools
 brew install tmux
 brew install git
@@ -19,19 +25,7 @@ brew tap xo/xo && brew install usql
 brew install httpie
 brew install jq
 
-# install docker stuff
-brew cask install docker
-sudo gem install docker-sync
-
-# install languages
-brew install python
-
-# install package managers
-brew install node
-brew install composer
-
 # install cli stuff
-brew install rigellute/tap/spotify-tui
 brew install neofetch
 
 # install gui apps

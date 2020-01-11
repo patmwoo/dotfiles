@@ -10,7 +10,7 @@ Clone repository to home directory, run mac.sh bootstrap script
 
 ```sh
 # clone dotfiles and run bootstrap script
-git clone https://github.com/pricheal/dotfiles.git ~/dotfiles
+git clone git@github.com:pricheal/dotfiles.git ~/dotfiles
 ~/dotfiles/mac.sh
 ```
 
@@ -47,7 +47,7 @@ chown -R pat:pat /home/pat/.ssh
 # -> login as pat
 
 # clone dotfiles and run bootstrap script
-git clone https://github.com/pricheal/dotfiles.git ~/dotfiles
+git clone git@github.com:pricheal/dotfiles.git ~/dotfiles
 tmux new -s bootstrap ~/dotfiles/ubuntu.sh
 ```
 

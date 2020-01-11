@@ -20,6 +20,18 @@ echo "emulate sh -c 'source ~/.profile'" >> ~/.zprofile # make zsh run ~/.profil
 which zsh | sudo tee -a /etc/shells
 chsh -s $(which zsh) # todo: try with sudo
 
+# install dev tools
+brew install tmux
+brew install git
+brew install vim
+brew install less
+brew tap xo/xo && brew install usql
+brew install httpie
+brew install jq
+
+# install cli stuff
+brew install neofetch
+
 # install docker (from https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 sudo apt-get update
 sudo apt-get -y install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
@@ -35,20 +47,8 @@ newgrp docker
 sudo curl -L "https://github.com/docker/compose/releases/download/1.25.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 
-# install docker sync
+# install docker sync (gem installed from git)
 gem install docker-sync # to do: need to install gem?
-
-# install dev tools
-brew install tmux
-brew install git
-brew install vim
-brew install less
-brew tap xo/xo && brew install usql
-brew install httpie
-brew install jq
-
-# install cli stuff
-brew install neofetch
 
 # ==================================================
 # misc

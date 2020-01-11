@@ -39,9 +39,9 @@ Add user, clone repository to home directory, run ubuntu.sh bootstrap script
 adduser pat
 usermod -aG sudo pat
 
-# for digital ocean, copy authorized_keys from root user so pat can login
+# put public ssh key in authorized_keys
 mkdir /home/pat/.ssh
-cp /root/.ssh/authorized_keys /home/pat/.ssh/authorized_keys
+curl https://raw.githubusercontent.com/pricheal/dotfiles/master/id_rsa.pub -o ~/.ssh/authorized_keys
 chown -R pat:pat /home/pat/.ssh
 
 # -> login as pat
@@ -55,7 +55,6 @@ bash ~/dotfiles/ubuntu.sh
 
 In the pursuit of command line only development
 
-* automate setup of authorized keys based on public ssh key
 * create system to pull private ssh key from 1password into new environments
 * create ssh config file
 * add roboto mono font install to mac.sh script

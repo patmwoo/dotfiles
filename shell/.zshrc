@@ -5,8 +5,8 @@
 # generic shell stuff
 # ==============================
 
-~/dotfiles/shell/aliases.sh
-~/dotfiles/shell/base16.sh
+source ~/dotfiles/shell/aliases.sh
+source ~/dotfiles/shell/base16.sh
 
 # ==============================
 # zsh specific stuff

@@ -41,7 +41,7 @@ usermod -aG sudo pat
 
 # put public ssh key in authorized_keys
 mkdir /home/pat/.ssh
-curl https://raw.githubusercontent.com/pricheal/dotfiles/master/id_rsa.pub -o ~/.ssh/authorized_keys
+curl https://raw.githubusercontent.com/pricheal/dotfiles/master/id_rsa.pub -o /home/pat/.ssh/authorized_keys
 chown -R pat:pat /home/pat/.ssh
 
 # -> login as pat

@@ -2,7 +2,11 @@
 # source: https://github.com/pricheal/dotfiles
 
 # general aliases
-alias ls='ls -GF'
+if [ "$(uname)" = "Darwin" ]; then # macos
+    alias ls='ls -GF'
+elif [ "$(uname)" = "Linux" ]; then # linux
+    alias ls='ls -F --color'
+fi
 alias less='less -S'
 
 # quick nav aliases

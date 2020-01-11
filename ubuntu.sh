@@ -18,7 +18,7 @@ source ~/.profile
 brew install zsh
 echo "emulate sh -c 'source ~/.profile'" >> ~/.zprofile # make zsh run ~/.profile
 which zsh | sudo tee -a /etc/shells
-sudo chsh -s $(which zsh)
+sudo chsh -s $(which zsh) $USER
 
 # install docker (from https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 sudo apt-get update
@@ -28,7 +28,6 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 sudo apt-get update
 sudo apt-get -y install docker-ce docker-ce-cli containerd.io
 sudo usermod -aG docker $USER
-newgrp docker
 
 # install docker compose (from https://docs.docker.com/compose/install/)
 sudo curl -L "https://github.com/docker/compose/releases/download/1.25.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
@@ -54,6 +53,8 @@ brew install neofetch
 # misc
 # ==================================================
 
+touch ~/installs_finished
+
 # download base16
 git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shell
 
@@ -69,3 +70,5 @@ lesskey ~/dotfiles/.lesskey
 # set shell theme
 source ~/dotfiles/shell/base16.sh
 base16_eighties
+
+touch ~/bootstrap_finished

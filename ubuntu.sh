@@ -10,7 +10,7 @@
 # install homebrew
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
 sudo apt-get update
-sudo apt-get install build-essential
+sudo apt-get -y install build-essential
 echo 'eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)' >> ~/.profile
 source ~/.profile
 

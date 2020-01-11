@@ -11,7 +11,7 @@ Clone repository to home directory, run mac.sh bootstrap script
 ```sh
 # clone dotfiles and run bootstrap script
 git clone https://github.com/pricheal/dotfiles.git ~/dotfiles
-zsh ~/dotfiles/mac.sh
+nohup ~/dotfiles/mac.sh > ~/bootstrap.out
 ```
 
 #### Manual stuff
@@ -48,7 +48,7 @@ chown -R pat:pat /home/pat/.ssh
 
 # clone dotfiles and run bootstrap script
 git clone https://github.com/pricheal/dotfiles.git ~/dotfiles
-bash ~/dotfiles/ubuntu.sh
+nohup ~/dotfiles/ubuntu.sh > ~/bootstrap.out
 ```
 
 ## dev to do

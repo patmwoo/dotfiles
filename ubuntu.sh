@@ -28,7 +28,7 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io
 sudo groupadd docker # todo: remove if not needed
-sudo usermod -aG docker pat
+sudo usermod -aG docker $USER
 newgrp docker
 
 # install docker compose (from https://docs.docker.com/compose/install/)
@@ -58,7 +58,7 @@ brew install neofetch
 git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shell
 
 # symlink files to home folder
-ln -sf ~/dotfiles/.zshrc ~/.zshrc && source ~/.zshrc
+ln -sf ~/dotfiles/.zshrc ~/.zshrc && source ~/.zshrc # todo: make sure this sources properly
 ln -sf ~/dotfiles/.vimrc ~/.vimrc
 ln -sf ~/dotfiles/.tmux.conf ~/.tmux.conf
 ln -sf ~/dotfiles/.gitconfig ~/.gitconfig

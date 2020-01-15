@@ -55,13 +55,13 @@ tmux new -s bootstrap ~/dotfiles/ubuntu.sh
 
 In the pursuit of command line only development
 
+* add ubuntu mono install to mac.sh
+* add notes for iterm for font settings
+* switch back to bash
 * create system to pull private ssh key from 1password into new environments
 * create ssh config file
-* add roboto mono font install to mac.sh script
-* look into zsh parameter auto complete (and for git / docker)
-* figure out esc remap for macos
-* get git status in left prompt (put the vi mode in there too)
-* put user and host in prompt
+* look into bash auto complete
+* make better prompt (user/host, git info, vi mode)
 * figure out gpg keys for git
 * vim plugin manager
 * vim base 16
@@ -69,5 +69,4 @@ In the pursuit of command line only development
 * understand everything about vim sensible
 * figure out a vim file manager
 * fzf
-* usql
 * httpie, http-prompt, jq

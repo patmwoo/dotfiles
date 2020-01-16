@@ -57,6 +57,7 @@ In the pursuit of command line only development
 
 * add ubuntu mono install to mac.sh
 * add notes for iterm for font settings
+* change tmux bottom bar right prompt
 * switch back to bash
 * create system to pull private ssh key from 1password into new environments
 * create ssh config file

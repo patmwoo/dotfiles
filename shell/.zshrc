@@ -9,6 +9,12 @@ source ~/dotfiles/shell/aliases.sh
 source ~/dotfiles/shell/base16.sh
 
 # ==============================
+# fitdegree stuff
+# ==============================
+
+export PATH=$PATH:~/dev/fitdegree/scripts/bin
+
+# ==============================
 # zsh specific stuff
 # ==============================
 

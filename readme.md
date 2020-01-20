@@ -61,7 +61,7 @@ In the pursuit of command line only development
 * switch back to bash
 * create system to pull private ssh key from 1password into new environments
 * create ssh config file
-* look into bash auto complete
+* look into bash auto complete (git & docker)
 * make better prompt (user/host, git info, vi mode)
 * figure out gpg keys for git
 * vim plugin manager

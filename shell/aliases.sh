@@ -12,4 +12,3 @@ alias less='less -S'
 # quick nav aliases
 alias dev='cd ~/dev/'
 alias docroot='cd /usr/local/var/www'
-alias fd='cd ~/dev/fitdegree'

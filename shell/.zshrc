@@ -12,7 +12,8 @@ source ~/dotfiles/shell/base16.sh
 # fitdegree stuff
 # ==============================
 
-export PATH=$PATH:~/dev/fitdegree/scripts/bin
+FD=~/dev/fitdegree
+export PATH=$PATH:$FD/scripts/bin
 
 # ==============================
 # zsh specific stuff

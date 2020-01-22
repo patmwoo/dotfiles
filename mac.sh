@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 
 # mac.sh, sets up my macos environment
 # source: https://github.com/pricheal/dotfiles
@@ -9,6 +9,11 @@
 
 # install homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+# install bash
+brew install bash
+which bash | sudo tee -a /etc/shells
+chsh -s $(which bash)
 
 # install docker
 brew cask install docker

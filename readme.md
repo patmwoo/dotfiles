@@ -28,7 +28,9 @@ git clone https://github.com/pricheal/dotfiles.git ~/dotfiles
 * Install 1password x for chrome, logic pro, pages, numbers, and keynote
 * Put *installed* apps on second page of launch pad
 * Set dock apps to finder, calendar, notes, reminders, photos, messages, spotify, chrome, slack, vs code, iterm, system preferences
-* iTerm, set font to roboto mono under preferences -> profiles -> text, enable *applications in terminal may access clipboard* under preferences -> general -> selection
+* iTerm
+  * Set font to roboto mono, font size to 14, n/n to 108 under preferences -> profiles -> tex
+  * Enable *applications in terminal may access clipboard* under preferences -> general -> selection
 
 ## ubuntu server
 
@@ -55,8 +57,6 @@ tmux new -s bootstrap ~/dotfiles/ubuntu.sh
 
 In the pursuit of command line only development
 
-* add ubuntu mono install to mac.sh
-* add notes for iterm for font settings
 * change tmux bottom bar right prompt
 * switch back to bash
 * create system to pull private ssh key from 1password into new environments

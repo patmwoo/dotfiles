@@ -57,3 +57,6 @@ lesskey ~/dotfiles/.lesskey
 
 # set shell theme
 base16_eighties
+
+# copy fonts to font folder
+cp ~/dotfiles/fonts/UbuntuMono* ~/Library/Fonts

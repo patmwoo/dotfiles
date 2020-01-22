@@ -6,12 +6,12 @@ dotfiles and scripts for setting up development environments
 
 #### Setup instructions
 
-Clone repository to home directory, run mac.sh bootstrap script
+Clone repository to home directory, run bootstrap.sh script
 
 ```sh
 # clone dotfiles and run bootstrap script
 git clone https://github.com/pricheal/dotfiles.git ~/dotfiles
-~/dotfiles/mac.sh
+~/dotfiles/bootstrap.sh
 ```
 
 #### Manual stuff
@@ -34,7 +34,7 @@ git clone https://github.com/pricheal/dotfiles.git ~/dotfiles
 
 ## ubuntu server
 
-Add user, clone repository to home directory, run ubuntu.sh bootstrap script
+Add user, clone repository to home directory, run bootstrap.sh script
 
 ```sh
 # make pat user
@@ -50,14 +50,13 @@ chown -R pat:pat /home/pat/.ssh
 
 # clone dotfiles and run bootstrap script
 git clone https://github.com/pricheal/dotfiles.git ~/dotfiles
-tmux new -s bootstrap ~/dotfiles/ubuntu.sh
+tmux new -s bootstrap ~/dotfiles/bootstrap.sh
 ```
 
 ## dev to do
 
 In the pursuit of command line only development
 
-* switch back to bash
 * create system to pull private ssh key from 1password into new environments
 * create ssh config file
 * look into bash auto complete (git & docker)

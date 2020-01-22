@@ -57,7 +57,6 @@ tmux new -s bootstrap ~/dotfiles/ubuntu.sh
 
 In the pursuit of command line only development
 
-* change tmux bottom bar right prompt
 * switch back to bash
 * create system to pull private ssh key from 1password into new environments
 * create ssh config file

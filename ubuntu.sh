@@ -14,12 +14,6 @@ sudo apt-get -y install build-essential
 echo 'eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)' >> ~/.profile
 source ~/.profile
 
-# install zsh
-brew install zsh
-echo "emulate sh -c 'source ~/.profile'" >> ~/.zprofile # make zsh run ~/.profile
-which zsh | sudo tee -a /etc/shells
-sudo chsh -s $(which zsh) $USER
-
 # install docker (from https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 sudo apt-get update
 sudo apt-get -y install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
@@ -57,7 +51,7 @@ brew install neofetch
 git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shell
 
 # symlink files to home folder
-ln -sf ~/dotfiles/shell/.zshrc ~/.zshrc
+ln -sf ~/dotfiles/.bashrc && source ~/.bashrc
 ln -sf ~/dotfiles/.vimrc ~/.vimrc
 ln -sf ~/dotfiles/.tmux.conf ~/.tmux.conf
 ln -sf ~/dotfiles/.gitconfig ~/.gitconfig
@@ -66,5 +60,4 @@ ln -sf ~/dotfiles/.gitconfig ~/.gitconfig
 lesskey ~/dotfiles/.lesskey
 
 # set shell theme
-source ~/dotfiles/shell/base16.sh
 base16_eighties

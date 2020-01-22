@@ -43,11 +43,14 @@ brew cask install discord
 # misc
 # ==================================================
 
+# copy fonts to font folder
+cp ~/dotfiles/fonts/UbuntuMono* ~/Library/Fonts
+
 # download base16
 git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shell
 
 # symlink files to home folder
-ln -sf ~/dotfiles/shell/.zshrc ~/.zshrc && source ~/.zshrc
+ln -sf ~/dotfiles/.bashrc ~/.bashrc && source ~/.bashrc
 ln -sf ~/dotfiles/.vimrc ~/.vimrc
 ln -sf ~/dotfiles/.tmux.conf ~/.tmux.conf
 ln -sf ~/dotfiles/.gitconfig ~/.gitconfig
@@ -58,5 +61,3 @@ lesskey ~/dotfiles/.lesskey
 # set shell theme
 base16_eighties
 
-# copy fonts to font folder
-cp ~/dotfiles/fonts/UbuntuMono* ~/Library/Fonts

@@ -48,5 +48,7 @@ ln -sf ~/dotfiles/.gitconfig ~/.gitconfig
 # generate key bindings for less
 lesskey ~/dotfiles/.lesskey
 
-# set shell theme
-base16_eighties
+# set base16 shell theme
+shopt -s expand_aliases
+eval "$(~/.config/base16-shell/profile_helper.sh)"
+base16_tube

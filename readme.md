@@ -57,6 +57,7 @@ tmux new -s bootstrap ~/dotfiles/bootstrap.sh
 
 In the pursuit of command line only development
 
+* fix issue with base16 shell command at end of bootstrap script
 * create system to pull private ssh key from 1password into new environments
 * create ssh config file
 * look into bash auto complete (git & docker)

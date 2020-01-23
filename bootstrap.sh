@@ -8,9 +8,9 @@
 # ==================================================
 
 if [ "$(uname -s)" == "Darwin" ]; then
-    ~/dotfiles/mac.sh
+    source ~/dotfiles/mac.sh
 elif [ "$(uname -s)" == "Linux" ]; then
-    ~/dotfiles/ubuntu.sh
+    source ~/dotfiles/ubuntu.sh
 fi
 
 # ==================================================

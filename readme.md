@@ -29,7 +29,7 @@ git clone https://github.com/pricheal/dotfiles.git ~/dotfiles
 * Put *installed* apps on second page of launch pad
 * Set dock apps to finder, calendar, notes, reminders, photos, messages, spotify, chrome, slack, vs code, iterm, system preferences
 * iTerm
-  * Set font to roboto mono, font size to 14, n/n to 108 under preferences -> profiles -> tex
+  * Set font to roboto mono, font size to 14, n/n to 108 under preferences -> profiles -> text
   * Enable *applications in terminal may access clipboard* under preferences -> general -> selection
 
 ## ubuntu server

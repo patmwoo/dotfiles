@@ -61,7 +61,7 @@ In the pursuit of command line only development
 * fix issue with base16 shell command at end of bootstrap script
 * create system to pull private ssh key from 1password into new environments
 * create ssh config file
-* look into bash auto complete (git & docker)
+* look into bash auto complete (docker)
 * make better prompt (user/host, git info, vi mode)
 * figure out gpg keys for git
 * vim plugin manager

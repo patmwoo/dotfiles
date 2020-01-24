@@ -25,7 +25,7 @@ git clone https://github.com/pricheal/dotfiles.git ~/dotfiles
 * Trackpad preferences, set tracking speed to third to last tick, disable *force click and haptic feedback*, disable swipe between pages (under gestures)
 * Enable battery percentage from battery icon on menu bar
 * Manually remove downloads folder from dock
-* Install 1password x for chrome, logic pro, pages, numbers, and keynote
+* Install 1password x for chrome
 * Put *installed* apps on second page of launch pad
 * Set dock apps to finder, calendar, notes, reminders, photos, messages, spotify, chrome, slack, vs code, iterm, system preferences
 * iTerm

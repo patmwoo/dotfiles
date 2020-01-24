@@ -29,6 +29,13 @@ brew cask install datagrip
 brew cask install cyberduck
 brew cask install discord
 
+# install mac app store apps
+brew install mas
+mas install 409201541 # pages
+mas install 409203825 # numbers
+mas install 409183694 # keynote
+mas install 634148309 # logic pro
+
 # ==================================================
 # misc
 # ==================================================

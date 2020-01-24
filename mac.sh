@@ -33,6 +33,6 @@ brew cask install discord
 # misc
 # ==================================================
 
-# copy fonts to font folder
-cp ~/dotfiles/fonts/UbuntuMono* ~/Library/Fonts
-
+# install fonts
+brew tap homebrew/cask-fonts
+brew cask install font-ubuntu

@@ -13,7 +13,7 @@
 # install bash
 brew install bash
 which bash | sudo tee -a /etc/shells
-chsh -s $(which bash)
+sudo chsh -s $(which bash) $USER
 
 # install docker
 brew cask install docker

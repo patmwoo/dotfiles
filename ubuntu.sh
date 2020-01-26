@@ -27,3 +27,8 @@ sudo usermod -aG docker $USER
 sudo curl -L "https://github.com/docker/compose/releases/download/1.25.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 
+# install 1password cli
+curl -L https://cache.agilebits.com/dist/1P/op/pkg/v0.8.0/op_linux_amd64_v0.8.0.zip -o ~/op.zip
+unzip ~/op.zip -d ~/op
+mv ~/op/op /usr/local/bin/op
+rm -rf ~/op ~/op.zip

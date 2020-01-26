@@ -45,6 +45,7 @@ usermod -aG sudo pat
 mkdir /home/pat/.ssh
 curl https://raw.githubusercontent.com/pricheal/dotfiles/master/id_rsa.pub -o /home/pat/.ssh/authorized_keys
 chown -R pat:pat /home/pat/.ssh
+chmod -R 600 /home/pat/.ssh
 
 # -> login as pat
 

@@ -63,6 +63,7 @@ tmux new -s bootstrap ~/dotfiles/bootstrap.sh
 
 In the pursuit of command line only development
 
+* look into colors not working right on blink.sh
 * setup mosh
 * setup basic inputrc that enables vim mode
 * forward mailbox subdomain to digital ocean droplet, add host to ssh config

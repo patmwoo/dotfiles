@@ -63,8 +63,7 @@ tmux new -s bootstrap ~/dotfiles/bootstrap.sh
 
 In the pursuit of command line only development
 
-* create system to pull private ssh key from 1password into new environments
-* create ssh config file
+* forward mailbox subdomain to digital ocean droplet, add host to ssh config
 * look into bash auto complete (docker)
 * make better prompt (user/host, git info, vi mode)
 * figure out gpg keys for git

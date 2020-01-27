@@ -2,4 +2,5 @@
 # source: https://github.com/pricheal/dotfiles
 
 Host *
+  IgnoreUnknown UseKeychain
   UseKeychain yes

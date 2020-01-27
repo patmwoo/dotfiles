@@ -9,6 +9,7 @@ op get document $(op list documents | jq -r '.[] | select(.overview.title == "SS
 chmod 600 ~/.ssh/id_rsa
 eval $(ssh-agent -s)
 
+# ssh-add -K stores private key passphrase in keychain on macos
 if [ "$(uname -s)" == "Darwin" ]; then
     ssh-add -K
 elif [ "$(uname -s)" == "Linux" ]; then

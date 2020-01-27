@@ -28,6 +28,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 # install 1password cli
 curl -L https://cache.agilebits.com/dist/1P/op/pkg/v0.8.0/op_linux_amd64_v0.8.0.zip -o ~/op.zip
+sudo apt-get -y install unzip
 unzip ~/op.zip -d ~/op
 sudo mv ~/op/op /usr/local/bin/op
 rm -rf ~/op ~/op.zip

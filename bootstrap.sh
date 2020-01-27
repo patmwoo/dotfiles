@@ -45,6 +45,7 @@ ln -sf ~/dotfiles/.vimrc ~/.vimrc
 ln -sf ~/dotfiles/.tmux.conf ~/.tmux.conf
 ln -sf ~/dotfiles/.gitconfig ~/.gitconfig
 ln -sf ~/dotfiles/.profile ~/.profile
+ln -sf ~/dotfiles/ssh-config ~/.ssh/config
 
 # generate key bindings for less
 lesskey ~/dotfiles/.lesskey

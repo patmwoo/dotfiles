@@ -1,0 +1,5 @@
+# ssh-config, config file for ssh
+# source: https://github.com/pricheal/dotfiles
+
+Host *
+  UseKeychain yes

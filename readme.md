@@ -1,6 +1,6 @@
 # dotfiles
 
-dotfiles and scripts for setting up development environments
+minimalist dotfiles for macos and linux
 
 ## macos
 

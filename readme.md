@@ -63,7 +63,6 @@ tmux new -s bootstrap ~/dotfiles/bootstrap.sh
 
 In the pursuit of command line only development
 
-* make tmux use v and y in copy mode
 * look into colors not working right on blink.sh
 * setup mosh
 * setup basic inputrc that enables vim mode

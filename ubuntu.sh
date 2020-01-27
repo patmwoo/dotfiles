@@ -11,8 +11,7 @@
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
 sudo apt-get update
 sudo apt-get -y install build-essential
-echo 'eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)' >> ~/.profile
-source ~/.profile
+eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 
 # install docker (from https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 sudo apt-get update
@@ -30,5 +29,5 @@ sudo chmod +x /usr/local/bin/docker-compose
 # install 1password cli
 curl -L https://cache.agilebits.com/dist/1P/op/pkg/v0.8.0/op_linux_amd64_v0.8.0.zip -o ~/op.zip
 unzip ~/op.zip -d ~/op
-mv ~/op/op /usr/local/bin/op
+sudo mv ~/op/op /usr/local/bin/op
 rm -rf ~/op ~/op.zip

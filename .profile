@@ -1,10 +1,6 @@
 # .profile, profile for login shells
 # source: https://github.com/pricheal/dotfiles
 
-# ==============================
-# aliases 
-# ==============================
-
 # if running bash
 if [ -n "$BASH_VERSION" ]; then
     # include .bashrc if it exists

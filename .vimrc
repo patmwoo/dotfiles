@@ -30,6 +30,9 @@ set background=dark
 " make base16 vim work with base16 shell
 "if filereadable(expand("~/.vimrc_background"))
 "  let base16colorspace=256
+
+  " needed to make base16 vim work on blink shell because base16 shell
+  " doesn't work on blink shell
 "  if has("termguicolors")
 "    set termguicolors
 "  endif

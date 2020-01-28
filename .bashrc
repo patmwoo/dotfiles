@@ -2,6 +2,13 @@
 # source: https://github.com/pricheal/dotfiles
 
 # ==============================
+# general
+# ==============================
+
+# set editor var
+export EDITOR=vim
+
+# ==============================
 # aliases 
 # ==============================
 

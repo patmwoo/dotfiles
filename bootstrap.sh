@@ -28,6 +28,7 @@ brew install vim
 brew install less
 brew install httpie
 brew install jq
+brew install mosh
 
 # install cli stuff
 brew install neofetch

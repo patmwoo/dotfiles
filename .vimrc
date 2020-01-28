@@ -23,13 +23,15 @@ endif
 " plugins
 call plug#begin()
 Plug 'chriskempson/base16-vim'
+Plug 'morhetz/gruvbox'
 call plug#end()
-
+colorscheme gruvbox
+set background=dark
 " make base16 vim work with base16 shell
-if filereadable(expand("~/.vimrc_background"))
-  let base16colorspace=256
-  if has("termguicolors")
-    set termguicolors
-  endif
-  source ~/.vimrc_background
-endif
+"if filereadable(expand("~/.vimrc_background"))
+"  let base16colorspace=256
+"  if has("termguicolors")
+"    set termguicolors
+"  endif
+"  source ~/.vimrc_background
+"endif

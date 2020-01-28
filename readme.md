@@ -64,7 +64,9 @@ tmux new -s bootstrap ~/dotfiles/bootstrap.sh
 
 In the pursuit of command line only development
 
-* look into broken vim colors with mosh on blink shell
+* get rid of base16 shell/vim
+* setup terminal themes for iterm/blink
+* find starter vim theme
 * forward mailbox subdomain to digital ocean droplet, add host to ssh config
 * look into bash auto complete (docker)
 * make better prompt (user/host, git info)

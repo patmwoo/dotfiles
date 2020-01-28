@@ -14,6 +14,3 @@ if [ -z "$SSH_AUTH_SOCK" ] ; then
   eval `ssh-agent -s`
   ssh-add
 fi
-
-# needed so linux brew works
-eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)

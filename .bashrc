@@ -28,3 +28,12 @@ BASE16_SHELL="$HOME/.config/base16-shell/"
 
 FD=~/dev/fitdegree
 export PATH=$PATH:$FD/scripts/bin
+
+# ==============================
+# misc
+# ==============================
+
+# needed so linux brew works (only on linux)
+if [ "$(uname)" = "Linux" ]; then
+    eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+fi

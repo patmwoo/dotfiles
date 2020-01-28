@@ -69,8 +69,6 @@ In the pursuit of command line only development
 * look into bash auto complete (docker)
 * make better prompt (user/host, git info)
 * figure out gpg keys for git
-* vim plugin manager
-* vim base 16
 * vim fugitive
 * understand everything about vim sensible
 * figure out a vim file manager

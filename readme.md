@@ -57,6 +57,7 @@ tmux new -s bootstrap ~/dotfiles/bootstrap.sh
 ## blink.sh
 
 * Retrieve private key to ssh into remote servers, 1password app -> ssh private key -> view document -> copy private key to clip board -> blink app -> run `config` command -> keys -> plus -> import from clipboard
+* Set caps lock to ctrl, blink app -> run `config` command -> keyboard -> caps lock -> as modifier, ctrl
 * Add ubuntu mono font, blink app -> run `config` command -> appearance -> add a new font -> open gallery -> ubuntu mono.css -> view raw -> copy url -> paste into blink app -> import -> set name -> save -> select font -> open new terminal
 
 ## dev to do

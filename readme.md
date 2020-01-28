@@ -65,10 +65,9 @@ In the pursuit of command line only development
 
 * look into colors not working right on blink.sh
 * setup mosh
-* setup basic inputrc that enables vim mode
 * forward mailbox subdomain to digital ocean droplet, add host to ssh config
 * look into bash auto complete (docker)
-* make better prompt (user/host, git info, vi mode)
+* make better prompt (user/host, git info)
 * figure out gpg keys for git
 * vim plugin manager
 * vim base 16

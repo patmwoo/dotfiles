@@ -1,16 +1,13 @@
 # .profile, profile for login shells
 # source: https://github.com/pricheal/dotfiles
 
-# if running bash
+# if running bash, source bashrc
 if [ -n "$BASH_VERSION" ]; then
-    # include .bashrc if it exists
-    if [ -f "$HOME/.bashrc" ]; then
-	. "$HOME/.bashrc"
-    fi
+    source ~/.bashrc
 fi
 
-# start up ssh agent
-if [ -z "$SSH_AUTH_SOCK" ] ; then
-  eval `ssh-agent -s`
-  ssh-add
+# if linux, start keychain
+if [ "$(uname -s)" == "Linux" ]; then
+    keychain ~/.ssh/id_rsa
+    source ~/.keychain/$HOSTNAME-sh
 fi

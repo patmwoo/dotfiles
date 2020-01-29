@@ -3,9 +3,9 @@
 # bootstrap.sh, sets up unix dev environment
 # source: https://github.com/pricheal/dotfiles
 
-# ==================================================
+# ==============================
 # os specific stuff
-# ==================================================
+# ==============================
 
 if [ "$(uname -s)" == "Darwin" ]; then
     source ~/dotfiles/mac.sh
@@ -13,9 +13,9 @@ elif [ "$(uname -s)" == "Linux" ]; then
     source ~/dotfiles/ubuntu.sh
 fi
 
-# ==================================================
+# ==============================
 # installs
-# ==================================================
+# ==============================
 
 # install docker sync
 brew install ruby
@@ -33,9 +33,9 @@ brew install mosh
 # install cli stuff
 brew install neofetch
 
-# ==================================================
+# ==============================
 # setup
-# ==================================================
+# ==============================
 
 # symlink files to home folder
 ln -sf ~/dotfiles/.bashrc ~/.bashrc && source ~/.bashrc

@@ -6,8 +6,7 @@ if [ -n "$BASH_VERSION" ]; then
     source ~/.bashrc
 fi
 
-# if linux, start keychain
+# if linux, source keychain
 if [ "$(uname -s)" == "Linux" ]; then
-    keychain ~/.ssh/id_rsa
     source ~/.keychain/$HOSTNAME-sh
 fi

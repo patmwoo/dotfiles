@@ -32,3 +32,6 @@ sudo apt-get -y install unzip
 unzip ~/op.zip -d ~/op
 sudo mv ~/op/op /usr/local/bin/op
 rm -rf ~/op ~/op.zip
+
+# install keychain
+sudo apt-get -y install keychain

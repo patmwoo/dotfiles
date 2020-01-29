@@ -75,8 +75,9 @@ Do this stuff manually
 
 In the pursuit of command line only development
 
-* forward mailbox subdomain to digital ocean droplet, add host to ssh config
-* look into bash auto complete (docker)
+* figure out ssh keychain for ubuntu remote server
+* setup ls colors
+* setup docker/tmux completion
 * make better prompt (user/host, git info)
 * figure out gpg keys for git
 * vim fugitive

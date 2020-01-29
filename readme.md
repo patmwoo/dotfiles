@@ -75,7 +75,6 @@ Do this stuff manually
 
 In the pursuit of command line only development
 
-* figure out ssh keychain for ubuntu remote server
 * setup ls colors
 * setup docker/tmux completion
 * make better prompt (user/host, git info)

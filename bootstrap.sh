@@ -44,6 +44,7 @@ ln -sf ~/dotfiles/.tmux.conf ~/.tmux.conf
 ln -sf ~/dotfiles/.gitconfig ~/.gitconfig
 ln -sf ~/dotfiles/.profile ~/.profile
 ln -sf ~/dotfiles/ssh-config ~/.ssh/config
+ln -sf ~/dotfiles/id_rsa.pub ~/.ssh/id_rsa.pub
 
 # generate key bindings for less
 lesskey ~/dotfiles/.lesskey

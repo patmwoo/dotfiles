@@ -20,17 +20,18 @@ git clone https://github.com/pricheal/dotfiles.git ~/dotfiles
 * General preferences, set appearance (light/dark) to auto
 * Dock preferences, enable auto hide/show, enable minimize window into app icon, disable show recent applications
 * Mission control preferences, disable auto rearrange of spaces
-* Notification settings, disable *show notification preview* for messages
-* Keyboard preferences, set both *key repeat* and *delay until repeat* to second to last tick, rebind caps lock to ctrl in modifier keys, disable add period with double space
-* Trackpad preferences, set tracking speed to third to last tick, disable *force click and haptic feedback*, disable swipe between pages (under gestures)
+* Notification settings, disable show notification preview for messages
+* Keyboard preferences, set both key repeat and delay until repeat to second to last tick, rebind caps lock to ctrl in modifier keys, disable add period with double space
+* Trackpad preferences, set tracking speed to third to last tick, disable force click and haptic feedback, disable swipe between pages (under gestures)
 * Enable battery percentage from battery icon on menu bar
 * Manually remove downloads folder from dock
 * Install 1password x for chrome
-* Put *installed* apps on second page of launch pad
+* Put installed apps on second page of launch pad
 * Set dock apps to finder, calendar, notes, reminders, photos, messages, spotify, chrome, slack, vs code, iterm, system preferences
 * iTerm
+  * Set color scheme to [afterglow](https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/Afterglow.itermcolors) under preferences -> profiles -> colors -> color presets -> import
   * Set font to roboto mono, font size to 14, n/n to 108 under preferences -> profiles -> text
-  * Enable *applications in terminal may access clipboard* under preferences -> general -> selection
+  * Enable applications in terminal may access clipboard under preferences -> general -> selection
 
 ## ubuntu server
 

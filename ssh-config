@@ -4,3 +4,6 @@
 Host *
   IgnoreUnknown UseKeychain
   UseKeychain yes
+Host mailbox
+  HostName mailbox.patricheal.com
+  User pat

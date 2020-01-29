@@ -3,9 +3,9 @@
 # ubuntu.sh, ubuntu specific setup stuff
 # source: https://github.com/pricheal/dotfiles
 
-# ==================================================
+# ==============================
 # installs
-# ==================================================
+# ==============================
 
 # install homebrew
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"

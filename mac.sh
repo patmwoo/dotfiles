@@ -3,9 +3,9 @@
 # mac.sh, macos specific setup stuff
 # source: https://github.com/pricheal/dotfiles
 
-# ==================================================
+# ==============================
 # installs
-# ==================================================
+# ==============================
 
 # install homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -37,9 +37,9 @@ mas install 409203825 # numbers
 mas install 409183694 # keynote
 mas install 634148309 # logic pro
 
-# ==================================================
+# ==============================
 # misc
-# ==================================================
+# ==============================
 
 # install fonts
 brew tap homebrew/cask-fonts

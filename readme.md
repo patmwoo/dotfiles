@@ -75,7 +75,6 @@ Do this stuff manually
 
 In the pursuit of command line only development
 
-* find starter vim theme
 * forward mailbox subdomain to digital ocean droplet, add host to ssh config
 * look into bash auto complete (docker)
 * make better prompt (user/host, git info)

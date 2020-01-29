@@ -29,8 +29,8 @@ git clone https://github.com/pricheal/dotfiles.git ~/dotfiles
 * Put installed apps on second page of launch pad
 * Set dock apps to finder, calendar, notes, reminders, photos, messages, spotify, chrome, slack, vs code, iterm, system preferences
 * iTerm
-  * Set color scheme to [afterglow](https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/Afterglow.itermcolors) under preferences -> profiles -> colors -> color presets -> import
-  * Set font to roboto mono, font size to 14, n/n to 108 under preferences -> profiles -> text
+  * Set color scheme ([afterglow](https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/Afterglow.itermcolors))
+  * Set font to roboto mono, font size to 14, n/n to 108
   * Enable applications in terminal may access clipboard under preferences -> general -> selection
 
 ## ubuntu server
@@ -57,10 +57,11 @@ tmux new -s bootstrap ~/dotfiles/bootstrap.sh
 
 ## blink shell
 
-* Retrieve private key to ssh into remote servers, 1password app -> ssh private key -> view document -> copy private key to clip board -> blink app -> run `config` command -> keys -> plus -> import from clipboard
-* Set caps lock to ctrl, blink app -> run `config` command -> keyboard -> caps lock -> as modifier, ctrl
-* Add ubuntu mono font, blink app -> run `config` command -> appearance -> add a new font -> open gallery -> ubuntu mono.css -> view raw -> copy url -> paste into blink app -> import -> set name -> save -> select font -> open new terminal
-* Turn on alternate app icon, -> blink app -> run `config` command -> appearance -> app icon -> turn on alternate
+* Set color scheme (afterglow)
+* Add ubuntu mono font
+* Set caps lock to ctrl
+* Add private ssh key (copy to clipboard from 1password app)
+* Turn on alternate app icon
 
 ## misc notes
 
@@ -74,7 +75,6 @@ tmux new -s bootstrap ~/dotfiles/bootstrap.sh
 
 In the pursuit of command line only development
 
-* setup terminal themes for iterm/blink
 * find starter vim theme
 * forward mailbox subdomain to digital ocean droplet, add host to ssh config
 * look into bash auto complete (docker)

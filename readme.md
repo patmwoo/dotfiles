@@ -4,8 +4,6 @@ minimalist dotfiles for macos and linux
 
 ## macos
 
-#### Setup instructions
-
 Clone repository to home directory, run bootstrap.sh script
 
 ```sh
@@ -14,7 +12,7 @@ git clone https://github.com/pricheal/dotfiles.git ~/dotfiles
 ~/dotfiles/bootstrap.sh
 ```
 
-#### Manual stuff
+Do this stuff manually
 
 * Finder preferences, set default directory to home, remove unused items from sidebar
 * General preferences, set appearance (light/dark) to auto
@@ -56,6 +54,8 @@ tmux new -s bootstrap ~/dotfiles/bootstrap.sh
 ```
 
 ## blink shell
+
+Do this stuff manually
 
 * Set color scheme (afterglow)
 * Add ubuntu mono font

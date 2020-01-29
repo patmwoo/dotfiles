@@ -66,8 +66,8 @@ Do this stuff manually
 ## misc notes
 
 * issues with mosh
-  * doesn't have built in scrool back buffer, need to use tmux ([see issue](https://github.com/mobile-shell/mosh/issues/2))
-  * screen doesn't restore after exitting full screen apps (e.g. vim), but fixed is using tmux ([see issue](https://github.com/mobile-shell/mosh/issues/109))
+  * doesn't have built in scroll back buffer, need to use tmux ([see issue](https://github.com/mobile-shell/mosh/issues/2))
+  * screen doesn't restore after exitting full screen apps (e.g. vim), but fixed when using tmux ([see issue](https://github.com/mobile-shell/mosh/issues/109))
 * issues with blink shell
   * doesn't support setting colors from escape sequences (so no base16 shell) ([see issue](https://github.com/blinksh/blink/issues/540))
 

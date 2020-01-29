@@ -54,17 +54,27 @@ git clone https://github.com/pricheal/dotfiles.git ~/dotfiles
 tmux new -s bootstrap ~/dotfiles/bootstrap.sh
 ```
 
-## blink.sh
+## blink shell
 
 * Retrieve private key to ssh into remote servers, 1password app -> ssh private key -> view document -> copy private key to clip board -> blink app -> run `config` command -> keys -> plus -> import from clipboard
 * Set caps lock to ctrl, blink app -> run `config` command -> keyboard -> caps lock -> as modifier, ctrl
 * Add ubuntu mono font, blink app -> run `config` command -> appearance -> add a new font -> open gallery -> ubuntu mono.css -> view raw -> copy url -> paste into blink app -> import -> set name -> save -> select font -> open new terminal
+* Turn on alternate app icon, -> blink app -> run `config` command -> appearance -> app icon -> turn on alternate
+
+## misc notes
+
+* issues with mosh
+  * doesn't have built in scrool back buffer, need to use tmux ([see issue](https://github.com/mobile-shell/mosh/issues/2))
+  * screen doesn't restore after exitting full screen apps (e.g. vim), but fixed is using tmux ([see issue](https://github.com/mobile-shell/mosh/issues/109))
+* issues with blink shell
+  * doesn't support setting colors from escape sequences (so no base16 shell) ([see issue](https://github.com/blinksh/blink/issues/540))
 
 ## dev to do
 
 In the pursuit of command line only development
 
-* look into broken vim colors with mosh on blink shell
+* setup terminal themes for iterm/blink
+* find starter vim theme
 * forward mailbox subdomain to digital ocean droplet, add host to ssh config
 * look into bash auto complete (docker)
 * make better prompt (user/host, git info)

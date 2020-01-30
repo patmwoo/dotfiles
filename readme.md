@@ -82,3 +82,4 @@ In the pursuit of command line only development
 * figure out a vim file manager
 * fzf
 * httpie, http-prompt, jq
+* grep

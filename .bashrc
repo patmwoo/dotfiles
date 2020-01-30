@@ -12,11 +12,7 @@ export EDITOR=vim
 # aliases 
 # ==============================
 
-if [ "$(uname)" = "Darwin" ]; then # macos
-    alias ls='ls -GF'
-elif [ "$(uname)" = "Linux" ]; then # linux
-    alias ls='ls -F --color'
-fi
+alias ls='ls -F --color'
 alias less='less -S'
 
 # ==============================
@@ -36,7 +32,10 @@ export PATH=$PATH:$FD/scripts/bin
 # misc
 # ==============================
 
-# needed so linux brew works (only on linux)
-if [ "$(uname)" = "Linux" ]; then
+if [ "$(uname)" = "Darwin" ]; then
+    # make it so core utils are before default bsd utils in path
+    PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+elif [ "$(uname)" = "Linux" ]; then
+    # needed for linux brew to work
     eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 fi

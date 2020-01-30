@@ -15,6 +15,9 @@ brew install bash
 which bash | sudo tee -a /etc/shells
 sudo chsh -s $(which bash) $USER
 
+# install gnu core utils
+brew install coreutils
+
 # install docker
 brew cask install docker
 
@@ -36,10 +39,6 @@ mas install 409201541 # pages
 mas install 409203825 # numbers
 mas install 409183694 # keynote
 mas install 634148309 # logic pro
-
-# ==============================
-# misc
-# ==============================
 
 # install fonts
 brew tap homebrew/cask-fonts

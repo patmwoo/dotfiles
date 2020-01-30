@@ -36,6 +36,7 @@ brew install neofetch
 # install completion stuff
 brew install bash-completion
 brew install docker-completion
+sudo curl -L https://raw.githubusercontent.com/Bash-it/bash-it/master/completion/available/tmux.completion.bash -o $(brew --prefix)/etc/bash_completion.d/tmux
 
 # ==============================
 # setup

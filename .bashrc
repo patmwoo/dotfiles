@@ -5,6 +5,12 @@
 # general
 # ==============================
 
+# source bash completion (needs to be before prompt for git ps1)
+source $(brew --prefix)/etc/bash_completion
+
+# set prompt
+export PS1="\n\e[0;32m\u@\h\e[m \w $(__git_ps1 '(%s)')\n$ "
+
 # set editor var
 export EDITOR=vim
 
@@ -25,9 +31,6 @@ export PATH=$PATH:$FD/scripts/bin
 # ==============================
 # misc
 # ==============================
-
-# source bash completion
-source $(brew --prefix)/etc/bash_completion
 
 if [ "$(uname)" = "Darwin" ]; then
     # make it so core utils are before default bsd utils in path

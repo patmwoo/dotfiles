@@ -19,6 +19,7 @@ alias less='less -S'
 # completion
 # ==============================
 
+source $(brew --prefix)/etc/bash_completion
 complete -d cd
 
 # ==============================

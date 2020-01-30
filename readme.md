@@ -75,11 +75,17 @@ Do this stuff manually
 
 In the pursuit of command line only development
 
-* make better prompt (user/host, git info)
+* look into gnu stow
+* test out latest mosh server and base16
 * figure out gpg keys for git
+* set tmux status bar to top
+* set tmux right status text to " 10:53a | Thu | 1/30/20 "
+* make tmux window tags prettier
 * vim fugitive
 * understand everything about vim sensible
 * figure out a vim file manager
+* vim language server
 * fzf
 * httpie, http-prompt, jq
 * grep
+* vim debug for php

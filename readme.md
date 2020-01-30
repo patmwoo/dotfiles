@@ -75,7 +75,6 @@ Do this stuff manually
 
 In the pursuit of command line only development
 
-* setup docker/tmux completion
 * make better prompt (user/host, git info)
 * figure out gpg keys for git
 * vim fugitive
@@ -83,3 +82,4 @@ In the pursuit of command line only development
 * figure out a vim file manager
 * fzf
 * httpie, http-prompt, jq
+* grep

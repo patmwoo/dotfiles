@@ -5,6 +5,16 @@
 # general
 # ==============================
 
+# platform dependent stuff
+if [ "$(uname)" = "Darwin" ]; then
+    # make it so core utils are before default bsd utils in path
+    PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+elif [ "$(uname)" = "Linux" ]; then
+    # needed for linux brew to work (also has to be before brew
+    # --prefix below)
+    eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+fi
+
 # source bash completion (needs to be before git ps1)
 source $(brew --prefix)/etc/bash_completion
 
@@ -30,15 +40,3 @@ alias less='less -S'
 
 FD=~/dev/fitdegree
 export PATH=$PATH:$FD/scripts/bin
-
-# ==============================
-# misc
-# ==============================
-
-if [ "$(uname)" = "Darwin" ]; then
-    # make it so core utils are before default bsd utils in path
-    PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
-elif [ "$(uname)" = "Linux" ]; then
-    # needed for linux brew to work
-    eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
-fi

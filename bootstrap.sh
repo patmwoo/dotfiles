@@ -32,7 +32,10 @@ brew install mosh
 
 # install misc stuff
 brew install neofetch
+
+# install completion stuff
 brew install bash-completion
+brew install docker-completion
 
 # ==============================
 # setup

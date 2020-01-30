@@ -16,13 +16,6 @@ alias ls='ls -F --color'
 alias less='less -S'
 
 # ==============================
-# completion
-# ==============================
-
-source $(brew --prefix)/etc/bash_completion
-complete -d cd
-
-# ==============================
 # fitdegree stuff
 # ==============================
 
@@ -32,6 +25,9 @@ export PATH=$PATH:$FD/scripts/bin
 # ==============================
 # misc
 # ==============================
+
+# source bash completion
+source $(brew --prefix)/etc/bash_completion
 
 if [ "$(uname)" = "Darwin" ]; then
     # make it so core utils are before default bsd utils in path

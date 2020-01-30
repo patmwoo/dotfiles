@@ -30,8 +30,9 @@ brew install httpie
 brew install jq
 brew install mosh
 
-# install cli stuff
+# install misc stuff
 brew install neofetch
+brew install bash-completion
 
 # ==============================
 # setup

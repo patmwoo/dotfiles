@@ -5,11 +5,14 @@
 # general
 # ==============================
 
-# source bash completion (needs to be before prompt for git ps1)
+# source bash completion (needs to be before git ps1)
 source $(brew --prefix)/etc/bash_completion
 
 # set prompt
-export PS1="\n\e[0;32m\u@\h\e[m \w $(__git_ps1 '(%s)')\n$ "
+GIT_PS1_SHOWDIRTYSTATE=1
+GIT_PS1_SHOWUNTRACKEDFILES=1
+GIT_PS1_SHOWSTASHSTATE=1
+export PS1='\n\e[0;32m\u@\h\e[m \w $(__git_ps1 "(%s)")\n$ '
 
 # set editor var
 export EDITOR=vim

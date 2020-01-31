@@ -76,7 +76,6 @@ Do this stuff manually
 In the pursuit of command line only development
 
 * look into gnu stow
-* test out latest mosh server and base16
 * figure out gpg keys for git
 * set tmux status bar to top
 * set tmux right status text to " 10:53a | Thu | 1/30/20 "

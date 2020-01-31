@@ -35,3 +35,9 @@ rm -rf ~/op ~/op.zip
 
 # install keychain
 sudo apt-get -y install keychain
+
+# ==============================
+# config
+# ==============================
+
+timedatectl set-timezone America/New_York

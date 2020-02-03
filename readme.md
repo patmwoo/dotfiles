@@ -88,3 +88,4 @@ In the pursuit of command line only development
 * httpie, http-prompt, jq
 * grep
 * vim debug for php
+* add cascadia install to everywhere?

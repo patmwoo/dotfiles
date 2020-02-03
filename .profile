@@ -7,6 +7,6 @@ if [ -n "$BASH_VERSION" ]; then
 fi
 
 # if linux, source keychain
-if [ "$(uname -s)" == "Linux" ]; then
+if [ "$(uname -s)" == "Linux" ] && [ -f ~/.keychain/$HOSTNAME-sh ]; then
     source ~/.keychain/$HOSTNAME-sh
 fi

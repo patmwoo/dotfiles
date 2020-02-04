@@ -27,8 +27,7 @@ Do this stuff manually
 * Put installed apps on second page of launch pad
 * Set dock apps to finder, calendar, notes, reminders, photos, messages, spotify, chrome, slack, vs code, iterm, system preferences
 * iTerm
-  * Set color scheme ([afterglow](https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/Afterglow.itermcolors))
-  * Set font to roboto mono, font size to 14, n/n to 108
+  * Set font to ubuntu mono, font size to 14, n/n to 108
   * Enable applications in terminal may access clipboard under preferences -> general -> selection
 
 ## ubuntu server
@@ -57,27 +56,18 @@ tmux new -s bootstrap ~/dotfiles/bootstrap.sh
 
 Do this stuff manually
 
-* Set color scheme (afterglow)
 * Add ubuntu mono font
 * Set caps lock to ctrl
 * Add private ssh key (copy to clipboard from 1password app)
 * Turn on alternate app icon
 
-## misc notes
-
-* issues with mosh
-  * doesn't have built in scroll back buffer, need to use tmux ([see issue](https://github.com/mobile-shell/mosh/issues/2))
-  * screen doesn't restore after exitting full screen apps (e.g. vim), but fixed when using tmux ([see issue](https://github.com/mobile-shell/mosh/issues/109))
-* issues with blink shell
-  * doesn't support setting colors from escape sequences (so no base16 shell) ([see issue](https://github.com/blinksh/blink/issues/540))
-
 ## dev to do
 
 In the pursuit of command line only development
 
+* try building latest blink shell onto ipad to see if base16 shell works
 * figure out alternate style for fantasque-sans-mono
 * add font install instructions for fantasque-sans-mono
-* retry base16
 * look into gnu stow
 * figure out gpg keys for git
 * set tmux status bar to top

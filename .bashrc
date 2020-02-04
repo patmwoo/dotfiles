@@ -1,10 +1,6 @@
 # .bashrc, config for bash
 # source: https://github.com/pricheal/dotfiles
 
-# ==============================
-# general
-# ==============================
-
 # platform dependent stuff
 if [ "$(uname)" = "Darwin" ]; then
     # make it so core utils are before default bsd utils in path
@@ -27,16 +23,16 @@ export PS1='\n\e[0;32m\u@\h\e[m \w $(__git_ps1 "(%s)")\n$ '
 # set editor var
 export EDITOR=vim
 
-# ==============================
-# aliases 
-# ==============================
+# base16 shell
+BASE16_SHELL="$HOME/.config/base16-shell/"
+[ -n "$PS1" ] && \
+    [ -s "$BASE16_SHELL/profile_helper.sh" ] && \
+        eval "$("$BASE16_SHELL/profile_helper.sh")"
 
+# aliases
 alias ls='ls -F --color'
 alias less='less -S'
 
-# ==============================
 # fitdegree stuff
-# ==============================
-
 FD=~/dev/fitdegree
 export PATH=$PATH:$FD/scripts/bin

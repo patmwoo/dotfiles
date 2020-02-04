@@ -75,6 +75,7 @@ Do this stuff manually
 
 In the pursuit of command line only development
 
+* add font install for fantasque-sans-mono
 * look into gnu stow
 * figure out gpg keys for git
 * set tmux status bar to top
@@ -88,4 +89,3 @@ In the pursuit of command line only development
 * httpie, http-prompt, jq
 * grep
 * vim debug for php
-* add cascadia install to everywhere?

@@ -3,19 +3,11 @@
 # bootstrap.sh, sets up unix dev environment
 # source: https://github.com/pricheal/dotfiles
 
-# ==============================
-# os specific stuff
-# ==============================
-
 if [ "$(uname -s)" == "Darwin" ]; then
     source ~/dotfiles/mac.sh
 elif [ "$(uname -s)" == "Linux" ]; then
     source ~/dotfiles/ubuntu.sh
 fi
-
-# ==============================
-# installs
-# ==============================
 
 # install docker sync
 brew install ruby
@@ -38,9 +30,8 @@ brew install bash-completion
 brew install docker-completion
 sudo curl -L https://raw.githubusercontent.com/Bash-it/bash-it/master/completion/available/tmux.completion.bash -o $(brew --prefix)/etc/bash_completion.d/tmux
 
-# ==============================
-# setup
-# ==============================
+# install base16 shell
+git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shell
 
 # symlink files to home folder
 ln -sf ~/dotfiles/.bashrc ~/.bashrc && source ~/.bashrc
@@ -53,4 +44,3 @@ ln -sf ~/dotfiles/id_rsa.pub ~/.ssh/id_rsa.pub
 
 # generate key bindings for less
 lesskey ~/dotfiles/.lesskey
-

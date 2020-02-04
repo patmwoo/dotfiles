@@ -75,7 +75,9 @@ Do this stuff manually
 
 In the pursuit of command line only development
 
-* add font install for fantasque-sans-mono
+* figure out alternate style for fantasque-sans-mono
+* add font install instructions for fantasque-sans-mono
+* retry base16
 * look into gnu stow
 * figure out gpg keys for git
 * set tmux status bar to top

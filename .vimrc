@@ -1,10 +1,6 @@
 " .vimrc, configs vim
 " source: https://github.com/pricheal/dotfiles
 
-" ==============================
-" plugins
-" ==============================
-
 " install vim plug if necessary
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
@@ -17,10 +13,6 @@ call plug#begin()
 Plug 'chriskempson/base16-vim'
 call plug#end()
 
-" ==============================
-" general
-" ==============================
-
 " make backspace work nicely in insert mode
 set backspace=indent,eol,start
 
@@ -32,3 +24,10 @@ set ruler
 
 " enable syntax highlighting
 syntax on
+
+" base16 vim
+if filereadable(expand("~/.vimrc_background"))
+  set termguicolors
+  let base16colorspace=256
+  source ~/.vimrc_background
+endif

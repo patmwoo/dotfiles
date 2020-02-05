@@ -14,7 +14,7 @@ endif
 
 " plugins
 call plug#begin()
-Plug 'danilo-augusto/vim-afterglow'
+Plug 'chriskempson/base16-vim'
 call plug#end()
 
 " ==============================
@@ -32,6 +32,3 @@ set ruler
 
 " enable syntax highlighting
 syntax on
-
-" set color scheme
-colorscheme afterglow

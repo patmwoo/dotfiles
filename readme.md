@@ -66,8 +66,9 @@ Do this stuff manually
 In the pursuit of command line only development
 
 * try building latest blink shell onto ipad to see if base16 shell works
-* figure out alternate style for fantasque-sans-mono
-* add font install instructions for fantasque-sans-mono
+* make pull request for fantasque-sans-mono-noloopk on blink shell fonts
+* wait for fantasque-sans-mono-noloopk to get onto homebrew cask fonts
+* add font install instructions for fantasque-sans-mono (for mac and blink)
 * look into gnu stow
 * figure out gpg keys for git
 * set tmux status bar to top

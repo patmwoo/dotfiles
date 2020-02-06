@@ -27,7 +27,7 @@ Do this stuff manually
 * Put installed apps on second page of launch pad
 * Set dock apps to finder, calendar, notes, reminders, photos, messages, spotify, chrome, slack, vs code, iterm, system preferences
 * iTerm
-  * Set font to ubuntu mono, font size to 14, n/n to 108
+  * Set font to fantasque sans mono, font size to 14
   * Enable applications in terminal may access clipboard under preferences -> general -> selection
 
 ## ubuntu server
@@ -56,8 +56,8 @@ tmux new -s bootstrap ~/dotfiles/bootstrap.sh
 
 Do this stuff manually
 
-* Add ubuntu mono font
 * Set caps lock to ctrl
+* Add fantasque sans mono font
 * Add private ssh key (copy to clipboard from 1password app)
 * Turn on alternate app icon
 
@@ -67,8 +67,6 @@ In the pursuit of command line only development
 
 * try building latest blink shell onto ipad to see if base16 shell works
 * make pull request for fantasque-sans-mono-noloopk on blink shell fonts
-* wait for fantasque-sans-mono-noloopk to get onto homebrew cask fonts
-* add font install instructions for fantasque-sans-mono (for mac and blink)
 * look into gnu stow
 * figure out gpg keys for git
 * set tmux status bar to top

@@ -42,4 +42,4 @@ mas install 634148309 # logic pro
 
 # install fonts
 brew tap homebrew/cask-fonts
-brew cask install font-ubuntu
+brew cask install font-fantasque-sans-mono-noloopk

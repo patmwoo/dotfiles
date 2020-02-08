@@ -27,7 +27,7 @@ Do this stuff manually
 * Put installed apps on second page of launch pad
 * Set dock apps to finder, calendar, notes, reminders, photos, messages, spotify, chrome, slack, vs code, iterm, system preferences
 * iTerm
-  * Set font to fantasque sans mono, font size to 14
+  * Set font to fantasque sans mono size 14
   * Enable applications in terminal may access clipboard under preferences -> general -> selection
 
 ## ubuntu server
@@ -57,7 +57,7 @@ tmux new -s bootstrap ~/dotfiles/bootstrap.sh
 Do this stuff manually
 
 * Set caps lock to ctrl
-* Add fantasque sans mono font
+* Set font to fantasque sans mono size 14
 * Add private ssh key (copy to clipboard from 1password app)
 * Turn on alternate app icon
 

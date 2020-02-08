@@ -66,7 +66,6 @@ Do this stuff manually
 In the pursuit of command line only development
 
 * try building latest blink shell onto ipad to see if base16 shell works
-* wait for pull request to go in on on blink fonts
 * wait for pull request to go in on homebrew cask fonts
 * look into gnu stow
 * figure out gpg keys for git

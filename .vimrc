@@ -25,16 +25,9 @@ set ruler
 " enable syntax highlighting
 syntax on
 
-" make true color work under vim (see
-" https://github.com/tmux/tmux/issues/1246)
-"if exists('+termguicolors')
-  "let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
-  "let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
-  "set termguicolors
-"endif
-
 " base16 vim
 if filereadable(expand("~/.vimrc_background"))
+  set termguicolors
   let base16colorspace=256
   source ~/.vimrc_background
 endif

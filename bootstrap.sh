@@ -20,7 +20,7 @@ brew install vim
 brew install less
 brew install httpie
 brew install jq
-brew install mosh
+brew install --HEAD mosh # head needed for certain color stuff to work
 
 # install misc stuff
 brew install neofetch

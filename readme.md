@@ -65,8 +65,8 @@ Do this stuff manually
 
 In the pursuit of command line only development
 
+* make vim color changes hook for colorscheme change
 * build custom powerline font
-* look into gnu stow
 * figure out gpg keys for git
 * set tmux right status text to " 10:53a | Thu | 1/30/20 "
 * make tmux window tags prettier

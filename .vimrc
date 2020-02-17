@@ -31,3 +31,6 @@ if filereadable(expand("~/.vimrc_background"))
   let base16colorspace=256
   source ~/.vimrc_background
 endif
+
+" set line number background to normal background color
+execute 'highlight LineNr guibg=#' . g:base16_gui00

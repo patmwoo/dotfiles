@@ -66,9 +66,7 @@ Do this stuff manually
 In the pursuit of command line only development
 
 * wait for pull request to go in on homebrew cask fonts
-* look into gnu stow
 * figure out gpg keys for git
-* set tmux status bar to top
 * set tmux right status text to " 10:53a | Thu | 1/30/20 "
 * make tmux window tags prettier
 * vim fugitive

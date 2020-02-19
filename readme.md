@@ -65,7 +65,7 @@ Do this stuff manually
 
 In the pursuit of command line only development
 
-* build custom powerline font
+* wait for homebrew cask fonts pull request to be merged
 * figure out gpg keys for git
 * set tmux right status text to " 10:53a | Thu | 1/30/20 "
 * make tmux window tags prettier

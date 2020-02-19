@@ -25,12 +25,12 @@ set ruler
 " enable syntax highlighting
 syntax on
 
+" set line number background to normal base16 background color
+autocmd ColorScheme * execute 'highlight LineNr guibg=#' . g:base16_gui00
+
 " base16 vim
 if filereadable(expand("~/.vimrc_background"))
   set termguicolors
   let base16colorspace=256
   source ~/.vimrc_background
 endif
-
-" set line number background to normal background color
-execute 'highlight LineNr guibg=#' . g:base16_gui00

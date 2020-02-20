@@ -40,6 +40,9 @@ mas install 409203825 # numbers
 mas install 409183694 # keynote
 mas install 634148309 # logic pro
 
-# install fonts
-brew tap homebrew/cask-fonts
-brew cask install font-fantasque-sans-mono-noloopk
+# install fantasque sans mono
+mkdir -p $TMPDIR/fantasque-sans
+curl -L https://github.com/belluzj/fantasque-sans/releases/download/v1.7.2/FantasqueSansMono-NoLoopK.tar.gz | tar -x -C $TMPDIR/fantasque-sans
+cp $TMPDIR/fantasque-sans/TTF/* ~/Library/Fonts
+rm -rf $TMPDIR/fantasque-sans
+

@@ -65,11 +65,10 @@ Do this stuff manually
 
 In the pursuit of command line only development
 
-* wait for homebrew cask fonts pull request to be merged
 * figure out gpg keys for git
-* vim fugitive
 * understand everything about vim sensible
 * figure out a vim file manager
+* vim fugitive
 * vim language server
 * fzf
 * httpie, http-prompt, jq

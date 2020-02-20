@@ -67,8 +67,6 @@ In the pursuit of command line only development
 
 * wait for homebrew cask fonts pull request to be merged
 * figure out gpg keys for git
-* set tmux right status text to " 10:53a | Thu | 1/30/20 "
-* make tmux window tags prettier
 * vim fugitive
 * understand everything about vim sensible
 * figure out a vim file manager

@@ -59,6 +59,7 @@ Do this stuff manually
 * Set caps lock to ctrl
 * Set font to fantasque sans mono size 14
 * Add private ssh key (copy to clipboard from 1password app)
+* Add hosts
 * Turn on alternate app icon
 
 ## dev to do

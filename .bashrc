@@ -22,6 +22,7 @@ export PS1='\n\e[0;32m\u@\h\e[m \w $(__git_ps1 "(%s)")\n$ '
 
 # set editor var
 export EDITOR=vim
+export PAGER='less -S'
 
 # base16 shell
 export TERM=xterm-256color

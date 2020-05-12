@@ -6,7 +6,6 @@ dotfiles and stuff
 
 In the pursuit of command line only development
 
-* figure out gpg keys for git
 * understand everything about vim sensible
 * figure out a vim file manager
 * vim fugitive

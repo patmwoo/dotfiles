@@ -3,6 +3,7 @@
 # getkey.sh, script to retrieve private keys
 # source: https://github.com/pricheal/dotfiles
 
+# login to 1password cli
 eval $(op signin my patrickricheal@gmail.com)
 
 # get ssh private key

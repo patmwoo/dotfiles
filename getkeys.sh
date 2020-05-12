@@ -13,3 +13,4 @@ chmod 600 ~/.ssh/id_rsa
 # get gpg private key
 op get document $(op list documents | jq -r '.[] | select(.overview.title == "GPG private key") | .uuid') > ~/gpg-private.key
 gpg --import ~/gpg-private.key
+rm ~/gpg-private.key

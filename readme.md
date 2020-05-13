@@ -6,6 +6,7 @@ dotfiles and stuff
 
 In the pursuit of command line only development
 
+* git completion
 * figure out caps lack as ctrl
 * figure out trackpad settings on arch
 * make docker script for pulling fitdegree database

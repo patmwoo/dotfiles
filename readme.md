@@ -4,7 +4,6 @@ dotfiles and stuff
 
 ## dev to do
 
-
 In the pursuit of command line only development
 
 * figure out how to not have to put in ssh key all the time

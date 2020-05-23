@@ -19,6 +19,9 @@ export GPG_TTY=$(tty) # fix for git commit signing with gpg
 alias ls='ls -F --color'
 alias less='less -S'
 
+# keychain
+eval $(keychain --eval --quiet id_rsa)
+
 # fitdegree stuff
 FD=~/dev/fitdegree
 export PATH=$PATH:$FD/scripts/bin

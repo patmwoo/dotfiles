@@ -20,7 +20,7 @@ alias ls='ls -F --color'
 alias less='less -S'
 
 # keychain
-eval $(keychain --eval --quiet id_rsa)
+eval $(keychain --eval --quiet --agents "ssh,gpg" id_rsa 2A70B83FD3493624)
 
 # fitdegree stuff
 FD=~/dev/fitdegree

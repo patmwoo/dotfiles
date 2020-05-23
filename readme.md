@@ -7,7 +7,6 @@ dotfiles and stuff
 
 In the pursuit of command line only development
 
-* figure out how to not have to put in ssh key all the time
 * git completion
 * figure out caps lack as ctrl
 * test out base16

@@ -7,7 +7,6 @@ dotfiles and stuff
 In the pursuit of command line only development
 
 * git completion
-* figure out caps lack as ctrl
 * test out base16
 * make docker script for pulling fitdegree database
 * understand everything about vim sensible

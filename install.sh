@@ -6,13 +6,13 @@
 cd ~/dotfiles
 
 # setup symlinks
-ln -sf .bash_profile ~/.bash_profile
-ln -sf .bashrc ~/.bashrc
-ln -sf .vimrc ~/.vimrc
-ln -sf .gitconfig ~/.gitconfig
-ln -sf .tmux.conf ~/.tmux.conf
-mkdir -p ~/.ssh && ln -sf id_rsa.pub ~/.ssh/id_rsa.pub
-mkdir -p ~/.gnupg && ln -sf gnu-agent.conf ~/.gnupg/gnu-agent.conf
+ln -sf ~/dotfiles/.bash_profile ~/.bash_profile
+ln -sf ~/dotfiles/.bashrc ~/.bashrc
+ln -sf ~/dotfiles/.vimrc ~/.vimrc
+ln -sf ~/dotfiles/.gitconfig ~/.gitconfig
+ln -sf ~/dotfiles/.tmux.conf ~/.tmux.conf
+mkdir -p ~/.ssh && ln -sf ~/dotfiles/id_rsa.pub ~/.ssh/id_rsa.pub
+mkdir -p ~/.gnupg && ln -sf ~/dotfiles/gnu-agent.conf ~/.gnupg/gnu-agent.conf
 
 # generate key bindings for less
 lesskey .lesskey

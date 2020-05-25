@@ -16,6 +16,14 @@ call plug#end()
 " make backspace work nicely in insert mode
 set backspace=indent,eol,start
 
+" indentation stuff
+set expandtab
+set softtabstop=4
+set shiftwidth=4
+
+" stop vim from automatically adding a newline to end of file
+set nofixendofline
+
 " enable line numbers
 set number
 

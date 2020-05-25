@@ -10,6 +10,7 @@ endif
 
 " plugins
 call plug#begin()
+Plug 'chriskempson/base16-vim'
 call plug#end()
 
 " make backspace work nicely in insert mode
@@ -23,3 +24,10 @@ set ruler
 
 " enable syntax highlighting
 syntax on
+
+" set line number background to normal base16 background color
+autocmd ColorScheme * execute 'highlight LineNr guibg=#' . g:base16_gui00
+
+" color scheme
+set termguicolors
+colorscheme base16-tube

@@ -6,7 +6,6 @@ dotfiles and stuff
 
 In the pursuit of command line only development
 
-* make docker script for pulling fitdegree database
 * understand everything about vim sensible
 * figure out a vim file manager
 * vim fugitive

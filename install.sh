@@ -12,7 +12,7 @@ ln -sf ~/dotfiles/.vimrc ~/.vimrc
 ln -sf ~/dotfiles/.gitconfig ~/.gitconfig
 ln -sf ~/dotfiles/.tmux.conf ~/.tmux.conf
 mkdir -p ~/.ssh && ln -sf ~/dotfiles/id_rsa.pub ~/.ssh/id_rsa.pub
-mkdir -p ~/.gnupg && ln -sf ~/dotfiles/gnu-agent.conf ~/.gnupg/gnu-agent.conf
+mkdir -p ~/.gnupg && ln -sf ~/dotfiles/gpg-agent.conf ~/.gnupg/gpg-agent.conf
 
 # generate key bindings for less
 lesskey .lesskey

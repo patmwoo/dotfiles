@@ -23,6 +23,9 @@ alias less='less -S'
 # keychain
 eval $(keychain --eval --quiet --agents "ssh,gpg" id_rsa 2A70B83FD3493624)
 
+# for pip stuff
+export PATH=$PATH:~/.local/bin
+
 # fitdegree stuff
 FD=~/dev/fitdegree
 export PATH=$PATH:$FD/scripts/bin

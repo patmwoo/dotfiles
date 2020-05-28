@@ -14,7 +14,7 @@ export PS1='\n\e[0;32m\u@\h\e[m \w $(__git_ps1 "(%s)")\n$ '
 export EDITOR=vim
 export PAGER='less -S'
 export GPG_TTY=$(tty) # fix for git commit signing with gpg
-export TERM=xterm-256color # fix for vim true color in tmux
+export TERM=xterm-256color # needed for vim color in tmux
 
 # aliases
 alias ls='ls -F --color'

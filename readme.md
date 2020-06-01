@@ -6,6 +6,7 @@ dotfiles and stuff
 
 In the pursuit of command line only development
 
+* install man
 * figure out a vim file manager
 * vim fugitive
 * vim language server

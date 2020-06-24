@@ -10,17 +10,15 @@ endif
 
 " plugins
 call plug#begin()
-
-" langauge server stuff
-Plug 'prabirshrestha/async.vim'
-Plug 'prabirshrestha/asyncomplete.vim'
-Plug 'prabirshrestha/asyncomplete-lsp.vim'
-Plug 'prabirshrestha/vim-lsp'
-
-" misc stuff
+Plug 'sheerun/vim-polyglot'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'chriskempson/base16-vim'
-
 call plug#end()
+
+" coc extensions
+let g:coc_global_extensions = ['coc-tsserver', 'coc-html', 'coc-phpls',
+\ 'coc-css', 'coc-angular', 'coc-json', 'coc-python', 'coc-sql',
+\ 'coc-vimlsp']
 
 " make backspace work nicely in insert mode
 set backspace=indent,eol,start
@@ -32,6 +30,9 @@ set shiftwidth=4
 
 " stop vim from automatically adding a newline to end of file
 set nofixendofline
+
+" enable mouse
+set mouse=a
 
 " enable line numbers
 set number
@@ -47,38 +48,15 @@ autocmd ColorScheme * execute 'highlight LineNr guibg=#' . g:base16_gui00
 
 " color scheme
 set termguicolors
-colorscheme base16-tube
+colorscheme base16-eighties
 
-" language server configuration
-if executable('pyls')
-    " pip install python-language-server
-    au User lsp_setup call lsp#register_server({
-        \ 'name': 'pyls',
-        \ 'cmd': {server_info->['pyls']},
-        \ 'whitelist': ['python'],
-        \ })
+" coc config
+
+" Use <cr> to confirm completion, `<C-g>u` means break undo chain at current
+" position. Coc only does snippet and additional edit on confirm.
+" <cr> could be remapped by other vim plugin, try `:verbose imap <CR>`.
+if exists('*complete_info')
+  inoremap <expr> <cr> complete_info()["selected"] != "-1" ? "\<C-y>" : "\<C-g>u\<CR>"
+else
+  inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 endif
-
-function! s:on_lsp_buffer_enabled() abort
-    setlocal omnifunc=lsp#complete
-    setlocal signcolumn=yes
-    if exists('+tagfunc')
-        setlocal tagfunc=lsp#tagfunc
-    endif
-    nmap <buffer> gd <plug>(lsp-definition)
-    nmap <buffer> <f2> <plug>(lsp-rename)
-    " refer to doc to add more commands
-endfunction
-
-augroup lsp_install
-    au!
-    " call s:on_lsp_buffer_enabled only for languages that has the server registered.
-    autocmd User lsp_buffer_enabled call s:on_lsp_buffer_enabled()
-augroup END
-
-
-
-
-
-
-

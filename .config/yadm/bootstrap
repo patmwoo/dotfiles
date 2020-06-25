@@ -3,6 +3,13 @@
 # .config/yadm/bootstrap, bootstraps dotfiles
 # source: https://github.com/pricheal/dotfiles
 
+# decrypt private keys
+yadm decrypt
+
+# import gpg private key and remove
+gpg --import ~/.gnupg/gpg-private.key
+rm ~/.gnupg/gpg-private.key
+
 # generate key bindings for less
 lesskey .lesskey
 

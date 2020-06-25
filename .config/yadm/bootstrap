@@ -4,14 +4,18 @@
 # source: https://github.com/pricheal/dotfiles
 
 # decrypt private keys
+echo "Decrypting private keys with yadm"
 yadm decrypt
 
 # import gpg private key and remove
-gpg --import ~/.gnupg/gpg-private.key
-rm ~/.gnupg/gpg-private.key
+echo "Importing gpg private key"
+gpg --import .gnupg/gpg-private.key
+rm .gnupg/gpg-private.key
 
 # generate key bindings for less
+echo "Generating less key binds"
 lesskey .lesskey
 
 # set dotfiles repo remote to ssh
+echo "Setting dotfiles repo remote to ssh"
 yadm remote set-url origin git@github.com:pricheal/dotfiles.git

@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# .config/yadm/bootstrap, bootstraps dotfiles
+# source: https://github.com/pricheal/dotfiles
+
+# generate key bindings for less
+lesskey .lesskey
+
+# set dotfiles repo remote to ssh
+yadm remote set-url origin git@github.com:pricheal/dotfiles.git

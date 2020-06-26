@@ -36,6 +36,9 @@ set tabstop=2
 " stop vim from automatically adding a newline to end of file
 set nofixendofline
 
+" fix delay when exiting visual modes
+set timeoutlen=1000 ttimeoutlen=0
+
 " enable mouse
 set mouse=a
 

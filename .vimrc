@@ -39,12 +39,6 @@ set mouse=a
 " enable line numbers
 set number
 
-" enable ruler
-set ruler
-
-" enable syntax highlighting
-syntax on
-
 " set line number background to normal base16 background color
 autocmd ColorScheme * execute 'highlight LineNr guibg=#' . g:base16_gui00
 

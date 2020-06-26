@@ -6,9 +6,9 @@ dotfiles and stuff
 
 In the pursuit of command line only development
 
+* clean up coc.vim
 * figure out a vim file manager
 * vim fugitive
-* vim language server
 * fzf
 * httpie, http-prompt, jq
 * grep

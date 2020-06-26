@@ -13,6 +13,7 @@ call plug#begin()
 Plug 'sheerun/vim-polyglot'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'chriskempson/base16-vim'
+Plug 'tpope/vim-sleuth'
 call plug#end()
 
 " coc extensions
@@ -23,10 +24,11 @@ let g:coc_global_extensions = ['coc-tsserver', 'coc-html', 'coc-phpls',
 " make backspace work nicely in insert mode
 set backspace=indent,eol,start
 
-" indentation stuff
+" default indentation
 set expandtab
-set softtabstop=4
-set shiftwidth=4
+set softtabstop=2
+set shiftwidth=2
+set tabstop=2
 
 " stop vim from automatically adding a newline to end of file
 set nofixendofline

@@ -7,6 +7,7 @@ dotfiles and stuff
 In the pursuit of command line only development
 
 * clean up coc.vim
+* setup minimal tmux status bar
 * figure out a vim file manager
 * vim fugitive
 * fzf

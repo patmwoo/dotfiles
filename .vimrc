@@ -24,6 +24,9 @@ let g:coc_global_extensions = ['coc-tsserver', 'coc-html', 'coc-phpls',
 " make backspace work nicely in insert mode
 set backspace=indent,eol,start
 
+" disable line wrap
+set nowrap
+
 " default indentation
 set expandtab
 set softtabstop=2

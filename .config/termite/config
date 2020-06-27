@@ -1,2 +1,3 @@
 [options]
 font = Fantasque Sans Mono 12
+cursor_blink = off

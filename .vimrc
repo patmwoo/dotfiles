@@ -1,6 +1,10 @@
 " .vimrc, configs vim
 " source: https://github.com/pricheal/dotfiles
 
+" ===================
+" plugins
+" ===================
+
 " install vim plug if necessary
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
@@ -20,6 +24,10 @@ call plug#end()
 let g:coc_global_extensions = ['coc-tsserver', 'coc-html', 'coc-phpls',
 \ 'coc-css', 'coc-angular', 'coc-json', 'coc-python', 'coc-sql',
 \ 'coc-vimlsp']
+
+" ===================
+" essentials
+" ===================
 
 " make backspace work nicely in insert mode
 set backspace=indent,eol,start
@@ -45,9 +53,18 @@ set mouse=a
 " enable line numbers
 set number
 
+" ===================
+" colors
+" ===================
+
+" enable true color
+set termguicolors
+
 " set line number background to normal base16 background color
 autocmd ColorScheme * execute 'highlight LineNr guibg=#' . g:base16_gui00
 
-" color scheme
-set termguicolors
-colorscheme base16-eighties
+" copy theme from base16 shell
+if filereadable(expand("~/.vimrc_background"))
+  source ~/.vimrc_background
+endif
+

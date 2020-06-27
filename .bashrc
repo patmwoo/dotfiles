@@ -26,6 +26,12 @@ eval $(keychain --eval --quiet --agents "ssh,gpg" id_rsa 2A70B83FD3493624)
 # for pip stuff
 export PATH=$PATH:~/.local/bin
 
+# base16 shell
+BASE16_SHELL="$HOME/.config/base16-shell/"
+[ -n "$PS1" ] && \
+    [ -s "$BASE16_SHELL/profile_helper.sh" ] && \
+        eval "$("$BASE16_SHELL/profile_helper.sh")"
+
 # fitdegree stuff
 FD=~/dev/fitdegree
 export PATH=$PATH:$FD/scripts/bin

@@ -6,7 +6,6 @@ dotfiles and stuff
 
 In the pursuit of command line only development
 
-* figure out a vim file manager
 * vim fugitive
 * httpie, http-prompt, jq
 * grep

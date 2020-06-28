@@ -17,6 +17,7 @@ call plug#begin()
 Plug 'sheerun/vim-polyglot'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 Plug 'tpope/vim-sleuth'
 Plug 'chriskempson/base16-vim'
 call plug#end()
@@ -24,7 +25,7 @@ call plug#end()
 " coc extensions
 let g:coc_global_extensions = ['coc-tsserver', 'coc-html', 'coc-phpls',
 \ 'coc-css', 'coc-angular', 'coc-json', 'coc-python', 'coc-sql',
-\ 'coc-vimlsp', 'coc-explorer']
+\ 'coc-vimlsp']
 
 " ===================
 " essentials

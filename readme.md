@@ -6,6 +6,7 @@ dotfiles and stuff
 
 In the pursuit of command line only development
 
+* Markdown file specific vim settings (wrap)
 * vim fugitive
 * httpie, http-prompt, jq
 * grep

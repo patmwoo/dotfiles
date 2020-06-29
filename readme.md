@@ -6,7 +6,9 @@ dotfiles and stuff
 
 In the pursuit of command line only development
 
-* Markdown file specific vim settings (wrap)
+* markdown file specific vim settings (wrap)
+* make it easy to move through wrapped lines
+* make function(?) for changing current tab size
 * vim fugitive
 * httpie, http-prompt, jq
 * grep

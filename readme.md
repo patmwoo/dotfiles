@@ -6,6 +6,7 @@ dotfiles and stuff
 
 In the pursuit of command line only development
 
+* make ranger open html files in vim
 * vim fugitive
 * httpie, http-prompt, jq
 * grep

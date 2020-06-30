@@ -6,7 +6,6 @@ dotfiles and stuff
 
 In the pursuit of command line only development
 
-* markdown file specific vim settings (wrap)
 * make it easy to move through wrapped lines
 * make function(?) for changing current tab size
 * vim fugitive

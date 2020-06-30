@@ -56,6 +56,14 @@ set mouse=a
 set number
 
 " ===================
+" key binds
+" ===================
+
+" make it easy to move through wrapped lines
+noremap j gj
+noremap k gk
+
+" ===================
 " commands
 " ===================
 

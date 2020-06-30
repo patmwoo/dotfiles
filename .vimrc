@@ -56,6 +56,12 @@ set mouse=a
 set number
 
 " ===================
+" commands
+" ===================
+
+command -nargs=? Tabsize call tab#Size(<f-args>)
+
+" ===================
 " colors
 " ===================
 
@@ -69,4 +75,3 @@ autocmd ColorScheme * execute 'highlight LineNr guibg=#' . g:base16_gui00
 if filereadable(expand("~/.vimrc_background"))
   source ~/.vimrc_background
 endif
-

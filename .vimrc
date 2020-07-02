@@ -20,7 +20,7 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-sleuth'
-Plug 'tpope/vim-vinegar'
+Plug 'francoiscabrol/ranger.vim'
 Plug 'chriskempson/base16-vim'
 call plug#end()
 
@@ -91,3 +91,4 @@ autocmd ColorScheme * execute 'highlight LineNr guibg=#' . g:base16_gui00
 if filereadable(expand("~/.vimrc_background"))
   source ~/.vimrc_background
 endif
+

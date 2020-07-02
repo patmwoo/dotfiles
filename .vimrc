@@ -41,9 +41,9 @@ set nowrap
 
 " default indentation
 set expandtab
-set softtabstop=2
-set shiftwidth=2
-set tabstop=2
+set softtabstop=4
+set shiftwidth=4
+set tabstop=4
 
 " stop vim from automatically adding a newline to end of file
 set nofixendofline

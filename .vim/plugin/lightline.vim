@@ -2,4 +2,4 @@
 " source: https://github.com/pricheal/dotfiles
 
 set laststatus=2
-set noshowmode " make --INSERT-- not appear
+set noshowmode " make mode not appear in command line

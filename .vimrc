@@ -58,6 +58,12 @@ set mouse=a
 set number
 
 " ===================
+" misc
+" ===================
+
+set shortmess+=F " hide file name from command line on file open
+
+" ===================
 " key binds
 " ===================
 

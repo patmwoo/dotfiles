@@ -6,7 +6,6 @@ dotfiles and stuff
 
 In the pursuit of command line only development
 
-* make lightline pretty
 * figure out how to fix vim system clipboard thing (maybe vim-tbone
   would work?)
 * figure out fzf bash history

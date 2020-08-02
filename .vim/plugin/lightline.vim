@@ -30,21 +30,18 @@ let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': 
 let s:p.normal.left = [ [ s:black, s:blue ], [ s:white, s:color18 ] ]
 let s:p.normal.middle = [ [ s:white, s:color18 ] ]
 let s:p.normal.right = [ [ s:white, s:color19 ], [ s:white, s:color19 ] ]
-
-" left off here
-let s:p.inactive.left =  [ [ s:black, s:black ], [ s:black, s:black ] ]
-let s:p.inactive.middle = [ [ s:black, s:black ] ]
-let s:p.inactive.right = [ [ s:black, s:black ], [ s:black, s:black ] ]
-let s:p.insert.left = [ [ s:black, s:green ], [ s:black, s:black ] ]
-let s:p.replace.left = [ [ s:black, s:red ], [ s:black, s:black ] ]
-let s:p.visual.left = [ [ s:black, s:magenta ], [ s:black, s:black ] ]
-let s:p.tabline.tabsel = [ [ s:black, s:black ] ]
-let s:p.tabline.left = [ [ s:black, s:black ] ]
-let s:p.tabline.middle = [ [ s:black, s:black ] ]
-let s:p.tabline.right = [ [ s:black, s:black ] ]
+let s:p.insert.left = [ [ s:black, s:yellow ] ]
+let s:p.replace.left = [ [ s:black, s:red ] ]
+let s:p.visual.left = [ [ s:black, s:green ] ]
+let s:p.tabline.tabsel = [ [ s:black, s:yellow ] ]
+let s:p.tabline.left = [ [ s:white, s:color18 ] ]
+let s:p.tabline.middle = [ [ s:white, s:color18 ] ]
+let s:p.tabline.right = [ [ s:white, s:color18 ] ]
 let s:p.normal.error = [ [ s:black, s:red ] ]
 let s:p.normal.warning = [ [ s:black, s:yellow ] ]
 
+" create lightline theme
 let g:lightline#colorscheme#base16#palette = lightline#colorscheme#fill(s:p)
 
+" set lightline theme
 let g:lightline = {'colorscheme': 'base16'}

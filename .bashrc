@@ -4,6 +4,10 @@
 # source git prompt
 source /usr/share/git/completion/git-prompt.sh
 
+# source fzf shell extensions
+source /usr/share/fzf/key-bindings.bash
+source /usr/share/fzf/completion.bash
+
 # prompt
 GIT_PS1_SHOWDIRTYSTATE=1
 GIT_PS1_SHOWUNTRACKEDFILES=1

@@ -24,6 +24,11 @@ export TERM=xterm-256color # needed for vim color in tmux
 alias ls='ls -F --color'
 alias less='less -S'
 
+alias urldecode='python3 -c "import sys, urllib.parse as ul; \
+    print(ul.unquote_plus(sys.argv[1]))"'
+alias urlencode='python3 -c "import sys, urllib.parse as ul; \
+    print (ul.quote_plus(sys.argv[1]))"'
+
 # keychain
 eval $(keychain --eval --quiet --agents "ssh,gpg" id_rsa 2A70B83FD3493624)
 

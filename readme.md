@@ -7,8 +7,6 @@ dotfiles and stuff
 In the pursuit of command line only development
 
 * figure out a terminal trash can (trash-cli?)
-* vim fugitive
-* git gutter
 * vim dadbod
 * httpie, http-prompt, jq
 * grep

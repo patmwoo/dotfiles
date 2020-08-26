@@ -21,6 +21,8 @@ Plug 'junegunn/fzf.vim'
 Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-sleuth'
 Plug 'francoiscabrol/ranger.vim'
+Plug 'airblade/vim-gitgutter'
+Plug 'tpope/vim-fugitive'
 Plug 'chriskempson/base16-vim'
 call plug#end()
 
@@ -39,7 +41,7 @@ set backspace=indent,eol,start
 " disable line wrap
 set nowrap
 
-" default indentation
+" default indentation (potentially overridden by vim-sleuth)
 set expandtab
 set softtabstop=4
 set shiftwidth=4
@@ -56,6 +58,15 @@ set mouse=a
 
 " enable line numbers
 set number
+
+" enable sign column, make sign column just override the
+" number column if not in a git repo (no git gutter)
+let ouput = system('git rev-parse --is-inside-work-tree')
+if v:shell_error == 0
+  set signcolumn=number
+else
+  set signcolumn=yes
+endif
 
 " ===================
 " misc
@@ -91,4 +102,3 @@ autocmd ColorScheme * execute 'highlight LineNr guibg=#' . g:base16_gui00
 if filereadable(expand("~/.vimrc_background"))
   source ~/.vimrc_background
 endif
-

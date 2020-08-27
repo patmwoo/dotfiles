@@ -6,8 +6,6 @@ dotfiles and stuff
 
 In the pursuit of command line only development
 
-* figure out a terminal trash can (trash-cli?)
 * vim dadbod
-* httpie, http-prompt, jq
 * grep
 * vim debug for php

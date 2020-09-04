@@ -23,6 +23,9 @@ Plug 'tpope/vim-sleuth'
 Plug 'francoiscabrol/ranger.vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-dadbod'
+Plug 'kristijanhusak/vim-dadbod-ui'
+Plug 'tpope/vim-dotenv'
 Plug 'chriskempson/base16-vim'
 call plug#end()
 
@@ -72,7 +75,11 @@ endif
 " misc
 " ===================
 
-set shortmess+=F " hide file name from command line on file open
+" source ~/.env
+autocmd VimEnter * if exists(':Dotenv') | exe 'Dotenv! ~/.env' | endif
+
+" hide file name from command line on file open
+set shortmess+=F 
 
 " ===================
 " key binds

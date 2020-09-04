@@ -6,6 +6,5 @@ dotfiles and stuff
 
 In the pursuit of command line only development
 
-* vim dadbod
 * grep
 * vim debug for php

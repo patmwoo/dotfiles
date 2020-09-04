@@ -63,9 +63,9 @@ set number
 " number column if not in a git repo (no git gutter)
 let ouput = system('git rev-parse --is-inside-work-tree')
 if v:shell_error == 0
-  set signcolumn=number
-else
   set signcolumn=yes
+else
+  set signcolumn=number
 endif
 
 " ===================

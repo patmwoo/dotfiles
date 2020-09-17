@@ -6,5 +6,4 @@ dotfiles and stuff
 
 In the pursuit of command line only development
 
-* grep
 * vim debug for php

@@ -23,6 +23,7 @@ export TERM=xterm-256color # needed for vim color in tmux
 # aliases
 alias ls='ls -F --color'
 alias less='less -S'
+alias nnn='nnn -C'
 
 alias urldecode='python3 -c "import sys, urllib.parse as ul; \
     print(ul.unquote_plus(sys.argv[1]))"'

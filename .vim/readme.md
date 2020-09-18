@@ -15,9 +15,9 @@ misc vim config info
 * `<leader>g`: fzf git files
 * `<leader>b`: fzf buffers
 
-### ranger
+### nnn
 
-* `<leader>e`: ranger
+* `<leader>n`: nnn
 
 ### coc
 

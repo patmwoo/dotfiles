@@ -7,10 +7,9 @@
 echo "Decrypting private keys with yadm"
 yadm decrypt
 
-# import gpg private key and remove
+# import gpg private key
 echo "Importing gpg private key"
 gpg --import .gnupg/gpg-private.key
-rm .gnupg/gpg-private.key
 
 # generate key bindings for less
 echo "Generating less key binds"

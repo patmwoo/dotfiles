@@ -15,6 +15,9 @@ gpg --import .gnupg/gpg-private.key
 echo "Generating less key binds"
 lesskey .lesskey
 
+# download base16 shell
+git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shell
+
 # set dotfiles repo remote to ssh
 echo "Setting dotfiles repo remote to ssh"
 yadm remote set-url origin git@github.com:pricheal/dotfiles.git

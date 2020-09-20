@@ -6,7 +6,6 @@ dotfiles and stuff
 
 In the pursuit of command line only development
 
-* try arch vps setup again with reboot after first pacman -Syu, see if it fixes docker (add note to reboot if it does)
 * figure out solution for ctrl-space on ios being taken (likely will have to figure out a new tmux leader)
 * try mosh, add to arch.txt
 * test out colors with ssh/mosh/tmux/vim in all scenarios

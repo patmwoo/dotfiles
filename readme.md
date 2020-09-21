@@ -6,7 +6,6 @@ dotfiles and stuff
 
 In the pursuit of command line only development
 
-* try mosh, add to arch.txt
 * test out colors with ssh/mosh/tmux/vim in all scenarios
 * try out nnn with change directory on exit
 * config nnn for terminal only usage

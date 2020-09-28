@@ -6,6 +6,7 @@ dotfiles and stuff
 
 In the pursuit of command line only development
 
+* figure out ftp over command line
 * figure out a gist cli
 * see if there are any better pagers / add line num info to less
 * config nnn for terminal only usage

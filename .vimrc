@@ -72,6 +72,9 @@ else
   set signcolumn=number
 endif
 
+" enable search highlighting
+set hlsearch
+
 " ===================
 " misc
 " ===================

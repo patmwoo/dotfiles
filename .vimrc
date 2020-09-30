@@ -28,6 +28,8 @@ Plug 'tpope/vim-dadbod'
 Plug 'kristijanhusak/vim-dadbod-ui'
 Plug 'tpope/vim-dotenv'
 Plug 'chriskempson/base16-vim'
+Plug 'mattn/vim-gist'
+Plug 'mattn/webapi-vim' " required by vim-gist
 call plug#end()
 
 " coc extensions

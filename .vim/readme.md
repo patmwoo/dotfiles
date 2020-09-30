@@ -29,6 +29,7 @@ misc vim config info
 * `K`: show documentation
 * `<leader>rn`: rename
 * `<leader>qf`: quick fix
+* `<leader>cf`: format
 
 ### gitgutter
 

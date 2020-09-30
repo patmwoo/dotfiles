@@ -4,3 +4,7 @@
 	signingkey = 2A70B83FD3493624
 [commit]
 	gpgsign = true
+[pull]
+	rebase = false
+[github]
+	user = pricheal

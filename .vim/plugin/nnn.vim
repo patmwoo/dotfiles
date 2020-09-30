@@ -10,6 +10,3 @@ let g:nnn#statusline = 0
 " remap keybind to start nnn in current file's directory
 let g:nnn#set_default_mappings = 0
 nnoremap <leader>n :NnnPicker '%:p:h'<CR>
-
-" floating window
-"let g:nnn#layout = { 'window': { 'width': 0.9, 'height': 0.6, 'highlight': 'Debug' } }

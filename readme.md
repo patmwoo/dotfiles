@@ -6,7 +6,6 @@ dotfiles and stuff
 
 In the pursuit of command line only development
 
-* figure out ftp over command line
 * test out colors with ssh/mosh/tmux/vim in all scenarios
 * try to fix weird color thing with fzf
 * try out nnn with change directory on exit

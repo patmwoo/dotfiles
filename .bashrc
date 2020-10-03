@@ -33,8 +33,9 @@ alias urlencode='python3 -c "import sys, urllib.parse as ul; \
 # keychain
 eval $(keychain --eval --quiet --nogui --agents "ssh,gpg" id_rsa 2A70B83FD3493624)
 
-# for pip stuff
-export PATH=$PATH:~/.local/bin
+# path
+export PATH=$PATH:~/.bin
+export PATH=$PATH:~/.local/bin # for pip stuff
 
 # base16 shell
 BASE16_SHELL="$HOME/.config/base16-shell/"

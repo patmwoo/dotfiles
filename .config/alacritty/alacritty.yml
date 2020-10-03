@@ -1,3 +1,10 @@
+window:
+  dimensions:
+    columns: 80
+    lines: 25
+  padding:
+    x: 2
+    y: 2
 font:
   normal:
     family: Fantasque Sans Mono

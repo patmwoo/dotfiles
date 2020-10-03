@@ -1,5 +1,8 @@
 #!/bin/sh
-#
+
+# yank, script for yanking
+# source: https://sunaku.github.io/tmux-yank-osc52.html
+
 # Usage: yank [FILE...]
 #
 # Copies the contents of the given files (or stdin if no files are given) to

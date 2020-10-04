@@ -31,7 +31,7 @@ alias urlencode='python3 -c "import sys, urllib.parse as ul; \
     print (ul.quote_plus(sys.argv[1]))"'
 
 # keychain
-eval $(keychain --eval --quiet --nogui --agents "ssh,gpg" id_rsa 2A70B83FD3493624)
+eval $(keychain --eval --quiet --nogui --timeout 1440 --agents "ssh,gpg" id_rsa 2A70B83FD3493624)
 
 # path
 export PATH=$PATH:~/.bin

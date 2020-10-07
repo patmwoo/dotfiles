@@ -9,4 +9,4 @@ let g:nnn#statusline = 0
 
 " remap keybind to start nnn in current file's directory
 let g:nnn#set_default_mappings = 0
-nnoremap <leader>n :NnnPicker '%:p:h'<CR>
+nnoremap <leader>n :NnnPicker %:p:h<CR>

@@ -19,6 +19,10 @@ misc vim config info
 
 * `<leader>n`: nnn
 
+### yank
+
+* `<leader>y`: yank to system clipboard
+
 ### coc
 
 * `[g` and `]g`: navigate diagnostics

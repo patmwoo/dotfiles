@@ -11,8 +11,5 @@ function! Yank(text) abort
   endif
 endfunction
 
-" use above function whenever text is yanked in vim
-function! CopyYank() abort
-  call Yank(join(v:event.regcontents, "\n"))
-endfunction
-autocmd TextYankPost * call CopyYank()
+" map yank function to <leader>y
+noremap <silent> <Leader>y y:<C-U>call Yank(@0)<CR>

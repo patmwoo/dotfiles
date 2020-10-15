@@ -59,8 +59,10 @@ alias urlencode='python3 -c "import sys, urllib.parse as ul; \
 export PATH=$PATH:~/.bin
 export PATH=$PATH:~/.local/bin # for pip stuff
 
-# keychain
-eval $(keychain --eval --quiet --nogui --timeout 1440 --agents "ssh,gpg" id_rsa 2A70B83FD3493624)
+# refreshkeys (keychain)
+if command -v refreshkeys &> /dev/null; then
+    eval $(refreshkeys)
+fi
 
 # source fzf shell extensions
 source /usr/share/fzf/key-bindings.bash

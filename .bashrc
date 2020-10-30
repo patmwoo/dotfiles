@@ -64,6 +64,9 @@ if command -v refreshkeys &> /dev/null; then
     eval $(refreshkeys)
 fi
 
+# source nnn script stuff
+source ~/.config/nnn/quitcd.sh
+
 # source fzf shell extensions
 source /usr/share/fzf/key-bindings.bash
 source /usr/share/fzf/completion.bash

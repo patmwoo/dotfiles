@@ -65,7 +65,7 @@ export NNN_OPENER=~/.config/nnn/plugins/nuke
 
 # refreshkeys (keychain)
 if command -v refreshkeys &> /dev/null; then
-    eval $(refreshkeys)
+    eval $(refreshkeys --eval)
 fi
 
 # source fzf shell extensions

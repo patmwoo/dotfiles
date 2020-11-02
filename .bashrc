@@ -44,7 +44,6 @@ export TERM=xterm-256color # needed for vim color in tmux
 
 alias ls='ls -F --color'
 alias less='less -S'
-alias nnn='nnn -C'
 
 alias urldecode='python3 -c "import sys, urllib.parse as ul; \
     print(ul.unquote_plus(sys.argv[1]))"'
@@ -59,9 +58,14 @@ alias urlencode='python3 -c "import sys, urllib.parse as ul; \
 export PATH=$PATH:~/.bin
 export PATH=$PATH:~/.local/bin # for pip stuff
 
+# nnn stuff
+alias nnn='nnn -cC'
+source ~/.config/nnn/quitcd.sh
+export NNN_OPENER=~/.config/nnn/plugins/nuke
+
 # refreshkeys (keychain)
 if command -v refreshkeys &> /dev/null; then
-    eval $(refreshkeys)
+    eval $(refreshkeys --eval)
 fi
 
 # source fzf shell extensions

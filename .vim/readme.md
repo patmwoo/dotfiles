@@ -42,3 +42,6 @@ misc vim config info
 * `<leader>hs`: hunk stage
 * `<leader>hu`: hunk undo
 
+### unimpaired
+
+* see `:help unimpaired` for all unimpaired keybinds

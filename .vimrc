@@ -18,7 +18,6 @@ Plug 'sheerun/vim-polyglot'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
-Plug 'jremmen/vim-ripgrep'
 Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-sleuth'
 Plug 'mcchrish/nnn.vim'

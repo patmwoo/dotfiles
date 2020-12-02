@@ -68,6 +68,9 @@ if command -v refreshkeys &> /dev/null; then
     eval $(refreshkeys --eval)
 fi
 
+# fzf
+export FZF_DEFAULT_OPTS='--color=bg+:0' # make background color consistent
+
 # source fzf shell extensions
 source /usr/share/fzf/key-bindings.bash
 source /usr/share/fzf/completion.bash

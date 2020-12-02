@@ -65,6 +65,9 @@ set mouse=a
 " enable line numbers
 set number
 
+" set diff to vertical
+set diffopt+=vertical
+
 " enable sign column, make sign column just override the
 " number column if not in a git repo (no git gutter)
 let ouput = system('git rev-parse --is-inside-work-tree')

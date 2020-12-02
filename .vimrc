@@ -34,7 +34,7 @@ call plug#end()
 
 " coc extensions
 let g:coc_global_extensions = ['coc-tsserver', 'coc-html', 'coc-phpls',
-\ 'coc-css', 'coc-angular', 'coc-json', 'coc-python', 'coc-sql',
+\ 'coc-css', 'coc-angular', 'coc-json', 'coc-pyright', 'coc-sql',
 \ 'coc-vimlsp', 'coc-db']
 
 " ===================

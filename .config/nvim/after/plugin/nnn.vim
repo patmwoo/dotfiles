@@ -11,6 +11,6 @@ if exists('g:nnn#loaded')
     nnoremap <leader>n :NnnPicker %:p:h<CR>
     
     " make nnn appear in a floating window
-    let g:nnn#layout = { 'window': { 'width': 0.9, 'height': 0.6, 'highlight': 'Debug' } }
+    let g:nnn#layout = { 'window': { 'width': 0.9, 'height': 0.6, 'highlight': 'Comment'} }
 
 endif

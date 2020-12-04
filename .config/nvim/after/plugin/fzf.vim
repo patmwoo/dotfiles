@@ -11,5 +11,8 @@ if exists('g:loaded_fzf')
     map <leader>g :GFiles?<CR>
     map <leader>b :Buffers<CR>
 
+    " set popup border color
+    let g:fzf_colors = { 'border':  ['fg', 'Comment'] }
+
 endif
 

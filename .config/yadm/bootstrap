@@ -9,15 +9,22 @@ yadm decrypt
 
 # import gpg private key
 echo "Importing gpg private key"
-gpg --import .gnupg/gpg-private.key
+gpg --import ~/.gnupg/gpg-private.key
 
 # generate key bindings for less
 echo "Generating less key binds"
-lesskey .lesskey
+lesskey ~/.lesskey
 
-# download base16 shell
+# setup base16 shell
+rm -rf ~/.config/base16-shell
 git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shell
+shopt -s expand_aliases && eval "$(~/.config/base16-shell/profile_helper.sh)"
+base16_default-dark && shopt -u expand_aliases
+
+# install neovim plugins
+nvim --headless +PlugInstall +qall
 
 # set dotfiles repo remote to ssh
 echo "Setting dotfiles repo remote to ssh"
 yadm remote set-url origin git@github.com:pricheal/dotfiles.git
+

@@ -62,7 +62,8 @@ export PATH=$PATH:~/.local/bin # for pip stuff
 alias nnn='nnn -cC'
 source ~/.config/nnn/quitcd.sh
 export NNN_OPENER=~/.config/nnn/plugins/nuke
-export NNN_BMS='d:~/dev;D:~/Downloads/;f:~/dev/fitdegree'
+export NNN_BMS='d:~/dev;D:~/Downloads/;f:~/dev/fitdegree;c:~/.config;n:~/.config/nvim'
+export NNN_TRASH=1
 
 # refreshkeys (keychain)
 if command -v refreshkeys &> /dev/null; then

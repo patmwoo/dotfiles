@@ -17,4 +17,10 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'mcchrish/nnn.vim'
 Plug 'chriskempson/base16-vim'
+Plug 'neovim/nvim-lspconfig'
+Plug 'nvim-lua/completion-nvim'
+Plug 'steelsojka/completion-buffers'
 call plug#end()
+
+lua require("lsp")
+

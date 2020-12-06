@@ -8,8 +8,8 @@ if exists('g:loaded_fzf')
 
     " add key binds
     map <leader>f :GFiles<CR>
-    map <leader>g :GFiles?<CR>
-    map <leader>b :Buffers<CR>
+    map <leader>v :GFiles?<CR>
+    map <leader>, :Buffers<CR>
 
     " set popup border color
     let g:fzf_colors = { 'border':  ['fg', 'Comment'] }

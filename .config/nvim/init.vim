@@ -4,6 +4,7 @@
 set nowrap
 set number
 set mouse=a
+let mapleader = ","
 
 " install vim plug if not already installed
 if empty(glob('~/.local/share/nvim/site/autoload/plug.vim'))
@@ -20,7 +21,9 @@ Plug 'chriskempson/base16-vim'
 Plug 'neovim/nvim-lspconfig'
 Plug 'nvim-lua/completion-nvim'
 Plug 'steelsojka/completion-buffers'
+Plug 'airblade/vim-gitgutter'
 call plug#end()
 
 lua require("lsp")
+
 

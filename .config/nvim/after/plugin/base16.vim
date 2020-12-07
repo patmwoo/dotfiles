@@ -26,6 +26,9 @@ try
     autocmd ColorScheme * execute 'highlight GitGutterChangeLineNr guifg=#' . g:base16_gui0D
     autocmd ColorScheme * execute 'highlight GitGutterChangeDeleteLineNr guifg=#' . g:base16_gui0A
 
+    " make comments italic
+    autocmd ColorScheme * execute 'highlight Comment gui=italic'
+
     " copy theme from base16 shell
     if filereadable(expand("~/.vimrc_background"))
         source ~/.vimrc_background
@@ -33,9 +36,6 @@ try
         " default color scheme if there is no .vimrc_background
 	colorscheme base16-default-dark
     endif
-
-    " make comments italic
-    highlight Comment gui=italic
 
 catch
 endtry

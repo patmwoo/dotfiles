@@ -34,6 +34,9 @@ try
 	colorscheme base16-default-dark
     endif
 
+    " make comments italic
+    highlight Comment gui=italic
+
 catch
 endtry
 

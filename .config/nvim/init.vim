@@ -4,6 +4,7 @@
 set nowrap
 set number
 set mouse=a
+
 let mapleader = ","
 
 " install vim plug if not already installed

@@ -77,6 +77,11 @@ export FZF_DEFAULT_OPTS='--color=bg+:0' # make background color consistent
 source /usr/share/fzf/key-bindings.bash
 source /usr/share/fzf/completion.bash
 
+# nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # this loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # this loads nvm bash_completion
+
 # base16 shell
 BASE16_SHELL="$HOME/.config/base16-shell/"
 [ -n "$PS1" ] && \

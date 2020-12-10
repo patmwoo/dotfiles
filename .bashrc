@@ -92,3 +92,4 @@ BASE16_SHELL="$HOME/.config/base16-shell/"
 FD=~/dev/fitdegree
 export PATH=$PATH:$FD/fd-bin/bin
 export PATH=$PATH:~/.gem/ruby/2.7.0/bin
+

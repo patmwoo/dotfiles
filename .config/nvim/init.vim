@@ -1,11 +1,13 @@
 " .config/nvim/init.vim, neovim config
 " source: https://github.com/pricheal/dotfiles
 
-set nowrap
-set number
-set mouse=a
+set nowrap " set nowrap by default
+set hidden " allow unsaved buffers to be put in the background
+set number " enable line numbers
+set mouse=a " enable mouse
+set nofixendofline " disable fix end of line thing
 
-let mapleader = ","
+let mapleader = "," " change leader to comma
 
 " install vim plug if not already installed
 if empty(glob('~/.local/share/nvim/site/autoload/plug.vim'))
@@ -14,6 +16,7 @@ if empty(glob('~/.local/share/nvim/site/autoload/plug.vim'))
     autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
+" plugins
 call plug#begin()
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
@@ -25,6 +28,7 @@ Plug 'steelsojka/completion-buffers'
 Plug 'airblade/vim-gitgutter'
 call plug#end()
 
+" source lua lsp config file
 lua require("lsp")
 
 

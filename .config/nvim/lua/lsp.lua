@@ -1,10 +1,9 @@
-local lspconfig = require('lspconfig')
-local completion = require('completion')
+-- .config/nvim/lua/lsp.lua, neovim lsp config
+-- source: https://github.com/pricheal/dotfiles
 
-local on_attach = function(client, bufnr)
+local custom_lsp_attach = function(client, bufnr)
 
-    completion.on_attach(client, bufnr)
-
+    -- key binds
     vim.fn.nvim_set_keymap("n", "<leader>gd", "<cmd>lua vim.lsp.buf.definition()<CR>", {noremap = true, silent = true})
     vim.fn.nvim_set_keymap("n", "<leader>gt", "<cmd>lua vim.lsp.buf.type_definition()<CR>", {noremap = true, silent = true})
     vim.fn.nvim_set_keymap("n", "<leader>gi", "<cmd>lua vim.lsp.buf.implementation()<CR>", {noremap = true, silent = true})
@@ -33,6 +32,7 @@ local on_attach = function(client, bufnr)
     )
 
     -- completion stuff
+    require('completion').on_attach(client, bufnr)
     vim.api.nvim_command("set completeopt=menuone,noinsert,noselect")
     vim.api.nvim_command("let g:completion_chain_complete_list = [{'complete_items': ['lsp']}, {'complete_items': ['buffers']}]")
     vim.api.nvim_command("imap <c-j> <Plug>(completion_next_source)")
@@ -41,7 +41,7 @@ local on_attach = function(client, bufnr)
 end
 
 -- language servers
-
-lspconfig.tsserver.setup{
-    on_attach = on_attach
-}
+require('lspconfig').tsserver.setup{on_attach = custom_lsp_attach}
+require('lspconfig').intelephense.setup{on_attach = custom_lsp_attach }
+require('lspconfig').bashls.setup{on_attach = custom_lsp_attach}
+require('lspconfig').html.setup{on_attach = custom_lsp_attach}

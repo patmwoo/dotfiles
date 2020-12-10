@@ -25,10 +25,11 @@ Plug 'chriskempson/base16-vim'
 Plug 'neovim/nvim-lspconfig'
 Plug 'nvim-lua/completion-nvim'
 Plug 'steelsojka/completion-buffers'
+Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
+Plug 'tpope/vim-sleuth'
 call plug#end()
 
 " source lua lsp config file
 lua require("lsp")
-
 

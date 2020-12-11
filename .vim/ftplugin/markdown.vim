@@ -2,3 +2,4 @@
 " source: https://github.com/pricheal/dotfiles
 
 set wrap
+set linebreak

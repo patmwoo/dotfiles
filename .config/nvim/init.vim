@@ -6,6 +6,7 @@ set hidden " allow unsaved buffers to be put in the background
 set number " enable line numbers
 set mouse=a " enable mouse
 set nofixendofline " disable fix end of line thing
+set diffopt+=vertical " set diff to default vertical
 
 let mapleader = "," " change leader to comma
 

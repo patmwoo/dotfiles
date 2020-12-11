@@ -43,6 +43,18 @@ end
 
 -- language servers
 require('lspconfig').tsserver.setup{on_attach = custom_lsp_attach}
-require('lspconfig').intelephense.setup{on_attach = custom_lsp_attach }
+require('lspconfig').intelephense.setup{
+    on_attach = custom_lsp_attach;
+    settings = {
+        intelephense = {
+            files = {
+                exclude = {"**/vendor/**/fitdegree/**"};
+            },
+            completion = {
+                insertUseDeclaration = false;
+            }
+        }
+    }
+}
 require('lspconfig').bashls.setup{on_attach = custom_lsp_attach}
 require('lspconfig').html.setup{on_attach = custom_lsp_attach}

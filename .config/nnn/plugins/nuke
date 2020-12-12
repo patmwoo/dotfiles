@@ -509,6 +509,26 @@ handle_blocked() {
     esac
 }
 
+
+# ----- start: added by pricheal ----- #
+
+pat_override() {
+    case "${ext}" in
+
+        htm|html|xhtml)
+            "$EDITOR" "${FPATH}"
+            exit 0;;
+
+        json)
+            "$EDITOR" "${FPATH}"
+            exit 0;;
+
+    esac
+}
+pat_override
+
+# ----- end: added by pricheal ----- #
+
 MIMETYPE="$( file --dereference --brief --mime-type -- "${FPATH}" )"
 handle_extension
 handle_multimedia "${MIMETYPE}"

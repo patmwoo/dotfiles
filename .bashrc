@@ -1,9 +1,20 @@
 # .bashrc, config for bash
 # source: https://github.com/pricheal/dotfiles
 
-# ===================
-# prompt
-# ===================
+# ----- env vars ----- #
+
+export EDITOR=nvim
+export PAGER='less -S'
+export GPG_TTY=$(tty) # fix for git commit signing with gpg
+export TERM=xterm-256color # needed for vim color in tmux
+
+# ----- aliases ----- #
+
+alias ls='ls -F --color'
+alias less='less -S'
+alias bat='bat --theme=base16'
+
+# ----- prompt ----- #
 
 # source git prompt
 source /usr/share/git/completion/git-prompt.sh
@@ -29,53 +40,32 @@ function venv_info() {
 
 export PS1='\n$(venv_info)\e[0;32m\u@\h\e[m \w $(__git_ps1 "(%s)")\n$ '
 
-# ===================
-# env vars
-# ===================
+# ----- nnn ----- #
 
-export EDITOR=nvim
-export PAGER='less -S'
-export GPG_TTY=$(tty) # fix for git commit signing with gpg
-export TERM=xterm-256color # needed for vim color in tmux
-
-# ===================
-# aliases
-# ===================
-
-alias ls='ls -F --color'
-alias less='less -S'
-
-alias urldecode='python3 -c "import sys, urllib.parse as ul; \
-    print(ul.unquote_plus(sys.argv[1]))"'
-alias urlencode='python3 -c "import sys, urllib.parse as ul; \
-    print (ul.quote_plus(sys.argv[1]))"'
-
-# ===================
-# misc
-# ===================
-
-# path
-export PATH=$PATH:~/.bin
-export PATH=$PATH:~/.local/bin # for pip stuff
-
-# nnn stuff
 alias nnn='nnn -cC'
 source ~/.config/nnn/quitcd.sh
 export NNN_OPENER=~/.config/nnn/plugins/nuke
 export NNN_BMS='d:~/dev;D:~/Downloads/;f:~/dev/fitdegree;c:~/.config;n:~/.config/nvim'
 export NNN_TRASH=1
 
-# refreshkeys (keychain)
-if command -v refreshkeys &> /dev/null; then
-    eval $(refreshkeys --eval --if-needed)
-fi
+# ----- fzf ----- #
 
-# fzf
 export FZF_DEFAULT_OPTS='--color=bg+:0' # make background color consistent
 
 # source fzf shell extensions
 source /usr/share/fzf/key-bindings.bash
 source /usr/share/fzf/completion.bash
+
+# ----- misc ----- #
+
+# path
+export PATH=$PATH:~/.bin
+export PATH=$PATH:~/.local/bin # for pip stuff
+
+# refreshkeys (keychain)
+if command -v refreshkeys &> /dev/null; then
+    eval $(refreshkeys --eval --if-needed)
+fi
 
 # nvm
 export NVM_DIR="$HOME/.nvm"

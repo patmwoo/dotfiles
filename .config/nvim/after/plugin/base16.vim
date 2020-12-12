@@ -1,4 +1,4 @@
-" .config/nvim/base16.vim, config for base16-vim
+" .config/nvim/after/plugin/base16.vim, config for base16-vim
 " source: https://github.com/pricheal/dotfiles
 
 " enable true color

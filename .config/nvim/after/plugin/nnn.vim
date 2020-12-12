@@ -1,4 +1,4 @@
-" .config/nvim/nnn.vim, config for nnn.vim
+" .config/nvim/after/plugin/nnn.vim, config for nnn.vim
 " source: https://github.com/pricheal/dotfiles
 
 if exists('g:nnn#loaded')

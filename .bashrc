@@ -67,7 +67,7 @@ export NNN_TRASH=1
 
 # refreshkeys (keychain)
 if command -v refreshkeys &> /dev/null; then
-    eval $(refreshkeys --eval)
+    eval $(refreshkeys --eval --if-needed)
 fi
 
 # fzf

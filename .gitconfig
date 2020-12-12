@@ -8,3 +8,5 @@
 	rebase = false
 [github]
 	user = pricheal
+[core]
+	hooksPath = ~/.githooks

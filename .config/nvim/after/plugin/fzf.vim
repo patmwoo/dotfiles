@@ -1,4 +1,4 @@
-" .config/nvim/fzf.vim, config for fzf.vim
+" .config/nvim/after/plugin/fzf.vim, config for fzf.vim
 " source: https://github.com/pricheal/dotfiles
 
 if exists('g:loaded_fzf')

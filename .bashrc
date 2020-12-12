@@ -48,6 +48,11 @@ export NNN_OPENER=~/.config/nnn/plugins/nuke
 export NNN_BMS='d:~/dev;D:~/Downloads/;f:~/dev/fitdegree;c:~/.config;n:~/.config/nvim'
 export NNN_TRASH=1
 
+# copied from .config/nnn/quitcd.sh, without this, nnn inside nvim won't
+# change directories properly unless 'n' has been ran once before opening
+# nvim
+export NNN_TMPFILE="${XDG_CONFIG_HOME:-$HOME/.config}/nnn/.lastd"
+
 # ----- fzf ----- #
 
 export FZF_DEFAULT_OPTS='--color=bg+:0' # make background color consistent

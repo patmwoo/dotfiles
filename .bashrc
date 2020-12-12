@@ -33,7 +33,7 @@ export PS1='\n$(venv_info)\e[0;32m\u@\h\e[m \w $(__git_ps1 "(%s)")\n$ '
 # env vars
 # ===================
 
-export EDITOR=vim
+export EDITOR=nvim
 export PAGER='less -S'
 export GPG_TTY=$(tty) # fix for git commit signing with gpg
 export TERM=xterm-256color # needed for vim color in tmux

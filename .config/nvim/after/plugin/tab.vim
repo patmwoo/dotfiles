@@ -1,4 +1,4 @@
-" .vim/autoload/tab.vim, tab functions
+" .config/nvim/after/plugin/tab.vim, tabsize command
 " source: https://github.com/pricheal/dotfiles
 
 " set and get tab size in spaces
@@ -12,4 +12,7 @@ function tab#Size(...)
     echo "Tab size is " . &softtabstop . " spaces"
   endif
 endfunction
+
+" setup command
+command -nargs=? Tabsize call tab#Size(<f-args>)
 

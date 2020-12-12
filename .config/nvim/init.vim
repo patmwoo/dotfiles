@@ -1,6 +1,8 @@
 " .config/nvim/init.vim, neovim config
 " source: https://github.com/pricheal/dotfiles
 
+" ----- misc ----- "
+
 set nowrap " set nowrap by default
 set hidden " allow unsaved buffers to be put in the background
 set number " enable line numbers
@@ -9,6 +11,12 @@ set nofixendofline " disable fix end of line thing
 set diffopt+=vertical " set diff to default vertical
 
 let mapleader = "," " change leader to comma
+
+" make it easy to move through wrapped lines
+noremap j gj
+noremap k gk
+
+" ----- plugs ----- "
 
 " install vim plug if not already installed
 if empty(glob('~/.local/share/nvim/site/autoload/plug.vim'))
@@ -29,6 +37,9 @@ Plug 'steelsojka/completion-buffers'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-sleuth'
+Plug 'tpope/vim-unimpaired'
+Plug 'mattn/vim-gist'
+Plug 'mattn/webapi-vim'
 call plug#end()
 
 " source lua lsp config file

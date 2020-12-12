@@ -4,14 +4,14 @@
 # ----- env vars ----- #
 
 export EDITOR=nvim
-export PAGER='less -S'
+export PAGER=less
+export LESS='-Sm +Gg' # default less options
 export GPG_TTY=$(tty) # fix for git commit signing with gpg
 export TERM=xterm-256color # needed for vim color in tmux
 
 # ----- aliases ----- #
 
 alias ls='ls -F --color'
-alias less='less -S'
 alias bat='bat --theme=base16'
 
 # ----- prompt ----- #

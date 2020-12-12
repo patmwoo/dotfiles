@@ -8,11 +8,11 @@ export PAGER=less
 export LESS='-Sm +Gg' # default less options
 export GPG_TTY=$(tty) # fix for git commit signing with gpg
 export TERM=xterm-256color # needed for vim color in tmux
+export BAT_THEME='base16' # default theme for bat
 
 # ----- aliases ----- #
 
 alias ls='ls -F --color'
-alias bat='bat --theme=base16'
 
 # ----- prompt ----- #
 

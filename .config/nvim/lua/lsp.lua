@@ -58,3 +58,4 @@ require('lspconfig').intelephense.setup{
 }
 require('lspconfig').bashls.setup{on_attach = custom_lsp_attach}
 require('lspconfig').html.setup{on_attach = custom_lsp_attach}
+require('lspconfig').pyright.setup{on_attach = custom_lsp_attach}

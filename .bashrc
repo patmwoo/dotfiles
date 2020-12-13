@@ -67,11 +67,6 @@ source /usr/share/fzf/completion.bash
 export PATH=$PATH:~/.bin
 export PATH=$PATH:~/.local/bin # for pip stuff
 
-# refreshkeys (keychain)
-if command -v refreshkeys &> /dev/null; then
-    eval $(refreshkeys --eval --if-needed)
-fi
-
 # nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # this loads nvm
@@ -82,6 +77,11 @@ BASE16_SHELL="$HOME/.config/base16-shell/"
 [ -n "$PS1" ] && \
     [ -s "$BASE16_SHELL/profile_helper.sh" ] && \
         eval "$("$BASE16_SHELL/profile_helper.sh")"
+
+# refreshkeys (keychain)
+if command -v refreshkeys &> /dev/null; then
+    eval $(refreshkeys --eval --if-needed)
+fi
 
 # fitdegree stuff
 FD=~/dev/fitdegree

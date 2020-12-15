@@ -45,6 +45,7 @@ end
 require('lspconfig').tsserver.setup{on_attach = custom_lsp_attach}
 require('lspconfig').intelephense.setup{
     on_attach = custom_lsp_attach;
+    root_dir = require 'lspconfig/util'.root_pattern(".git");
     settings = {
         intelephense = {
             files = {

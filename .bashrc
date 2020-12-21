@@ -5,7 +5,7 @@
 
 export EDITOR=nvim
 export PAGER=less
-export LESS='-Sm +Gg' # default less options
+export LESS='-RFS'
 export GPG_TTY=$(tty) # fix for git commit signing with gpg
 export TERM=xterm-256color # needed for vim color in tmux
 export BAT_THEME='base16' # default theme for bat
@@ -66,6 +66,7 @@ source /usr/share/fzf/completion.bash
 # path
 export PATH=$PATH:~/.bin
 export PATH=$PATH:~/.local/bin # for pip stuff
+export PATH=$PATH:/usr/share/git/diff-highlight # for git diff-highlight script
 
 # nvm
 export NVM_DIR="$HOME/.nvm"

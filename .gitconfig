@@ -10,3 +10,9 @@
 	user = pricheal
 [core]
 	hooksPath = ~/.githooks
+	pager = diff-highlight | less
+[color "diff"]
+	frag = blue
+	func = yellow
+[interactive]
+	diffFilter = diff-highlight

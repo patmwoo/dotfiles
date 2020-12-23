@@ -11,8 +11,9 @@ try
     " gets set in .vimrc_background, the autocmd won't trigger)
     colorscheme base16-heetch
 
-    " set line number background to normal base16 background color
+    " set line number and sign column background to normal base16 background color
     autocmd ColorScheme * execute 'highlight LineNr guibg=#' . g:base16_gui00
+    autocmd ColorScheme * execute 'highlight SignColumn guibg=#' . g:base16_gui00
 
     " set color of lsp diagnostics
     autocmd ColorScheme * execute 'highlight LspDiagnosticsUnderlineError gui=underline guifg=#' . g:base16_gui08
@@ -25,6 +26,9 @@ try
     autocmd ColorScheme * execute 'highlight GitGutterDeleteLineNr guifg=#' . g:base16_gui08
     autocmd ColorScheme * execute 'highlight GitGutterChangeLineNr guifg=#' . g:base16_gui0D
     autocmd ColorScheme * execute 'highlight GitGutterChangeDeleteLineNr guifg=#' . g:base16_gui0A
+
+    " fix for git gutter 'invisible' signs (signs would appear in sign column, even when off)
+    autocmd ColorScheme * execute 'call gitgutter#highlight#define_highlights()'
 
     " make comments italic
     autocmd ColorScheme * execute 'highlight Comment gui=italic'

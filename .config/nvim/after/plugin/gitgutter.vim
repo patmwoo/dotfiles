@@ -4,7 +4,8 @@
 if exists("g:loaded_gitgutter")
 
     " disable signs and enable line number highlights
-    set scl=no
+    set signcolumn=no
+    GitGutterSignsDisable
     GitGutterLineNrHighlightsEnable
 
 endif

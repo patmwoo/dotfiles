@@ -39,6 +39,10 @@ local custom_lsp_attach = function(client, bufnr)
     vim.api.nvim_command("imap <c-j> <Plug>(completion_next_source)")
     vim.api.nvim_command("imap <c-k> <Plug>(completion_prev_source)")
 
+    -- fix issue with completion of intelephense varables (see https://github.com/nvim-lua/completion-nvim/issues/252)
+    vim.api.nvim_command("let g:completion_enable_snippet = 'snippets.nvim'")
+    vim.api.nvim_command("set iskeyword+=$")
+
 end
 
 -- language servers

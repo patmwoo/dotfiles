@@ -14,5 +14,8 @@ if exists('g:loaded_fzf')
     " set popup border color
     let g:fzf_colors = { 'border':  ['fg', 'Comment'] }
 
+    " disable preview window
+    let g:fzf_preview_window = []
+
 endif
 

@@ -32,21 +32,40 @@ local custom_lsp_attach = function(client, bufnr)
         }
     )
 
-    -- completion stuff
-    require('completion').on_attach(client, bufnr)
-    vim.api.nvim_command("set completeopt=menuone,noinsert,noselect")
-    vim.api.nvim_command("let g:completion_chain_complete_list = [{'complete_items': ['lsp']}, {'complete_items': ['buffers']}]")
-    vim.api.nvim_command("imap <c-j> <Plug>(completion_next_source)")
-    vim.api.nvim_command("imap <c-k> <Plug>(completion_prev_source)")
+    -----------------------------
+    -- completion (nvim-compe)
+    -----------------------------
 
-    -- fix issue with completion of intelephense varables (see https://github.com/nvim-lua/completion-nvim/issues/252)
-    vim.api.nvim_command("let g:completion_enable_snippet = 'snippets.nvim'")
-    vim.api.nvim_command("set iskeyword+=$")
+    -- required
+    vim.o.completeopt = "menuone,noselect"
+
+    -- enable nvim-compe sources
+    require'compe'.setup {
+      source = {
+          path = true;
+          buffer = true;
+          calc = true;
+          nvim_lsp = true;
+          nvim_lua = true;
+          vsnip = true;
+          ultisnips = true;
+          luasnip = true;
+      };
+    }
+
+    -- set completion documentation background color to match
+    vim.api.nvim_command("highlight link CompeDocumentation NormalFloat")
+
+    -- map enter to completion confirm
+    vim.api.nvim_command("inoremap <silent><expr> <CR> compe#confirm('<CR>')")
 
 end
 
 -- language servers
-require('lspconfig').tsserver.setup{on_attach = custom_lsp_attach}
+require('lspconfig').tsserver.setup{
+    on_attach = custom_lsp_attach;
+    root_dir = require'lspconfig/util'.root_pattern(".git");
+}
 require('lspconfig').intelephense.setup{
     on_attach = custom_lsp_attach;
     root_dir = require 'lspconfig/util'.root_pattern(".git");
@@ -62,5 +81,5 @@ require('lspconfig').intelephense.setup{
     }
 }
 require('lspconfig').bashls.setup{on_attach = custom_lsp_attach}
-require('lspconfig').html.setup{on_attach = custom_lsp_attach}
 require('lspconfig').pyright.setup{on_attach = custom_lsp_attach}
+

@@ -34,7 +34,6 @@ misc nvim config info
 * `<leader>d`: diagnostic info
 * `<leader>r`: rename symbol
 * `<leader>a`: code actions
-* `<leader>`: 
 * `[d` and `]d`: navigate diagnostics
 * `<c-j>` and `<c-k>`: cycle through completion sources
 

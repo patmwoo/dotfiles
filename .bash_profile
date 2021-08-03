@@ -6,3 +6,4 @@
 if [[ $- == *i* ]]; then
     [[ -f ~/.bashrc ]] && . ~/.bashrc
 fi
+

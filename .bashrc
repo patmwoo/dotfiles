@@ -67,11 +67,15 @@ source /usr/share/fzf/completion.bash
 export PATH=$PATH:~/.bin
 export PATH=$PATH:~/.local/bin # for pip stuff
 export PATH=$PATH:/usr/share/git/diff-highlight # for git diff-highlight script
+export PATH=$PATH:~/.rvm/bin
 
 # nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # this loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # this loads nvm bash_completion
+
+# rvm
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
 # base16 shell
 BASE16_SHELL="$HOME/.config/base16-shell/"
@@ -87,5 +91,4 @@ fi
 # fitdegree stuff
 FD=~/dev/fitdegree
 export PATH=$PATH:$FD/fd-bin/bin
-export PATH=$PATH:~/.gem/ruby/2.7.0/bin
 

@@ -10,6 +10,9 @@ export GPG_TTY=$(tty) # fix for git commit signing with gpg
 export TERM=xterm-256color # needed for vim color in tmux
 export BAT_THEME='base16' # default theme for bat
 
+# source encrypted vars from ~/.env file
+set -o allexport; source ~/.env; set +o allexport
+
 # ----- aliases ----- #
 
 alias ls='ls -F --color'

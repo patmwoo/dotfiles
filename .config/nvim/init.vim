@@ -10,7 +10,9 @@ set mouse=a " enable mouse
 set nofixendofline " disable fix end of line thing
 set diffopt+=vertical " set diff to default vertical
 
-let mapleader = "," " change leader to comma
+" unbind space default action, change leader to space
+nnoremap <Space> <NOP>
+let mapleader = " "
 
 " make it easy to move through wrapped lines
 noremap j gj

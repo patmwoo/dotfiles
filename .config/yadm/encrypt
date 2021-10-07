@@ -1,3 +1,4 @@
 .ssh/id_rsa
 .gnupg/gpg-private.key
 .env
+.aws/credentials

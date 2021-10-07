@@ -93,5 +93,5 @@ fi
 
 # fitdegree stuff
 FD=~/dev/fitdegree
-export PATH=$PATH:$FD/scripts/fd-cli/bin
+alias fit=$FD/scripts/fd-cli/bin/fd
 

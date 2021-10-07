@@ -18,6 +18,11 @@ let mapleader = " "
 noremap j gj
 noremap k gk
 
+" default tab settings
+set tabstop=4
+set shiftwidth=4
+set expandtab
+
 " ----- plugs ----- "
 
 " install vim plug if not already installed

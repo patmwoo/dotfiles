@@ -93,5 +93,5 @@ fi
 
 # fitdegree stuff
 FD=~/dev/fitdegree
-alias fit=$FD/scripts/fd-cli/bin/fd
+alias fit=$FD/scripts/fd-cli/bin/fit
 

@@ -125,8 +125,8 @@ require('lspconfig').pyright.setup{
     on_attach = custom_lsp_attach;
     capabilities = capabilities;
 }
-require('lspconfig').tailwindcss.setup{
-    on_attach = custom_lsp_attach;
-    capabilities = capabilities;
-}
+--require('lspconfig').tailwindcss.setup{
+--    on_attach = custom_lsp_attach;
+--    capabilities = capabilities;
+--}
 

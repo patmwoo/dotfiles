@@ -56,6 +56,8 @@ Plug 'tpope/vim-sleuth'
 Plug 'tpope/vim-unimpaired'
 Plug 'mattn/vim-gist'
 Plug 'mattn/webapi-vim'
+Plug 'tpope/vim-dadbod'
+Plug 'kristijanhusak/vim-dadbod-ui'
 call plug#end()
 
 " source lua lsp config file

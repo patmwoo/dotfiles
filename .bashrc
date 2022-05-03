@@ -11,7 +11,7 @@ export TERM=xterm-256color # needed for vim color in tmux
 export BAT_THEME='base16' # default theme for bat
 
 # source encrypted vars from ~/.env file
-set -o allexport; source ~/.env; set +o allexport
+[ -f ~/.env ] && set -o allexport; source ~/.env; set +o allexport
 
 # ----- aliases ----- #
 

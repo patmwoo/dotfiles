@@ -64,17 +64,6 @@ export FZF_DEFAULT_OPTS='--color=bg+:0' # make background color consistent
 source /usr/share/fzf/key-bindings.bash
 source /usr/share/fzf/completion.bash
 
-# ----- 1passowrd/refreshkeys (keychain) ----- #
-
-# add 1password accounts if they don't exist
-op account list | grep my.1password.com > /dev/null || op account add --address my.1password.com --email patrickricheal@gmail.com
-op account list | grep fitdegree.1password.com > /dev/null || op account add --address fitdegree.1password.com --email patrick.richeal@fitdegree.com
-
-# source refreshkeys
-if command -v refreshkeys &> /dev/null; then
-    eval $(refreshkeys --eval --if-needed)
-fi
-
 # ----- misc ----- #
 
 # path
@@ -90,6 +79,11 @@ export NVM_DIR="$HOME/.nvm"
 
 # rvm
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+
+# source refreshkeys
+if command -v refreshkeys &> /dev/null; then
+    eval $(refreshkeys --eval --if-needed)
+fi
 
 # base16 shell
 BASE16_SHELL="$HOME/.config/base16-shell/"

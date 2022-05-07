@@ -81,7 +81,7 @@ export NVM_DIR="$HOME/.nvm"
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
 # source refreshkeys
-if command -v refreshkeys &> /dev/null; then
+if [[ $(keychain -l) != "The agent has no identities." ]]; then
     eval $(refreshkeys --eval --if-needed)
 fi
 

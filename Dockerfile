@@ -134,7 +134,6 @@ run bash -l -c "gem install docker-sync"
 run pip install git+https://github.com/pricheal/refreshkeys.git
 
 # clone dotfiles
-run echo 'woops'
 run yadm clone --no-bootstrap https://github.com/pricheal/dotfiles.git
 run yadm checkout $HOME
 

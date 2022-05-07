@@ -4,6 +4,8 @@
 	signingkey = 2A70B83FD3493624
 [commit]
 	gpgsign = true
+[gpg]
+	program = /usr/bin/gpg
 [pull]
 	rebase = false
 [github]

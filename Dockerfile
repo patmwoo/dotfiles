@@ -24,6 +24,7 @@ run pacman -S fzf --noconfirm
 run pacman -S ripgrep --noconfirm
 run pacman -S jq --noconfirm
 run pacman -S httpie --noconfirm
+run pacman -S sops --noconfirm
 
 # languages + package managers
 run pacman -S typescript --noconfirm

@@ -8,7 +8,6 @@ export PAGER=less
 export LESS='-RFS'
 export GPG_TTY=$(tty) # fix for git commit signing with gpg
 export TERM=xterm-256color # needed for vim color in tmux
-export BAT_THEME='base16' # default theme for bat
 
 # source encrypted vars from ~/.env file
 [ -f ~/.env ] && set -o allexport && source ~/.env && set +o allexport
@@ -82,12 +81,6 @@ export NVM_DIR="$HOME/.nvm"
 
 # source refreshkeys
 eval $(refreshkeys --eval --if-needed)
-
-# base16 shell
-#BASE16_SHELL="$HOME/.config/base16-shell/"
-#[ -n "$PS1" ] && \
-#    [ -s "$BASE16_SHELL/profile_helper.sh" ] && \
-#        eval "$("$BASE16_SHELL/profile_helper.sh")"
 
 # fitdegree stuff
 FD=~/dev/fitdegree

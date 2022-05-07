@@ -81,9 +81,7 @@ export NVM_DIR="$HOME/.nvm"
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
 # source refreshkeys
-if [[ $(keychain -l) != "The agent has no identities." ]]; then
-    eval $(refreshkeys --eval --if-needed)
-fi
+eval $(refreshkeys --eval --if-needed)
 
 # base16 shell
 BASE16_SHELL="$HOME/.config/base16-shell/"

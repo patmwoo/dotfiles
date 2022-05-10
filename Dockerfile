@@ -90,7 +90,6 @@ run sudo apt-get install -y keychain pinentry-tty
 run pip install git+https://github.com/pricheal/refreshkeys.git
 
 # clone dotfiles
-run echo 'hi'
 run yadm clone --no-bootstrap https://github.com/pricheal/dotfiles.git
 run yadm checkout $HOME
 

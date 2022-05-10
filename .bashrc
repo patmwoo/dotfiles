@@ -19,7 +19,7 @@ alias ls='ls -F --color'
 # ----- prompt ----- #
 
 # source git prompt
-source /usr/share/git/completion/git-prompt.sh
+source /usr/lib/git-core/git-sh-prompt
 
 # git ps1 options
 GIT_PS1_SHOWDIRTYSTATE=1
@@ -60,8 +60,8 @@ export NNN_TMPFILE="${XDG_CONFIG_HOME:-$HOME/.config}/nnn/.lastd"
 export FZF_DEFAULT_OPTS='--color=bg+:0' # make background color consistent
 
 # source fzf shell extensions
-source /usr/share/fzf/key-bindings.bash
-source /usr/share/fzf/completion.bash
+source /usr/share/doc/fzf/examples/key-bindings.bash
+source /usr/share/doc/fzf/examples/completion.bash
 
 # ----- misc ----- #
 

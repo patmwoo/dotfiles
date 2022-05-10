@@ -3,6 +3,11 @@ from ubuntu:latest
 # necessary for man pages
 run yes | unminimize
 
+# fixes some rando issue that would appear every time bash
+# started: "manpath: can't set the locale"
+run apt-get install locales
+run locale-gen en_US.UTF-8
+
 # ========================
 # installs
 # ========================
@@ -56,6 +61,7 @@ run curl -LO https://github.com/jarun/nnn/releases/download/v4.5/nnn-static-4.5.
 run useradd -m pat
 run passwd -d pat
 run echo "pat ALL=(ALL) ALL" >> /etc/sudoers
+run usermod -s /bin/bash pat
 user pat
 workdir /home/pat
 

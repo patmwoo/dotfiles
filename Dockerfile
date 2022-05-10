@@ -54,6 +54,10 @@ run curl -LO https://github.com/jarun/nnn/releases/download/v4.5/nnn-static-4.5.
     tar xf nnn-static-4.5.x86_64.tar.gz && mv nnn-static /usr/local/bin/nnn && \
     rm nnn-static-4.5.x86_64.tar.gz
 
+# install sops
+run curl -LO https://github.com/mozilla/sops/releases/download/v3.7.3/sops_3.7.3_amd64.deb && \
+    dpkg -i sops_3.7.3_amd64.deb && rm sops_3.7.3_amd64.deb
+
 # ========================
 # user
 # ========================
@@ -86,6 +90,9 @@ run gpg --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 \
     7D2BAF1CF37B13E2069D6956105BD0E739499BDB
 run curl -sSL https://get.rvm.io | bash -s stable
 run bash -l -c "rvm install 2.7 && rvm use 2.7 --default"
+
+# docker sync
+run bash -l -c "gem install docker-sync"
 
 # ==========================
 # dotfiles

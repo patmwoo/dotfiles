@@ -1,3 +1,11 @@
 {
-    "image": "ghcr.io/pricheal/devbox"
+    "image": "ghcr.io/pricheal/devbox",
+    "runArgs": ["--init"],
+    "features": {
+        "docker-in-docker": {
+            "version": "latest",
+            "moby": true,
+            "dockerDashComposeVersion": "v1"
+        }
+    }
 }

@@ -1,5 +1,61 @@
 {
     "image": "ghcr.io/pricheal/devbox",
+    "forwardPorts": [6100, 6101, 6102, 6103, 6104, 6105, 6106, 6107, 6108, 6109, 6111, 6112, 6113],
+    "portsAttributes": {
+        "6100": {
+            "label": "fd-api",
+            "onAutoForward": "silent"
+        },
+        "6101": {
+            "label": "fd-db",
+            "onAutoForward": "silent"
+        },
+        "6102": {
+            "label": "fd-admin",
+            "onAutoForward": "silent"
+        },
+        "6103": {
+            "label": "fd-app",
+            "onAutoForward": "silent"
+        },
+        "6104": {
+            "label": "fd-onthego",
+            "onAutoForward": "silent"
+        },
+        "6105": {
+            "label": "fd-kiosk",
+            "onAutoForward": "silent"
+        },
+        "6106": {
+            "label": "fd-widgets",
+            "onAutoForward": "silent"
+        },
+        "6107": {
+            "label": "fd-support",
+            "onAutoForward": "silent"
+        },
+        "6108": {
+            "label": "fd-redis",
+            "onAutoForward": "silent"
+        },
+        "6109": {
+            "label": "fd-socket",
+            "onAutoForward": "silent"
+        },
+        "6111": {
+            "label": "fd-beanstalkd",
+            "onAutoForward": "silent"
+        },
+        "6112": {
+            "label": "fd-beanstalkd-console",
+            "onAutoForward": "silent"
+        },
+        "6113": {
+            "label": "fd-internal",
+            "onAutoForward": "silent"
+        }
+    },
+    // needed for docker in docker
     "runArgs": ["--init"],
     "features": {
         "docker-in-docker": {

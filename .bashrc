@@ -47,7 +47,7 @@ export PS1='\n$(venv_info)\e[0;32m\u@\h\e[m \w $(__git_ps1 "(%s)")\n$ '
 alias nnn='nnn -cC'
 source ~/.config/nnn/quitcd.sh
 export NNN_OPENER=~/.config/nnn/plugins/nuke
-export NNN_BMS='d:~/dev;D:~/Downloads/;f:~/dev/fitdegree;c:~/.config;n:~/.config/nvim'
+export NNN_BMS='f:/workspaces/fitdegree'
 export NNN_TRASH=1
 
 # copied from .config/nnn/quitcd.sh, without this, nnn inside nvim won't
@@ -68,7 +68,6 @@ source /usr/share/doc/fzf/examples/completion.bash
 # path
 export PATH=$PATH:~/.bin
 export PATH=$PATH:~/.local/bin # for pip stuff
-export PATH=$PATH:/usr/share/git/diff-highlight # for git diff-highlight script
 export PATH=$PATH:~/.rvm/bin
 
 # nvm
@@ -83,7 +82,7 @@ export NVM_DIR="$HOME/.nvm"
 eval $(refreshkeys --eval --if-needed)
 
 # fitdegree stuff
-FD=~/dev/fitdegree
+FD=/workspaces/fitdegree
 alias fit=$FD/scripts/fd-cli/bin/fit
 alias fddb="mysql $DB_FD_DEV fddb"
 

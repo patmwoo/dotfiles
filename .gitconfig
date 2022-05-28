@@ -12,9 +12,13 @@
 	user = pricheal
 [core]
 	hooksPath = ~/.githooks
-	pager = diff-highlight | less
-[color "diff"]
-	frag = blue
-	func = yellow
+	pager = delta --diff-highlight
 [interactive]
-	diffFilter = diff-highlight
+	diffFilter = delta --diff-highlight --color-only
+[delta]
+    navigate = true
+    light = false
+[merge]
+    conflictstyle = diff3
+[diff]
+    colorMoved = default

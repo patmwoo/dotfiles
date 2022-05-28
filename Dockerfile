@@ -58,6 +58,10 @@ run curl -LO https://github.com/jarun/nnn/releases/download/v4.5/nnn-static-4.5.
 run curl -LO https://github.com/mozilla/sops/releases/download/v3.7.3/sops_3.7.3_amd64.deb && \
     dpkg -i sops_3.7.3_amd64.deb && rm sops_3.7.3_amd64.deb
 
+# install delta
+RUN curl -LO https://github.com/dandavison/delta/releases/download/0.13.0/git-delta_0.13.0_amd64.deb && \
+    dpkg -i git-delta_0.13.0_amd64.deb && rm git-delta_0.13.0_amd64.deb
+
 # ========================
 # user
 # ========================

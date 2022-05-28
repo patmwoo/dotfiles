@@ -3,9 +3,15 @@
 # .githooks/pre-commit, pre commit hook for git to prompt refreshkeys
 # source: https://github.com/pricheal/dotfiles
 
-# refreshkeys requires user input, which won't work without this for
-# some reason (source: https://stackoverflow.com/a/10015707)
-exec < /dev/tty
+# if interactive
+if tty -s
+then
 
-# run refreshkeys (only if needed), commit aborted if this fails
-refreshkeys --if-needed
+    # refreshkeys requires user input, which won't work without this for
+    # some reason (source: https://stackoverflow.com/a/10015707)
+    exec < /dev/tty
+
+    # run refreshkeys (only if needed), commit aborted if this fails
+    refreshkeys --if-needed
+
+fi

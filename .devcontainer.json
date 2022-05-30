@@ -19,7 +19,7 @@
     // needed for docker in docker
     "runArgs": ["--init"],
     "features": {
-        "docker-from-docker": {
+        "docker-in-docker": {
             "version": "latest",
             "moby": true,
             "dockerDashComposeVersion": "v1"

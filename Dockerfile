@@ -93,7 +93,7 @@ RUN bash -c "source ~/.nvm/nvm.sh && npm install -g typescript-language-server \
 RUN gpg --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 \
     7D2BAF1CF37B13E2069D6956105BD0E739499BDB
 RUN curl -sSL https://get.rvm.io | bash -s stable
-RUN bash -l -c "rvm install 2.7 && rvm use 2.7 --default"
+RUN bash -l -c "rvm install 3.1.2 && rvm use 3.1.2 --default"
 
 # docker sync
 RUN bash -l -c "gem install docker-sync"

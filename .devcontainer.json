@@ -19,10 +19,23 @@
     // needed for docker in docker
     "runArgs": ["--init"],
     "features": {
-        "docker-in-docker": {
+        "docker-from-docker": {
             "version": "latest",
             "moby": true,
             "dockerDashComposeVersion": "v1"
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "bmewburn.vscode-intelephense-client",
+                "xdebug.php-debug",
+                "angular.ng-template",
+                "asvetliakov.vscode-neovim"
+            ],
+            "settings": {
+                "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim"
+            }
         }
     }
 }

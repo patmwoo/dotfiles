@@ -73,6 +73,9 @@ RUN usermod -s /bin/bash pat
 USER pat
 WORKDIR /home/pat
 
+# needed for github codespaces ssh capability
+RUN sudo groupadd ssh
+
 # ==========================
 # node/npm
 # ==========================

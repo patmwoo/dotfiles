@@ -96,7 +96,6 @@ local capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protoco
 require('lspconfig').tsserver.setup{
     on_attach = custom_lsp_attach;
     capabilities = capabilities;
-    root_dir = require'lspconfig/util'.root_pattern(".git");
 }
 require('lspconfig').intelephense.setup{
     on_attach = custom_lsp_attach;

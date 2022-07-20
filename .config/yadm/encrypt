@@ -2,3 +2,4 @@
 .gnupg/gpg-private.key
 .env
 .aws/credentials
+intelephense/licence.txt

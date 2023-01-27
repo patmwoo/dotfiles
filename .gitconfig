@@ -1,11 +1,9 @@
 [user]
 	email = patrickricheal@gmail.com
 	name = pricheal
-	signingkey = 2A70B83FD3493624
+	signingkey = 29CA98B85D9BB8DD
 [commit]
 	gpgsign = true
-[gpg]
-	program = /usr/bin/gpg
 [pull]
 	rebase = false
 [github]

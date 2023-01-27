@@ -19,7 +19,7 @@ alias ls='ls -F --color'
 # ----- prompt ----- #
 
 # source git prompt
-source /usr/lib/git-core/git-sh-prompt
+source /opt/homebrew/opt/git/etc/bash_completion.d/git-prompt.sh
 
 # git ps1 options
 GIT_PS1_SHOWDIRTYSTATE=1
@@ -65,17 +65,15 @@ export FZF_DEFAULT_OPTS='--color=bg+:0' # make background color consistent
 export PATH=$PATH:~/.bin
 export PATH=$PATH:~/.local/bin # for pip stuff
 export PATH=$PATH:~/.rvm/bin
+export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
 
 # nvm
 export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # this loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # this loads nvm bash_completion
+[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh" # this loads nvm
+[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" # this loads nvm bash_completion
 
 # rvm
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
-
-# source refreshkeys
-eval $(refreshkeys --eval --if-needed)
 
 # fitdegree stuff
 FD=/workspaces/fitdegree

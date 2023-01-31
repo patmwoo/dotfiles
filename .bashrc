@@ -40,14 +40,14 @@ function venv_info() {
     fi
 }
 
-export PS1='\n$(venv_info)\e[0;32m\u@\h\e[m \w $(__git_ps1 "(%s)")\n$ '
+export PS1='\n$(venv_info)\e[0;32m\u@mailbox\e[m \w $(__git_ps1 "(%s)")\n$ '
 
 # ----- nnn ----- #
 
 alias nnn='nnn -cC'
 source ~/.config/nnn/quitcd.sh
 export NNN_OPENER=~/.config/nnn/plugins/nuke
-export NNN_BMS='f:/workspaces/fitdegree'
+export NNN_BMS='f:~/dev/fitdegree'
 export NNN_TRASH=1
 
 # copied from .config/nnn/quitcd.sh, without this, nnn inside nvim won't
@@ -76,7 +76,7 @@ export NVM_DIR="$HOME/.nvm"
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
 # fitdegree stuff
-FD=/workspaces/fitdegree
+FD=~/dev/fitdegree
 alias fit=$FD/scripts/fd-cli/bin/fit
 alias fddb="mysql $DB_FD_DEV fddb"
 

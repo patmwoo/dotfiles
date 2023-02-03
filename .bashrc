@@ -57,7 +57,7 @@ export NNN_TMPFILE="${XDG_CONFIG_HOME:-$HOME/.config}/nnn/.lastd"
 
 # ----- fzf ----- #
 
-export FZF_DEFAULT_OPTS='--color=bg+:0' # make background color consistent
+export FZF_DEFAULT_OPTS='--color=bg+:0 -m --bind ctrl-a:select-all' # make background color consistent
 
 # ----- misc ----- #
 

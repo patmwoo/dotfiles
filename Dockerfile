@@ -66,12 +66,12 @@ RUN curl -LO https://github.com/dandavison/delta/releases/download/0.13.0/git-de
 # user
 # ========================
 
-RUN useradd -m pat
-RUN passwd -d pat
-RUN echo "pat ALL=(ALL) ALL" >> /etc/sudoers
-RUN usermod -s /bin/bash pat
-USER pat
-WORKDIR /home/pat
+RUN useradd -m kat
+RUN passwd -d kat
+RUN echo "kat ALL=(ALL) ALL" >> /etc/sudoers
+RUN usermod -s /bin/bash kat
+USER kat
+WORKDIR /home/kat
 
 # needed for github codespaces ssh capability
 RUN sudo groupadd ssh

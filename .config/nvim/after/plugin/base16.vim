@@ -1,5 +1,5 @@
 " .config/nvim/after/plugin/base16.vim, config for base16-vim
-" source: https://github.com/pricheal/dotfiles
+" source: https://github.com/katmfoo/dotfiles
 
 " enable true color
 set termguicolors

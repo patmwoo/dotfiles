@@ -1,5 +1,5 @@
 {
-    "image": "ghcr.io/pricheal/devbox",
+    "image": "ghcr.io/katmfoo/devbox",
     "forwardPorts": [6100, 6101, 6102, 6103, 6104, 6105, 6106, 6107, 6108, 6109, 6111, 6112, 6113],
     "portsAttributes": {
         "6100": { "label": "fd-api", "onAutoForward": "silent" },

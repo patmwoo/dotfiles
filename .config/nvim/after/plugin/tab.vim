@@ -1,5 +1,5 @@
 " .config/nvim/after/plugin/tab.vim, tabsize command
-" source: https://github.com/pricheal/dotfiles
+" source: https://github.com/katmfoo/dotfiles
 
 " set and get tab size in spaces
 function tab#Size(...)

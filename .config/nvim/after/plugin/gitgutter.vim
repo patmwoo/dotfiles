@@ -1,5 +1,5 @@
 " .config/nvim/after/plugin/gitgutter.vim, config for vim-gitgutter
-" source: https://github.com/pricheal/dotfiles
+" source: https://github.com/katmfoo/dotfiles
 
 if exists("g:loaded_gitgutter")
 

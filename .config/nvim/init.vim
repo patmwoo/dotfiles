@@ -1,5 +1,5 @@
 " .config/nvim/init.vim, neovim config
-" source: https://github.com/pricheal/dotfiles
+" source: https://github.com/katmfoo/dotfiles
 
 " ----- misc ----- "
 

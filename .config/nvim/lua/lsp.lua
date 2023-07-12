@@ -1,5 +1,5 @@
 -- .config/nvim/lua/lsp.lua, neovim lsp config
--- source: https://github.com/pricheal/dotfiles
+-- source: https://github.com/katmfoo/dotfiles
 
 local opts = { noremap=true, silent=true }
 vim.keymap.set("n", "<leader>d", vim.diagnostic.open_float, opts)

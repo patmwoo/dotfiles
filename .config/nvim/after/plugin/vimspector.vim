@@ -1,5 +1,5 @@
 " .config/nvim/after/plugin/vimspector.vim, vimspector config
-" source: https://github.com/pricheal/dotfiles
+" source: https://github.com/katmfoo/dotfiles
 
 " vimspector mappings
 nmap <leader>xx <Plug>VimspectorRestart

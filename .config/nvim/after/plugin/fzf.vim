@@ -1,5 +1,5 @@
 " .config/nvim/after/plugin/fzf.vim, config for fzf.vim
-" source: https://github.com/pricheal/dotfiles
+" source: https://github.com/katmfoo/dotfiles
 
 if exists('g:loaded_fzf')
 

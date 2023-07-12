@@ -107,9 +107,9 @@ RUN bash -l -c "gem install docker-sync"
 
 # install refreshkeys
 RUN sudo apt-get install -y keychain pinentry-tty
-RUN pip install git+https://github.com/pricheal/refreshkeys.git
+RUN pip install git+https://github.com/katmfoo/refreshkeys.git
 
 # clone dotfiles
-RUN yadm clone --no-bootstrap https://github.com/pricheal/dotfiles.git
+RUN yadm clone --no-bootstrap https://github.com/katmfoo/dotfiles.git
 RUN yadm checkout $HOME
 

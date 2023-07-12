@@ -510,9 +510,9 @@ handle_blocked() {
 }
 
 
-# ----- start: added by pricheal ----- #
+# ----- start: added by katmfoo ----- #
 
-pat_override() {
+kat_override() {
     case "${ext}" in
 
         htm|html|xhtml)
@@ -525,9 +525,9 @@ pat_override() {
 
     esac
 }
-pat_override
+kat_override
 
-# ----- end: added by pricheal ----- #
+# ----- end: added by katmfoo ----- #
 
 MIMETYPE="$( file --dereference --brief --mime-type -- "${FPATH}" )"
 handle_extension

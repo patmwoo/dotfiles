@@ -1,13 +1,13 @@
 [user]
-	email = patrickricheal@gmail.com
-	name = pricheal
+	email = katmfoo@gmail.com
+	name = katmfoo
 	signingkey = 29CA98B85D9BB8DD
 [commit]
 	gpgsign = true
 [pull]
 	rebase = false
 [github]
-	user = pricheal
+	user = katmfoo
 [core]
 	hooksPath = ~/.githooks
 	pager = delta --diff-highlight

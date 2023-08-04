@@ -1,5 +1,0 @@
-# .config/bat/config, config for bat
-# source: https://github.com/katmfoo/dotfiles
-
-# set default word wrap to never
---wrap=never

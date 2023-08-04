@@ -3,11 +3,10 @@
 
 # ----- env vars ----- #
 
-export EDITOR=nvim
+export EDITOR='code --wait'
 export PAGER=less
 export LESS='-RFS'
-export GPG_TTY=$(tty) # fix for git commit signing with gpg
-export TERM=xterm-256color # needed for vim color in tmux
+export GPG_TTY=$(tty)
 
 # source encrypted vars from ~/.env file
 [ -f ~/.env ] && set -o allexport && source ~/.env && set +o allexport
@@ -54,10 +53,6 @@ export NNN_TRASH=1
 # change directories properly unless 'n' has been ran once before opening
 # nvim
 export NNN_TMPFILE="${XDG_CONFIG_HOME:-$HOME/.config}/nnn/.lastd"
-
-# ----- fzf ----- #
-
-export FZF_DEFAULT_OPTS='--color=bg+:0 -m --bind ctrl-a:select-all' # make background color consistent
 
 # ----- misc ----- #
 

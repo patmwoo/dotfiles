@@ -1,11 +1,10 @@
 # .bash_profile
 # source: https://github.com/katmfoo/dotfiles
 
-# Set PATH, MANPATH, etc., for Homebrew.
+# set path, manpath, etc. for homebrew
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
-# if interactive, source bashrc (needed to avoid keychain making desktop
-# environment hang up on login)
+# if interactive, source bashrc
 if [[ $- == *i* ]]; then
     [[ -f ~/.bashrc ]] && . ~/.bashrc
 fi

@@ -1,7 +1,7 @@
 [user]
 	email = katmfoo@gmail.com
 	name = katmfoo
-	signingkey = 29CA98B85D9BB8DD
+	signingkey = 41B21E5539E4ABF6
 [commit]
 	gpgsign = true
 [pull]
@@ -9,7 +9,6 @@
 [github]
 	user = katmfoo
 [core]
-	hooksPath = ~/.githooks
 	pager = delta --diff-highlight
 [interactive]
 	diffFilter = delta --diff-highlight --color-only

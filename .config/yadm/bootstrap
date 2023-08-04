@@ -15,10 +15,6 @@ gpg --import ~/.gnupg/gpg-private.key
 echo "Generating less key binds"
 lesskey ~/.lesskey
 
-# install neovim plugins
-nvim --headless +PlugInstall +qall
-
 # set dotfiles repo remote to ssh
 echo "Setting dotfiles repo remote to ssh"
 yadm remote set-url origin git@github.com:katmfoo/dotfiles.git
-

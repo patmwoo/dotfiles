@@ -14,7 +14,7 @@ brew install bash-completion@2 # is this necessary?
 
 # does 'brew install docker' work?
 brew install --cask iterm2
-brew install --cask visual-studio-code
+brew install --cask visual-studio-code # login to settings sync w/ github
 brew install --cask beekeeper-studio
 brew install --cask google-chrome
 brew install --cask slack

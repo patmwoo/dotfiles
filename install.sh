@@ -22,7 +22,7 @@ brew install --cask slack
 # install fantasque
 
 # core stuffs
-brew install git curl ripgrep jq zip unzip httpie htop trash-cli
+brew install git curl ripgrep jq zip unzip httpie htop trash
 
 # tool stuffs
 brew install yadm neovim nnn tmux http-prompt mysql-client redis \

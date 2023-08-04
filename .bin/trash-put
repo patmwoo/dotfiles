@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# used to trick nnn into using the macos system trash
+
+trash "$@"

@@ -9,6 +9,7 @@
 [github]
 	user = katmfoo
 [core]
+	editor = nvim
 	pager = delta --diff-highlight
 [interactive]
 	diffFilter = delta --diff-highlight --color-only

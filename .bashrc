@@ -3,7 +3,7 @@
 
 # ----- env vars ----- #
 
-export EDITOR='code --wait'
+export EDITOR=nvim
 export PAGER=less
 export LESS='-RFS'
 export GPG_TTY=$(tty)
@@ -43,16 +43,10 @@ export PS1='\n$(venv_info)\e[0;32m\u@mailbox\e[m \w $(__git_ps1 "(%s)")\n$ '
 
 # ----- nnn ----- #
 
-alias nnn='nnn -cC'
+alias nnn='nnn -C'
 source ~/.config/nnn/quitcd.sh
-export NNN_OPENER=~/.config/nnn/plugins/nuke
 export NNN_BMS='f:~/dev/fitdegree'
 export NNN_TRASH=1
-
-# copied from .config/nnn/quitcd.sh, without this, nnn inside nvim won't
-# change directories properly unless 'n' has been ran once before opening
-# nvim
-export NNN_TMPFILE="${XDG_CONFIG_HOME:-$HOME/.config}/nnn/.lastd"
 
 # ----- misc ----- #
 

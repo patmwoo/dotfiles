@@ -45,7 +45,7 @@ export PS1='\n$(venv_info)\e[0;32m\u@mailbox\e[m \w $(__git_ps1 "(%s)")\n$ '
 
 alias nnn='nnn -C'
 source ~/.config/nnn/quitcd.sh
-export NNN_BMS='f:~/dev/fitdegree'
+export NNN_BMS='f:~/dev/fitdegree;n:~/.config/nvim;m:~/dev/cowbudget'
 export NNN_TRASH=1
 
 # ----- misc ----- #
